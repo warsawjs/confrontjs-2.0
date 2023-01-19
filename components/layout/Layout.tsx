@@ -1,7 +1,18 @@
+import Nav from "../Nav";
+import Footer from "../Footer";
+
 interface LayoutProps {
-  children: React.ReactElement;
+  children: React.ReactElement | React.ReactElement[];
 }
 
 export const Layout: React.FC<LayoutProps> = ({ children }) => {
-  return <div className="container mx-auto">{children}</div>;
+  return <div className="container mx-auto each-child-my">
+    <nav>
+      <Nav/>
+    </nav>
+    <main>{children}</main>
+    <footer>
+      <Footer/>
+    </footer>
+  </div>;
 };

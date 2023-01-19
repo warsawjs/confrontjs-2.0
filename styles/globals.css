@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* all children contain margins */
+.each-child-my > * {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* so footer is spaced equally */
+footer .flex {
+  justify-content: space-around;
+}
+
+/* so logo does not take 100% width */
+.menu img {
+  display: inline-block;
+}
+
+/* underline on hovered links */
+.menu a:hover {
+  text-decoration: underline;
+}
+
+/* equaly distributed menu */
+.menu {
+  display: flex;
+  justify-content: space-around;
+}
