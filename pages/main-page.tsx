@@ -3,8 +3,10 @@ import Line from "@/components/Schedule/Line";
 import TalkShort from "@/components/Schedule/TalkShort";
 import { Schedule, Speakers, Venue, Why } from "@/components/sections";
 
+
 export default function () {
-  return (<>
+  return (
+  <>
     <Why/>
     <Speakers/>
     <Schedule>
@@ -24,5 +26,6 @@ export default function () {
       </Line>
     </Schedule>
     <Venue/>
-  </>)
+  </>
+  )
 }
