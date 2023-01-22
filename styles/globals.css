@@ -2,11 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* so footer is spaced equally */
-footer .flex {
-  justify-content: space-around;
-}
-
 /* so logo does not take 100% width */
 .menu img {
   display: inline-block;
