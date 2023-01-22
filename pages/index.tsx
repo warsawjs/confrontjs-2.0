@@ -7,6 +7,7 @@ import { Speakers } from "@/components/sections/Speakers";
 import { Venue } from "@/components/sections/Venue";
 import { Why } from "@/components/sections/Why";
 
+
 const inter = Inter({ subsets: ["latin"] });
 
 export default function MainPage() {
