@@ -1,6 +1,6 @@
-import { Speakers } from "@/components/sections";
+import { Speakers } from "@/components/sections/Speakers";
 
-export default function () {
+export function SpeakersPage() {
   return <>
     <Speakers/>
   </>

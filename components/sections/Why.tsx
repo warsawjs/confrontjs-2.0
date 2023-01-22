@@ -1,3 +1,11 @@
-import { Why } from ".";
+import { Numbers } from "../Numbers";
 
-export default Why;
+export function Why() {
+  return (<>
+    <h2>Why</h2>
+    <Numbers/>
+    <div>
+      <p>[Reasoning why...]</p>
+    </div>
+  </>)
+}

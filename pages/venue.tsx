@@ -1,6 +1,6 @@
-import { Venue } from "@/components/sections";
+import { Venue } from "@/components/sections/Venue";
 
-export default function () {
+export function VenuePage() {
   return <>
     <Venue/>
   </>

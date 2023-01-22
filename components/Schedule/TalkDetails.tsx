@@ -1,4 +1,4 @@
-export default function TalkDetails({ children = [] }) {
+export function TalkDetails({ children = [] }) {
   return (<div className="lg:max-w-[800px]">
     <h3>TalkDetails</h3>
     <div>
