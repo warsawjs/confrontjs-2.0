@@ -8,7 +8,7 @@ export default function Navbar() {
 
   const [menuOpen, setMenuOpen] = useState(true)
   return (
-    <section className="w-[100vw] flex flex-col lg:flex-row justify-between items-center px-10 py-4 font-bold text-sm text-BLACK">
+    <section className="w-[100vw] flex flex-col lg:flex-row justify-between items-center px-10 py-4 font-bold text-sm text-black">
       <div className="w-[100vw] lg:w-[200px] flex flex-row justify-between px-10 py-4">
         <Link 
           href="/"
@@ -34,12 +34,12 @@ export default function Navbar() {
         <Link 
           /* will be replaced after setting up CMS */
           href="https://docs.google.com/forms/d/e/1FAIpQLSd4k9O91d66nfxxQG4N1HOrkBLczlQ7ZxaBkN7bnFU7omTB7A/viewform"
-          className="px-6 py-4 bg-PURPLE text-BLUE rounded-2xl">
+          className="px-6 py-4 bg-primary text-secondary rounded-2xl">
           BECOME A SPONSOR
         </Link>
         <Link 
           href="/buy-a-ticket"
-          className="px-6 py-4 bg-GRAY text-WHITE rounded-2xl"
+          className="px-6 py-4 bg-tertiary text-white rounded-2xl"
         >
           BUY A TICKET
         </Link>

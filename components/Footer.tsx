@@ -6,7 +6,7 @@ import WJSLogo from '../public/WJSLogo.png';
 export default function Footer () {
   // .col-4*3
   return (
-    <div className="flex flex-col lg:flex-row bg-GRAY text-WHITE text-xs lg:text-sm">
+    <div className="flex flex-col lg:flex-row bg-tertiary text-white text-xs lg:text-sm">
 
       <div className="h-[350px] flex flex-col items-center justify-around py-20 text-center">
         <p>Help us to reach<br/>a wider group of people,
@@ -27,7 +27,7 @@ export default function Footer () {
             href="mailto:confrontjs@warsawjs.com?subject=custom subject">
               CONFRONTJS@WARSAWJS.COM
           </Link>
-          <div className="text-4xl text-PURPLE flex justify-center gap-4 py-6">
+          <div className="text-4xl text-primary flex justify-center gap-4 py-6">
             <Link href="https://twitter.com/confrontjs">{<AiFillTwitterCircle/>}</Link>
             <Link href="https://www.instagram.com/confrontjs.event">{<AiFillInstagram/>}</Link>
             <Link href="https://www.facebook.com/confrontjs">{<AiFillFacebook/>}</Link>
