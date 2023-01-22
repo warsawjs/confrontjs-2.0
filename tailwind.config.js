@@ -12,13 +12,14 @@ module.exports = {
       'sans': ['"Montserrat"', 'sans-serif'],
     },
     colors: {
-      PURPLE: '#A64AC9',
-      BLUE: '#17E9E0',
-      GRAY: '#2E3440',
-      BLACK: '#1E1E1E',
-      WHITE: '#FFFFFF'
+      primary: '#A64AC9',
+      secondary: '#17E9E0',
+      tertiary: '#2E3440',
+      black: '#1E1E1E',
+      white: '#FFFFFF',
     },
     extend: {},
   },
   plugins: [],
 };
+
