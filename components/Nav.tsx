@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export function Nav() {
-  return (<nav className="menu">
+  return (<nav className="menu flex justify-around">
     <Link href={"/main-page"}><img alt="Logo"/></Link>
     {`
     Why ConfrontJS
@@ -13,6 +13,7 @@ export function Nav() {
     `.split('\n').map(e => e.trim()).filter(Boolean).map((text, i) => {
       return <Link
         key={`nav-${i}`}
+        className="hover:underline"
         href={text.startsWith('-') ? '' : `/${text.toLocaleLowerCase().trim().replace(/\s+/g, '-')}`}
       >{text.replace(/^-/, '')}</Link>
     })}

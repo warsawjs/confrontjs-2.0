@@ -6,14 +6,3 @@
 .menu img {
   display: inline-block;
 }
-
-/* underline on hovered links */
-.menu a:hover {
-  text-decoration: underline;
-}
-
-/* equaly distributed menu */
-.menu {
-  display: flex;
-  justify-content: space-around;
-}

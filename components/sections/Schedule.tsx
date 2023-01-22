@@ -22,7 +22,7 @@ export function Schedule({ children = undefined }) {
 
   return (<div>
     <h2>Schedule</h2>
-    <div style={{display: 'flex'}}>
+    <div className="flex">
       {children || defaultContent}
     </div>
   </div>)
