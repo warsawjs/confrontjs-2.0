@@ -2,12 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* all children contain margins */
-.each-child-my > * {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
 /* so footer is spaced equally */
 footer .flex {
   justify-content: space-around;

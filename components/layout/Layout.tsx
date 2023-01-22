@@ -6,7 +6,7 @@ interface LayoutProps {
 }
 
 export const Layout: React.FC<LayoutProps> = ({ children }) => {
-  return <div className="container mx-auto each-child-my">
+  return <div className="container mx-auto">
     <Nav/>
     <main>{children}</main>
     <footer>
