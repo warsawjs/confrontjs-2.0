@@ -7,9 +7,7 @@ interface LayoutProps {
 
 export const Layout: React.FC<LayoutProps> = ({ children }) => {
   return <div className="container mx-auto each-child-my">
-    <nav>
-      <Nav/>
-    </nav>
+    <Nav/>
     <main>{children}</main>
     <footer>
       <Footer/>

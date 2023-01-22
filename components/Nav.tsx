@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export default function () {
-  return (<div className="menu">
+  return (<nav className="menu">
     <Link href={"/main-page"}><img alt="Logo"/></Link>
     {`
     Why ConfrontJS
@@ -14,5 +14,5 @@ export default function () {
       <Link href={`/${e.toLocaleLowerCase().trim().replace(/\s+/g, '-')}`}>{e}</Link>
     )}
     <Link className="uppercase" href={"/easycart.pl"}>Buy ticket</Link>
-  </div>)
+  </nav>)
 }
