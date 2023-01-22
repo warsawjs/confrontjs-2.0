@@ -3,7 +3,7 @@ import { Speakers } from "@/components/sections/Speakers";
 import { Venue } from "@/components/sections/Venue";
 import { Why } from "@/components/sections/Why";
 
-export default function () {
+export function MainPage() {
   return (<>
     <Why/>
     <Speakers/>
@@ -11,3 +11,5 @@ export default function () {
     <Venue/>
   </>)
 }
+
+export default MainPage;

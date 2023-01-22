@@ -5,3 +5,5 @@ export function VenuePage() {
     <Venue/>
   </>
 }
+
+export default VenuePage;

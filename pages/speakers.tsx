@@ -5,3 +5,5 @@ export function SpeakersPage() {
     <Speakers/>
   </>
 }
+
+export default SpeakersPage;

@@ -1,7 +1,9 @@
-import { Why } from "@/components/sections";
+import { Why } from "@/components/sections/Why";
 
-export default function () {
+export function WhyConfrontPage() {
   return <>
     <Why/>
   </>
 }
+
+export default WhyConfrontPage;

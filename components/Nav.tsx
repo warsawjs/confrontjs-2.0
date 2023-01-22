@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function () {
+export function Nav() {
   return (<nav className="menu">
     <Link href={"/main-page"}><img alt="Logo"/></Link>
     {`
@@ -8,11 +8,16 @@ export default function () {
     Speakers
     Schedule
     Venue
-    Become a sponsor
-    Call for papers
-    `.split('\n').filter(e => Boolean(e.trim())).map(e =>
-      <Link href={`/${e.toLocaleLowerCase().trim().replace(/\s+/g, '-')}`}>{e}</Link>
-    )}
-    <Link className="uppercase" href={"/easycart.pl"}>Buy ticket</Link>
+    -Become a sponsor
+    -Call for papers
+    `.split('\n').map(e => e.trim()).filter(Boolean).map((text, i) => {
+      return <Link
+        key={`nav-${i}`}
+        href={text.startsWith('-') ? '' : `/${text.toLocaleLowerCase().trim().replace(/\s+/g, '-')}`}
+      >{text.replace(/^-/, '')}</Link>
+    })}
+    <a className="uppercase" href={"//easycart.pl"}>Buy ticket</a>
   </nav>)
 }
+
+export default Nav;

@@ -18,8 +18,8 @@ export function Speakers({ speakers = [{id: '', name: ''}].slice(0) }) {
     <h2>Speakers</h2>
     <div>
       <ul>
-        {speakers.map(e => (
-          <li>
+        {speakers.map((e, i) => (
+          <li key={`speaker-${i}`}>
             <SpeakerShort>{e.id}: {e.name}</SpeakerShort>
           </li>
         ))}
