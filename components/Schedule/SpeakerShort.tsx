@@ -3,8 +3,8 @@ import { SpeakerDetails } from "./SpeakerDetails"
 
 export function SpeakerShort({ children }: any) {
   return (<div className="m-2 border-2 lg:max-w-[400px]">
-    <small onClick={ev => {/* TODO change implementation */ (ev.target as any).nextElementSibling.showModal()}}>Speaker details</small>
     <Link href={"/speaker/evan-you"}>open page</Link>
+    <small onClick={ev => {/* TODO change implementation */ (ev.target as any).nextElementSibling.showModal()}}>Speaker details</small>
     <dialog onSubmit={() => {}}>
       [Speaker details here]
       <SpeakerDetails/>
