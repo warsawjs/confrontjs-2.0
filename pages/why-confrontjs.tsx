@@ -1,9 +1,15 @@
-import { Why } from "@/components/sections/Why";
+import { Numbers } from "@/components/Numbers";
+import Hero from "@/components/sections/Hero";
+const primary = "#A64AC9";
+
 
 export function WhyConfrontPage() {
-  return <>
-    <Why/>
+  return (
+  <>
+    <Hero variant="about"/>
+    <Numbers color={primary}/>
   </>
+  )
 }
 
 export default WhyConfrontPage;

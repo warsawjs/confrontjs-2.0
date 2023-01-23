@@ -6,7 +6,7 @@ import WJSLogo from '../public/WJSLogo.png';
 export default function Footer () {
   // .col-4*3
   return (
-    <div className="flex flex-col lg:flex-row bg-tertiary text-white text-xs lg:text-sm">
+    <div className="flex flex-col lg:flex-row justify-around bg-tertiary text-white text-xs lg:text-sm">
 
       <div className="h-[350px] flex flex-col items-center justify-around py-20 text-center">
         <p>Help us to reach<br/>a wider group of people,
