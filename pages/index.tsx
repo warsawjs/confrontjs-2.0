@@ -22,7 +22,7 @@ export default function MainPage() {
     <Speakers/>
     <Schedule/>
     <Organizers/>
-    <Venue/>
+    <Venue variant="main"/>
   </>
   );
 }
