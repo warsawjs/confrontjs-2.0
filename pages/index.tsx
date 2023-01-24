@@ -5,16 +5,24 @@ import styles from "@/styles/Home.module.css";
 import { Schedule } from "@/components/sections/Schedule";
 import { Speakers } from "@/components/sections/Speakers";
 import { Venue } from "@/components/sections/Venue";
-import { Why } from "@/components/sections/Why";
+import { Numbers } from "@/components/Numbers";
+import { Organizers } from "@/components/sections/Organizers";
+import Hero from "@/components/sections/Hero";
+const secondary = "#17E9E0";
+
 
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function MainPage() {
-  return (<>
-    <Why/>
+  return (
+  <>
+    <Hero variant="main"/>
+    <Numbers color={secondary}/>
     <Speakers/>
     <Schedule/>
+    <Organizers/>
     <Venue/>
-  </>);
+  </>
+  );
 }
