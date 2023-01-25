@@ -8,6 +8,8 @@ import { Venue } from "@/components/sections/Venue";
 import { Numbers } from "@/components/Numbers";
 import { Organizers } from "@/components/sections/Organizers";
 import Hero from "@/components/sections/Hero";
+import Pictures from "@/components/sections/Pictures";
+import Testimonials from "@/components/sections/Testimonials";
 const secondary = "#17E9E0";
 
 
@@ -23,6 +25,8 @@ export default function MainPage() {
     <Schedule/>
     <Organizers/>
     <Venue variant="main"/>
+    <Pictures/>
+    <Testimonials/>
   </>
   );
 }
