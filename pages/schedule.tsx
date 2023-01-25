@@ -1,40 +1,38 @@
 import { useState } from "react";
 import { Timeline } from "@/components/timeline/Timeline";
-
 import { timelineData } from "@/mockData/timelineData";
+import type { Track } from "@/components/timeline/types";
 
 export default function Schedule() {
-  const [activeTimeline, setActiveTimeline] = useState<
-    "primary" | "secondnary"
-  >("primary");
+  const [activeTimeline, setActiveTimeline] = useState<Track>("one");
 
   return (
-    <section className="container mx-auto md:flex gap-5 px-4">
+    <section className="container mx-auto md:flex gap-5">
       <div className="md:hidden flex justify-evenly my-6">
         <button
           className="py-3 px-8 border-2 border-primary rounded-full"
-          onClick={() => setActiveTimeline("primary")}
+          onClick={() => setActiveTimeline("one")}
         >
           Line1
         </button>
         <button
           className="py-3 px-8 border-2 border-secondary rounded-full"
-          onClick={() => setActiveTimeline("secondnary")}
+          onClick={() => setActiveTimeline("two")}
         >
           Line2
         </button>
       </div>
       <div className="md:hidden w-full">
-        {activeTimeline === "primary" && (
-          <Timeline schedule={timelineData} variant="primary" />
+        {activeTimeline === "one" && (
+          <Timeline schedule={timelineData} variant="one" />
         )}
-        {activeTimeline === "secondnary" && (
-          <Timeline schedule={[]} variant="secondary" />
+        {activeTimeline === "two" && (
+          <Timeline schedule={timelineData} variant="two" />
         )}
       </div>
       <div className="hidden md:flex w-full">
-        <Timeline schedule={timelineData} variant="primary" />
-        <Timeline schedule={[]} variant="secondary" />
+        <Timeline schedule={timelineData} variant="one" />
+        <Timeline schedule={timelineData} variant="two" />
       </div>
     </section>
   );
