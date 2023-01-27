@@ -34,7 +34,7 @@ export default function Navbar() {
         <Link 
           /* will be replaced after setting up CMS */
           href="https://docs.google.com/forms/d/e/1FAIpQLSd4k9O91d66nfxxQG4N1HOrkBLczlQ7ZxaBkN7bnFU7omTB7A/viewform"
-          className="px-6 py-4 bg-primary text-secondary rounded-2xl">
+          className="px-6 py-4 bg-primary text-white rounded-2xl">
           BECOME A SPONSOR
         </Link>
         <Link 

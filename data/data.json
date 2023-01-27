@@ -1,0 +1,131 @@
+{
+    "Hotels": [
+        {
+            "name": "Hotel Witkowski",
+            "address": "Aleja Krakowska 131",
+            "image_url": "/hotels/Hotel-Witkowski.png",
+            "distance": "~ 250 M",
+            "trip": [
+                {
+                    "time": "~ 3 MIN",
+                    "type": "walk"
+                }
+            ],
+            "profile_url": "http://www.hotelwitkowski.pl/"
+        },
+        {
+            "name": "Golden Tulip Warsaw Airport",
+            "address": "Aleja Krakowska 235",
+            "image_url": "/hotels/Golden-Tulip.png",
+            "distance": "~ 1.5 KM",
+            "trip": [
+                {
+                    "time": "~ 3 MIN",
+                    "type": "car"
+                }
+            ],
+            "profile_url": "https://warsaw-airport.goldentulip.com/pl?arrival=2019-10-30T00:00:00&departure=2019-10-31T00:00:00&rooms[0][adult]=1&rooms[0][child]=0&location="
+        },
+        {
+            "name": "Hotel Gordon",
+            "address": "Aleja Krakowska 157a",
+            "image_url": "/hotels/Hotel-Gordon.png",
+            "distance": "~ 550 M",
+            "trip": [
+                {
+                    "time": "~ 7 MIN",
+                    "type": "walk"
+                }
+            ],
+            "profile_url": "http://hotelgordon.pl/"
+        },
+        {
+            "name": "Air Hotel",
+            "address": "Aleja Krakowska 42",
+            "image_url": "/hotels/Air-Hotel.png",
+            "distance": "~ 1,7 KM",
+            "trip": [
+                {
+                    "time": "~ 3 MIN",
+                    "type": "car"
+                }
+            ],
+            "profile_url": "https://airhotel.pl/"
+        },
+        {
+            "name": "Renaissance Warsaw Airport Hotel",
+            "address": "Żwirki i Wigury 1H",
+            "image_url": "/hotels/Renaissance-Warsaw-Airport-Hotel.png",
+            "distance": "~ 4.6 KM",
+            "trip": [
+                {
+                    "time": "~ 8 MIN",
+                    "type": "car"
+                }
+            ],
+            "profile_url": "https://www.renaissancewarszawa.pl/"
+        },
+        {
+            "name": "B&B Hotel Warszawa-Okęcie",
+            "address": "Aleja Krakowska 193",
+            "image_url": "/hotels/BB-Hotel-Warszawa-Okecie.png",
+            "distance": "~ 1.3 KM",
+            "trip": [
+                {
+                    "time": "~ 4 M",
+                    "type": "car"
+                }
+            ],
+            "profile_url": "https://www.hotelbb.pl/pl/warszawa-okecie"
+        }
+    ],
+    "Attractions": [
+        {
+            "title": "VENUE1",
+            "index": 1,
+            "paragraph": "The world is constantly evolving, and with it, so are the ways in which we communicate. Technology has played a big role in shaping the way we interact with one another, from the way we send messages to the way we connect with people on the other side of the world. Social media has become a powerful tool for connecting people, but it also has its drawbacks. One of the biggest concerns is the impact it has on our mental health and well-being.",
+             "url": "url1"
+        },
+        {
+            "title": "VENUE2",
+            "index": 2,
+            "paragraph": "The world is constantly evolving, and with it, so are the ways in which we communicate. Technology has played a big role in shaping the way we interact with one another, from the way we send messages to the way we connect with people on the other side of the world. Social media has become a powerful tool for connecting people, but it also has its drawbacks. One of the biggest concerns is the impact it has on our mental health and well-being.",
+             "url": "url2"
+        },
+        {
+            "title": "VENUE3",
+            "index": 3,
+            "paragraph": "The world is constantly evolving, and with it, so are the ways in which we communicate. Technology has played a big role in shaping the way we interact with one another, from the way we send messages to the way we connect with people on the other side of the world. Social media has become a powerful tool for connecting people, but it also has its drawbacks. One of the biggest concerns is the impact it has on our mental health and well-being.",
+             "url": "url3"
+        },
+        {
+            "title": "VENUE4",
+            "index": 4,
+            "paragraph": "The world is constantly evolving, and with it, so are the ways in which we communicate. Technology has played a big role in shaping the way we interact with one another, from the way we send messages to the way we connect with people on the other side of the world. Social media has become a powerful tool for connecting people, but it also has its drawbacks. One of the biggest concerns is the impact it has on our mental health and well-being.",
+             "url": "url4"
+        }
+    ],
+    "Tickets": [
+        {
+            "type": "PREMIUM",
+            "title": "by chris Lilley",
+            "description": "d web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in",
+             "price": "1200PLN",
+             "url": "url1"
+        },
+        {
+            "type": "REGULAR",
+            "title": "by chris Lilley",
+            "description": "d web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in",
+             "price": "600PLN",
+             "url": "url2"
+        },
+        {
+            "type": "PRE EARLY",
+            "title": "by chris Lilley",
+            "description": "d web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in",
+             "price": "300PLN",
+             "url": "url3"
+        }
+    ]
+}

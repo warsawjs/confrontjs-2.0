@@ -7,7 +7,7 @@ type Props = { variant: string };
 export default function Hero({ variant }: Props) {
 
   return (
-    <div className="w-[100vw] flex flex-col py-40 gap-5 items-center text-center">
+    <div className="flex flex-col py-40 gap-5 items-center text-center">
       <div
         className={`${
           variant === "main" ? "flex" : "hidden"
