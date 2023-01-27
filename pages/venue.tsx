@@ -6,12 +6,17 @@ import TouristAttractions from "@/components/sections/TouristAttractions";
 
 export function VenuePage() {
   return (
-    <section className="px-5 lg:px-56">
-      <Hero variant="venue"/>
-      <Venue variant="venue"/>
-      <Parking/>
-      <Hotel/>
-      <TouristAttractions/>
+    <section className="">
+      <div className="bg-gradient-to-b from-[#A64AC9] via-white to-white">
+        <Hero variant="venue"/>
+        <Venue variant="venue"/>
+        <Parking/>
+      </div>
+      
+      <div className="bg-gradient-to-b from-[#A64AC9] via-white to-white">
+        <Hotel/>
+        <TouristAttractions/>
+      </div>
     </section>
   )
 }

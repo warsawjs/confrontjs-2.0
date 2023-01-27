@@ -1,19 +1,18 @@
 import Image from "next/image";
 import React from "react";
 import Link from "next/link";
-import logo from "../../public/logo.svg";
+import logo from "../../public/logo.png";
 type Props = { variant: string };
 
 export default function Hero({ variant }: Props) {
 
   return (
-    <div className="flex flex-col py-40 gap-5 items-center text-center">
+    <div className="flex flex-col py-20 gap-5 items-center text-center">
       <div
-        className={`${
-          variant === "main" ? "flex" : "hidden"
+        className={`${variant === "main" ? "flex" : "hidden"
         } flex-col gap-5 items-center text-center text-sm lg:text-base`}
       >
-        <div className="w-44 h-32 lg:w-72 lg:h-64 ">
+        <div className="w-44 h-32 lg:w-72 lg:h-64 mb-10">
             <Image src={logo} alt="logo" />
         </div>
         <h3 className="font-bold text-sm lg:text-xl">
@@ -22,20 +21,20 @@ export default function Hero({ variant }: Props) {
         <h2 className="text-sm lg:text-3xl">
           24th of March 2023 - Warsaw, poland
         </h2>
-        <h1 className="w-72 lg:w-[740px] font-bold text-xl lg:text-4xl">
+        <h1 className="w-72 lg:w-[740px] font-bold text-xl lg:text-4xl text-tertiary">
           EMPOWERING THE NEXT GENERATION OF FRONT-END PROFESSIONALS
         </h1>
-        <div className="flex flex-col lg:flex-row gap-5 py-5">
+        <div className="flex flex-col lg:flex-row gap-5 py-10">
           <Link
             /* will be replaced after setting up CMS */
             href="https://docs.google.com/forms/d/e/1FAIpQLSd4k9O91d66nfxxQG4N1HOrkBLczlQ7ZxaBkN7bnFU7omTB7A/viewform"
-            className="px-6 py-4 bg-primary text-secondary rounded-2xl"
+            className="font-bold px-6 py-4 border-2 text-xs lg:text-xl text-black hover:bg-secondary hover:text-black transition-all duration-300 ease-in-out rounded-2xl"
           >
             BECOME A SPONSOR
           </Link>
           <Link
             href="/buy-a-ticket"
-            className="px-6 py-4 bg-tertiary text-white rounded-2xl"
+            className="font-bold px-6 py-4 bg-tertiary text-xs lg:text-xl text-white hover:bg-secondary hover:text-black transition-all duration-300 ease-in-out rounded-2xl"
           >
             BUY A TICKET
           </Link>
@@ -55,7 +54,7 @@ export default function Hero({ variant }: Props) {
         } flex-col gap-5 items-center text-center text-sm lg:text-base`}
       >
         <p>24 march 2023 in warsaw, poland</p>
-        <h1 className="font-bold text-3xl lg:text-7xl text-secondary">
+        <h1 className="font-bold text-3xl lg:text-7xl text-tertiary">
           SCHEDULE
         </h1>
         <h2 className="text-xl lg:text-3xl">LOREM IPSUM</h2>
@@ -73,10 +72,10 @@ export default function Hero({ variant }: Props) {
         } flex-col gap-5 items-center text-center text-sm lg:text-base`}
       >
         <p>24 march 2023 in warsaw, poland</p>
-        <h1 className="font-bold text-3xl lg:text-7xl text-secondary">
+        <h1 className="font-bold text-3xl lg:text-7xl text-tertiary">
           SPEAKERS
         </h1>
-        <h2 className="text-xl lg:text-3xl">LOREM IPSUM</h2>
+        <h2 className="font-bold text-xl text-white lg:text-3xl">LOREM IPSUM</h2>
         <p className="w-72 lg:w-[750px]">
           Dor ohur. Speras mikrong jepogt. Tångar nasam an. Emstat jyde. Are
           benar. Udås tåbel stenoligt. Märk-dna bida, polyrad. Lyssna in
@@ -91,10 +90,10 @@ export default function Hero({ variant }: Props) {
         } flex-col gap-5 items-center text-center text-sm lg:text-base`}
       >
         <p>24 march 2023 in warsaw, poland</p>
-        <h1 className="font-bold text-3xl lg:text-7xl text-secondary">
+        <h1 className="font-bold text-3xl lg:text-7xl text-tertiary">
           GET YOUR TICKET
         </h1>
-        <h2 className="text-xl lg:text-3xl">PRICING PLANS</h2>
+        <h2 className="font-bold text-xl text-white lg:text-3xl">PRICING PLANS</h2>
         <p className="w-72 lg:w-[750px]">
           Dor ohur. Speras mikrong jepogt. Tångar nasam an. Emstat jyde. Are
           benar. Udås tåbel stenoligt. Märk-dna bida, polyrad. Lyssna in
@@ -109,10 +108,10 @@ export default function Hero({ variant }: Props) {
         } flex-col gap-5 items-center text-center text-sm lg:text-base`}
       >
         <h2 className="text-sm lg:text-3xl">24 march 2023 in warsaw, poland</h2>
-        <h1 className="font-bold text-3xl lg:text-7xl text-secondary">
+        <h1 className="font-bold text-3xl lg:text-7xl text-tertiary">
           CONFRONTJS 2023
         </h1>
-        <h2 className="font-bold text-xl lg:text-5xl">venue</h2>
+        <h2 className="font-bold text-xl text-white lg:text-5xl">venue</h2>
       </div>
 
       <div
@@ -121,10 +120,10 @@ export default function Hero({ variant }: Props) {
         } flex-col gap-5 items-center text-center text-sm lg:text-base`}
       >
         <p className="text-sm lg:text-3xl">24 march 2023 in warsaw, poland</p>
-        <h1 className="font-bold text-3xl lg:text-7xl text-secondary">
+        <h1 className="font-bold text-3xl lg:text-7xl text-tertiary">
           WHY CONFRONTJS?
         </h1>
-        <h2 className="text-xl lg:text-3xl">LOREM IPSUM</h2>
+        <h2 className="font-bold text-xl text-white lg:text-3xl">LOREM IPSUM</h2>
       </div>
     </div>
   );

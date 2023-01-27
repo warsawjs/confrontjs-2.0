@@ -39,7 +39,7 @@ export default function Parking() {
         </div>
         <Link
           href="/buy-a-ticket"
-          className="px-6 py-4 bg-primary text-white text-sm lg:text-2xl rounded-2xl"
+          className="font-bold px-6 py-4 bg-primary text-white hover:bg-secondary hover:text-black transition-all duration-300 ease-in-out text-sm lg:text-2xl rounded-2xl"
         >
           CONTACT US
         </Link>

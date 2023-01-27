@@ -5,17 +5,17 @@ export function Venue({ variant }:Props) {
   <>
     <div className="flex flex-col items-center py-40 text-base">
 
-      <div className={`${variant === "main" ? "flex" : "hidden"} flex flex-col-reverse lg:flex-row items-center justify-center gap-10`}>
+      <div className={`${variant === "main" ? "flex" : "hidden"} flex flex-col-reverse lg:flex-row items-center justify-center gap-12`}>
         <div className="flex flex-col items-center lg:items-end text-center lg:text-right justify-between gap-10 py-4">
           <h2 className="font-bold text-xl lg:text-4xl">VENUE</h2>
-          <p className="w-[306px] lg:w-[420px]">Palac Kultury is a magnificent and historic venue for ConfrontJS. 
+          <p className="w-[306px] lg:w-[520px]">Palac Kultury is a magnificent and historic venue for ConfrontJS. 
             It offers state-of-the-art amenities, multiple event spaces and easy access. 
             The palace's cultural significance and prime location make it an ideal 
             setting for our conference.
           </p>
           <Link 
             href="/buy-a-ticket"
-            className="px-6 py-4 bg-primary text-white text-sm lg:text-2xl rounded-2xl"
+            className="font-bold px-6 py-4 bg-primary text-white hover:bg-secondary hover:text-black transition-all duration-300 ease-in-out text-sm lg:text-2xl rounded-2xl"
           >
             BUY A TICKET
           </Link>
@@ -45,7 +45,7 @@ export function Venue({ variant }:Props) {
         <Link 
             /* will be replaced after setting up CMS */
             href="https://docs.google.com/forms/d/e/1FAIpQLSd4k9O91d66nfxxQG4N1HOrkBLczlQ7ZxaBkN7bnFU7omTB7A/viewform"
-            className="px-6 py-4 bg-primary text-white text-sm lg:text-2xl rounded-2xl">
+            className="font-bold px-6 py-4 bg-primary text-white hover:bg-secondary hover:text-black transition-all duration-300 ease-in-out text-sm lg:text-2xl rounded-2xl">
             BECOME A SPONSOR
         </Link>
       </div>
