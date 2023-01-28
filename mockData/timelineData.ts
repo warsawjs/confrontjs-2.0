@@ -1,70 +1,84 @@
-import type { TalkDetails } from "@/components/timeline/types";
+import type { TalkDetails } from "@/components/Schedule/types";
 
 export const timelineData: TalkDetails[] = [
   {
     id: 1,
-    author: "Artur Zochniak",
-    title: "SOLID - the way to go!",
+    author: "Chris Lilley ",
+    title: "Opening Keynote",
     date: "24 03 2023",
     timeFrom: "8:00",
     timeTo: "8:30",
+    description:
+      "Dor ohur. Speras mikrong jepogt. Tångar nasam an. Emstat jyde. Are benar. Udås tåbel stenoligt. Märk-dna bida, polyrad. Lyssna in utsmarta. Söjojysk. Mikrons ultrang: om än sad. Ressade bek antitism. Sofav telenilig. Ma",
   },
   {
     id: 2,
-    author: "dr Piotr Migdał",
-    title:
-      "ChatGPT and Image Diffusion - should I be afraid or harness its power?",
+    author: "Chris Lilley ",
+    title: "Opening Keynote",
     date: "24 03 2023",
     timeFrom: "9:00",
     timeTo: "9:30",
+    description:
+      "Dor ohur. Speras mikrong jepogt. Tångar nasam an. Emstat jyde. Are benar. Udås tåbel stenoligt. Märk-dna bida, polyrad. Lyssna in utsmarta. Söjojysk. Mikrons ultrang: om än sad. Ressade bek antitism. Sofav telenilig. Ma",
   },
   {
     id: 3,
-    author: "Łukasz Walczak",
-    title: "How to update a UI library?",
+    author: "Chris Lilley ",
+    title: "Opening Keynote",
     date: "24 03 2023",
     timeFrom: "10:00",
     timeTo: "10:30",
+    description:
+      "Dor ohur. Speras mikrong jepogt. Tångar nasam an. Emstat jyde. Are benar. Udås tåbel stenoligt. Märk-dna bida, polyrad. Lyssna in utsmarta. Söjojysk. Mikrons ultrang: om än sad. Ressade bek antitism. Sofav telenilig. Ma",
   },
   {
     id: 4,
-    author: "Antonio Moralez-Gonzalez",
-    title:
-      "Fireside chat regarding entrepreneurship and innovation - with Ahmad",
+    author: "Chris Lilley ",
+    title: "Opening Keynote",
     date: "24 03 2023",
     timeFrom: "11:00",
     timeTo: "11:30",
+    description:
+      "Dor ohur. Speras mikrong jepogt. Tångar nasam an. Emstat jyde. Are benar. Udås tåbel stenoligt. Märk-dna bida, polyrad. Lyssna in utsmarta. Söjojysk. Mikrons ultrang: om än sad. Ressade bek antitism. Sofav telenilig. Ma",
   },
   {
     id: 5,
-    author: "Krzysztof Wojnarowski",
-    title: "Seedable pseudo number generator on Logistic Map",
+    author: "Chris Lilley ",
+    title: "Opening Keynote",
     date: "24 03 2023",
     timeFrom: "12:00",
     timeTo: "12:30",
+    description:
+      "Dor ohur. Speras mikrong jepogt. Tångar nasam an. Emstat jyde. Are benar. Udås tåbel stenoligt. Märk-dna bida, polyrad. Lyssna in utsmarta. Söjojysk. Mikrons ultrang: om än sad. Ressade bek antitism. Sofav telenilig. Ma",
   },
   {
     id: 6,
-    author: "Dzianis Pryshchep",
-    title: "Next.js in React",
+    author: "Chris Lilley ",
+    title: "Opening Keynote",
     date: "24 03 2023",
     timeFrom: "13:00",
     timeTo: "13:30",
+    description:
+      "Dor ohur. Speras mikrong jepogt. Tångar nasam an. Emstat jyde. Are benar. Udås tåbel stenoligt. Märk-dna bida, polyrad. Lyssna in utsmarta. Söjojysk. Mikrons ultrang: om än sad. Ressade bek antitism. Sofav telenilig. Ma",
   },
   {
     id: 7,
-    author: "Krzysztof Łokaj",
-    title: "One codebase to multiplatform development with WebView",
+    author: "Chris Lilley ",
+    title: "Opening Keynote",
     date: "24 03 2023",
     timeFrom: "15:00",
     timeTo: "15:30",
+    description:
+      "Dor ohur. Speras mikrong jepogt. Tångar nasam an. Emstat jyde. Are benar. Udås tåbel stenoligt. Märk-dna bida, polyrad. Lyssna in utsmarta. Söjojysk. Mikrons ultrang: om än sad. Ressade bek antitism. Sofav telenilig. Ma",
   },
   {
     id: 8,
-    author: "David Williams",
-    title: "The birth and the future of the World Wide Web",
+    author: "Chris Lilley ",
+    title: "Opening Keynote",
     date: "24 03 2023",
     timeFrom: "16:00",
     timeTo: "16:30",
+    description:
+      "Dor ohur. Speras mikrong jepogt. Tångar nasam an. Emstat jyde. Are benar. Udås tåbel stenoligt. Märk-dna bida, polyrad. Lyssna in utsmarta. Söjojysk. Mikrons ultrang: om än sad. Ressade bek antitism. Sofav telenilig. Ma",
   },
 ];

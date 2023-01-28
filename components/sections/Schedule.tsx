@@ -1,13 +1,16 @@
 import { useState } from "react";
-import { Timeline } from "@/components/timeline/Timeline";
-import { timelineData } from "@/mockData/timelineData";
-import type { Track } from "@/components/timeline/types";
+import { Line } from "../Schedule/Line";
+import { Link } from "../Link";
 
-export function Schedule() {
-  const [activeTimeline, setActiveTimeline] = useState<Track>("one");
+import type { ScheduleProps } from "@/pages/schedule";
+import type { LineVariant } from "@/components/Schedule/types";
+
+export function Schedule({ tracksData }: ScheduleProps) {
+  const [activeTimeline, setActiveTimeline] = useState<LineVariant>("one");
+  const { trackOne, trackTwo } = tracksData;
 
   return (
-    <section className="container mx-auto md:flex gap-5">
+    <section className="container mx-auto md:flex gap-5 px-6">
       <div className="md:hidden flex justify-evenly my-6">
         <button
           className="py-3 px-8 border-2 border-primary rounded-full"
@@ -22,17 +25,20 @@ export function Schedule() {
           Line2
         </button>
       </div>
-      <div className="md:hidden w-full">
-        {activeTimeline === "one" && (
-          <Timeline schedule={timelineData} variant="one" />
-        )}
-        {activeTimeline === "two" && (
-          <Timeline schedule={timelineData} variant="two" />
-        )}
-      </div>
-      <div className="hidden md:flex w-full">
-        <Timeline schedule={timelineData} variant="one" />
-        <Timeline schedule={timelineData} variant="two" />
+      <div className="mx-auto">
+        <div className="md:hidden w-full">
+          {activeTimeline === "one" && <Line {...trackOne} lineVariant="one" />}
+          {activeTimeline === "two" && <Line {...trackTwo} lineVariant="two" />}
+        </div>
+        <div className="hidden md:flex md:gap-24 w-full max-w-5xl mx-auto">
+          <Line {...trackOne} lineVariant="one" />
+          <Line {...trackTwo} lineVariant="two" />
+        </div>
+        <div className="my-20 md:my-12 flex justify-center">
+          <Link variant="tertiary" href="/buy-a-ticket">
+            buy a ticket
+          </Link>
+        </div>
       </div>
     </section>
   );

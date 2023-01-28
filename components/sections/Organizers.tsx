@@ -15,7 +15,9 @@ export function Organizers() {
           <div className="flex flex-col items-center text-center gap-4">
             <div className="w-36 lg:w-72 h-36 lg:h-72 rounded-3xl bg-tertiary"></div>
             <div className="flex flex-col">
-              <h2 className="font-bold text-sm text-primary lg:text-xl">Opening Keynote</h2>
+              <h2 className="font-bold text-sm text-primary lg:text-xl">
+                Opening Keynote
+              </h2>
               <p>by Chris Lilley </p>
             </div>
             <p className="w-56 lg:w-64">
@@ -39,7 +41,9 @@ export function Organizers() {
           <div className="flex flex-col items-center text-center gap-4">
             <div className="w-36 lg:w-72 h-36 lg:h-72 rounded-3xl bg-tertiary"></div>
             <div className="flex flex-col">
-              <h2 className="font-bold text-sm text-primary lg:text-xl">Opening Keynote</h2>
+              <h2 className="font-bold text-sm text-primary lg:text-xl">
+                Opening Keynote
+              </h2>
               <p>by Chris Lilley </p>
             </div>
             <p className="w-56 lg:w-64">
@@ -63,7 +67,9 @@ export function Organizers() {
           <div className="flex flex-col items-center text-center gap-4">
             <div className="w-36 lg:w-72 h-36 lg:h-72 rounded-3xl bg-tertiary"></div>
             <div className="flex flex-col">
-              <h2 className="font-bold text-sm text-primary lg:text-xl">Opening Keynote</h2>
+              <h2 className="font-bold text-sm text-primary lg:text-xl">
+                Opening Keynote
+              </h2>
               <p>by Chris Lilley </p>
             </div>
             <p className="w-56 lg:w-64">

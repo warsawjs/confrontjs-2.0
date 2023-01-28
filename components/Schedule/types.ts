@@ -5,6 +5,7 @@ export interface TalkDetails {
   timeTo: string;
   title: string;
   author: string;
+  description: string;
 }
 
-export type Track = "one" | "two";
+export type LineVariant = "one" | "two";
