@@ -7,12 +7,15 @@ const primary = "#A64AC9";
 
 export function WhyConfrontPage() {
   return (
-  <>
-    <Hero variant="about"/>
-    <Numbers color={primary}/>
+  <section>
+    <div className="bg-gradient-to-b from-[#A64AC9] to-white">
+      <Hero variant="about"/>
+      <Numbers color={primary}/>
+    </div>
+
     <Testimonials/>
     <PreviousConfrences/>
-  </>
+  </section>
   )
 }
 

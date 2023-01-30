@@ -31,7 +31,7 @@ export default function Premium() {
       />
       <h3 className="font-bold text-xl lg:text-2xl text-primary">1200 PLN</h3>
       <Link
-        className="py-4 px-6 font-bold text-white bg-primary rounded-xl"
+        className="py-4 px-6 font-bold text-white bg-primary hover:bg-secondary hover:text-black transition-all duration-300 ease-in-out rounded-xl"
         href=""
       >
         BUY
