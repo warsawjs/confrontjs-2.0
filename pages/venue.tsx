@@ -6,7 +6,7 @@ import TouristAttractions from "@/components/sections/TouristAttractions";
 
 export function VenuePage() {
   return (
-    <section className="">
+    <section>
       <div className="bg-gradient-to-b from-[#A64AC9] via-white to-white">
         <Hero variant="venue"/>
         <Venue variant="venue"/>

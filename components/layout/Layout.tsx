@@ -13,7 +13,7 @@ export const Layout: React.FC<LayoutProps> = ({ children }) => {
     <nav>
       <Nav/>
     </nav>
-    <main>
+    <main >
       {children}
     </main>
     <footer>

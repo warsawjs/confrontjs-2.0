@@ -9,7 +9,7 @@ export function Numbers({ color }: Props) {
         <div className={`${color === secondary ? "flex" : "hidden"}`}>
           <h1 className="font-bold text-xl lg:text-4xl">WHY CONFRONTJS?</h1>
         </div>
-        <div className="w-[100vw] flex flex-row justify-center gap-2 lg:gap-24">
+        <div className="flex flex-row justify-center gap-2 lg:gap-24">
           <div className="flex flex-col items-center">
             <h1
               style={{ color: color }}
@@ -87,7 +87,6 @@ export function Numbers({ color }: Props) {
             />
           </div>
         </div>
-
         <p className="w-[308px] lg:w-[950px]">
           At ConfrontJS we aim to bring together industry leaders, developers,
           and enthusiasts to share their knowledge and experience in the latest

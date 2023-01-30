@@ -13,8 +13,8 @@ export default function Navbar() {
   });
 
   return (
-    <section className="w-[100vw] flex flex-col lg:flex-row justify-between items-center px-10 py-4 font-bold text-sm text-black">
-      <div className="w-[100vw] lg:w-[200px] flex flex-row justify-between px-10 py-4">
+    <section className="flex flex-col lg:flex-row justify-between items-center px-10 py-4 font-bold text-sm text-black">
+      <div className="w-full lg:w-[200px] flex flex-row justify-between items-center px-10 pb-6 lg:pb-4 py-4">
         <Link href="/">
           <Image src={logo} width={80} height={50} alt="logo" />
         </Link>

@@ -37,10 +37,11 @@ export default function Speakers({ variant }: Props) {
                       alt="avatar"
                       src={speaker.avatar}
                     />
-                    <div className="w-[46px] h-[46px] lg:w-[72px] lg:h-[72px] absolute pt-3 lg:pt-6 text-5xl lg:text-7xl">
-                      <Link 
-                        className="text-white"
-                        href={`speakers/${speaker.slug}`}>
+                    <div className="w-[64px] h-[64px] lg:w-[72px] lg:h-[72px] absolute pt-5 lg:pt-6 lg:hover:pt-0 transition-all duration-300 ease-in-out text-7xl lg:text-7xl">
+                      <Link
+                        className="text-white lg:hover:text-secondary"
+                        href={`speakers/${speaker.slug}`}
+                      >
                         <IoIosArrowDropupCircle />
                       </Link>
                     </div>
@@ -64,10 +65,11 @@ export default function Speakers({ variant }: Props) {
                       alt="avatar"
                       src={speaker.avatar}
                     />
-                    <div className="w-[46px] h-[46px] lg:w-[72px] lg:h-[72px] absolute pt-3 lg:pt-6 text-5xl lg:text-7xl">
-                      <Link 
-                        className="text-white"
-                        href={`speakers/${speaker.slug}`}>
+                    <div className="w-[64px] h-[64px] lg:w-[72px] lg:h-[72px] absolute pt-5 lg:pt-6 lg:hover:pt-0 transition-all duration-300 ease-in-out text-7xl lg:text-7xl">
+                      <Link
+                        className="text-white lg:hover:text-secondary"
+                        href={`speakers/${speaker.slug}`}
+                      >
                         <IoIosArrowDropupCircle />
                       </Link>
                     </div>
@@ -82,26 +84,32 @@ export default function Speakers({ variant }: Props) {
               );
             })}
       </div>
-      
-      <div className={`${variant === "main" ? "flex" : "hidden"} items-center justify-center`}>
-          <Link
-            href="/speakers"
-            className="font-bold text-xs lg:text-xl px-6 py-4 bg-tertiary text-secondary hover:bg-secondary hover:text-black transition-all duration-300 ease-in-out rounded-2xl"
-          >
-            SEE ALL SPEAKERS
-          </Link>
+
+      <div
+        className={`${
+          variant === "main" ? "flex" : "hidden"
+        } items-center justify-center`}
+      >
+        <Link
+          href="/speakers"
+          className="font-bold text-xs lg:text-xl px-6 py-4 bg-tertiary text-secondary hover:bg-secondary hover:text-black transition-all duration-300 ease-in-out rounded-2xl"
+        >
+          SEE ALL SPEAKERS
+        </Link>
       </div>
 
-      <div className={`${variant === "speakers" ? "flex" : "hidden"} items-center justify-center`}>
-          <Link
-            href="/buy-a-ticket"
-            className="font-bold text-sm lg:text-xl px-6 py-4 bg-tertiary text-secondary hover:bg-secondary hover:text-black transition-all duration-300 ease-in-out rounded-2xl"
-          >
-            BUY A TICKET
-          </Link>
+      <div
+        className={`${
+          variant === "speakers" ? "flex" : "hidden"
+        } items-center justify-center`}
+      >
+        <Link
+          href="/buy-a-ticket"
+          className="font-bold text-sm lg:text-xl px-6 py-4 bg-tertiary text-secondary hover:bg-secondary hover:text-black transition-all duration-300 ease-in-out rounded-2xl"
+        >
+          BUY A TICKET
+        </Link>
       </div>
-        
-
     </div>
   );
 }

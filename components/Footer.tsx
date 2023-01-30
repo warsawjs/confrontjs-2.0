@@ -4,10 +4,9 @@ import { AiFillTwitterCircle, AiFillInstagram, AiFillFacebook } from 'react-icon
 import WJSLogo from '../public/WJSLogo.png';
 
 export default function Footer () {
-  // .col-4*3
+
   return (
     <div className="flex flex-col lg:flex-row justify-around bg-tertiary text-white text-xs lg:text-sm">
-
       <div className="h-[350px] flex flex-col items-center justify-around py-20 text-center">
         <p>Help us to reach<br/>a wider group of people,
         <br/>get a ready package<br/>that will make it easier for you:</p>
@@ -37,22 +36,18 @@ export default function Footer () {
           <p>Copyright @ 2023 by: <Link className="underline"  href="https://warsawjs.com/">WarsawJS</Link></p>
           
           <div className="flex flex-row gap-2 py-2">
-            
-            
             <Link className="underline underline-offset-4"  href="/why-confrontjs">About us</Link>
             <Link className="underline underline-offset-4"  href="">Contact</Link>
           </div>
         
           <div className="flex flex-row gap-2 py-2">
             <Link className="underline underline-offset-4"  href="">Code of Conduct</Link>
-            <Link className="underline underline-offset-4"  href="">Color Codes</Link>
-            
+            <Link className="underline underline-offset-4"  href="">Color Codes</Link>  
           </div>
           <div className="flex flex-row gap-2 py-2">
             <Link className="underline underline-offset-4"  href="">Privacy Policy</Link>
             <Link className="underline underline-offset-4"  href="">Terms and Conditions</Link>
           </div>
-        
         </div>
       </div>
 

@@ -4,7 +4,6 @@ export function Venue({ variant }:Props) {
   return (
   <>
     <div className="flex flex-col items-center py-40 text-base">
-
       <div className={`${variant === "main" ? "flex" : "hidden"} flex flex-col-reverse lg:flex-row items-center justify-center gap-12`}>
         <div className="flex flex-col items-center lg:items-end text-center lg:text-right justify-between gap-10 py-4">
           <h2 className="font-bold text-xl lg:text-4xl">VENUE</h2>
@@ -22,7 +21,6 @@ export function Venue({ variant }:Props) {
         </div>
         <div className="w-[306px] lg:w-[523px] h-[310px] rounded-3xl bg-tertiary"></div>
       </div>
-
 
       <div className={`${variant === "venue" ? "flex" : "hidden"} flex-col items-center gap-20`}>
         <div className="flex flex-col lg:flex-row justify-center gap-20">
@@ -49,7 +47,6 @@ export function Venue({ variant }:Props) {
             BECOME A SPONSOR
         </Link>
       </div>
-
     </div>
   </>
   )
