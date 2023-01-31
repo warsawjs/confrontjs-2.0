@@ -1,12 +1,12 @@
 import Hero from "@/components/sections/Hero";
-import { Speakers } from "@/components/sections/Speakers";
+import  Speakers  from "@/components/sections/Speakers";
 
 export function SpeakersPage() {
   return (
-    <>
+    <section className="bg-gradient-to-b from-[#A64AC9] to-white">
       <Hero variant="speakers"/>
-      <Speakers/>
-    </>
+      <Speakers variant="speakers"/>
+    </section>
   )
 }
 
