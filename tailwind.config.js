@@ -5,21 +5,21 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    screens:{
-      'lg': '1270px',
-    },
-    fontFamily:{
-      'sans': ['"Montserrat"', 'sans-serif'],
+    fontFamily: {
+      sans: ['"Montserrat"', "sans-serif"],
     },
     colors: {
-      primary: '#A64AC9',
-      secondary: '#17E9E0',
-      tertiary: '#2E3440',
-      black: '#1E1E1E',
-      white: '#FFFFFF',
+      primary: "#A64AC9",
+      secondary: "#17E9E0",
+      tertiary: "#2E3440",
+      black: "#1E1E1E",
+      white: "#FFFFFF",
     },
-    extend: {},
+    extend: {
+      screens: {
+        lg: "1270px",
+      },
+    },
   },
   plugins: [],
 };
-
