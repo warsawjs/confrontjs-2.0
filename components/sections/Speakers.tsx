@@ -1,14 +1,15 @@
 import React from "react";
-import data from "../../data/data.json";
 import Image from "next/image";
 import { IoIosArrowDropupCircle } from "react-icons/io";
 import Link from "next/link";
 
 type Props = {
   variant: String;
+  data: any;
+  info: any;
 };
 
-export default function Speakers({ variant }: Props) {
+export default function Speakers({ variant, data, info }: Props) {
   return (
     <div className="flex flex-col gap-20 px-5 lg:px-40 py-40">
       <div
@@ -18,16 +19,13 @@ export default function Speakers({ variant }: Props) {
       >
         <h2 className="font-bold text-xl text-white lg:text-4xl">SPEAKERS</h2>
         <p className="w-[306px] lg:w-[750px] text-xs text-white lg:text-base">
-          Dor ohur. Speras mikrong jepogt. Tångar nasam an. Emstat jyde. Are
-          benar. Udås tåbel stenoligt. Märk-dna bida, polyrad. Lyssna in
-          utsmarta. Söjojysk. Mikrons ultrang: om än sad. Ressade bek antitism.
-          Sofav telenilig. Matilda Gustavsson n
+          { info.speakersDescription }
         </p>
       </div>
 
       <div className="grid grid-cols-2 lg:grid-cols-3">
         {variant === "main"
-          ? data.speakers.slice(0, 6).map((speaker) => {
+          ? data.slice(0, 6).map((speaker, i) => {
               return (
                 <div className="flex flex-col items-center pb-10 gap-5">
                   <div className="relative w-[145px] h-[145px] lg:w-[300px] lg:h-[300px] flex items-end justify-center rounded-3xl bg-white overflow-hidden drop-shadow-xl shadow-[#392740]">
@@ -55,7 +53,7 @@ export default function Speakers({ variant }: Props) {
                 </div>
               );
             })
-          : data.speakers.map((speaker) => {
+          : data.map((speaker, i) => {
               return (
                 <div className="flex flex-col items-center pb-10 gap-5">
                   <div className="relative w-[145px] h-[145px] lg:w-[300px] lg:h-[300px] flex items-end justify-center rounded-3xl bg-white overflow-hidden drop-shadow-xl shadow-[#392740]">

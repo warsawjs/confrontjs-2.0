@@ -1,11 +1,16 @@
 import Hero from "@/components/sections/Hero";
 import  Speakers  from "@/components/sections/Speakers";
+import { buildStaticProps } from "@/hooks/useRemoteData";
 
-export function SpeakersPage() {
+export const getStaticProps = buildStaticProps(['speakers', 'info']);
+
+export function SpeakersPage({ speakers, info }: any) {
+  if (process.env.NEXT_PUBLIC_RELOAD) {
+  }
   return (
     <section className="bg-gradient-to-b from-[#A64AC9] to-white">
-      <Hero variant="speakers"/>
-      <Speakers variant="speakers"/>
+      <Hero variant="speakers" info={info}/>
+      <Speakers variant="speakers" data={speakers} info={info} />
     </section>
   )
 }

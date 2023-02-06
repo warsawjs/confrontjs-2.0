@@ -1,9 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import data from "../../data/data.json";
 
-export default function Hotel() {
+export default function Hotel({ data = [] }: any) {
   return (
     <div className="flex flex-col gap-20 px-6 lg:px-44 py-40">
       <div className="flex flex-col items-center gap-10 text-center">
@@ -16,18 +15,17 @@ export default function Hotel() {
         </p>
       </div>
       <div className="grid grid-cols-2 lg:grid-cols-3">
-        {data.Hotels.map((hotel) => {
+        {data.map((hotel) => {
           return (
             <div className="flex flex-col items-center gap-5 pb-10 text-center">
               <div className="flex flex-row gap-2 lg:gap-5">
                 <p className=" text-xs lg:text-base">{hotel.distance}</p>
-                <p className=" text-xs lg:text-base">{hotel.trip[0].time}</p>
-                <p className=" text-xs lg:text-base">{hotel.trip[0].type}</p>
+                <p className=" text-xs lg:text-base">{hotel['trip.time']}</p>
+                <p className=" text-xs lg:text-base">{hotel['trip.type']}</p>
               </div>
               <div className="w-[145px] h-[145px] lg:w-[300px] lg:h-[300px] rounded-3xl bg-tertiary">
-                <Image
-                  width={100}
-                  height={100}
+                <img
+                  className="w-full"
                   src={hotel.image_url}
                   alt={hotel.name}
                 />

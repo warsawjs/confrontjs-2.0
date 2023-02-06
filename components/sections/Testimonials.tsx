@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import data from "../../data/data.json";
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -13,7 +12,7 @@ const styles = {
   "--swiper-navigation-size": "30px",
 } as { [key: string]: string };
 
-export default function Testimonials() {
+export default function Testimonials({ data, info }: any) {
   const [slidesPerView, setSlidesPerView] = useState(1);
 
   useEffect(() => {
@@ -46,10 +45,7 @@ export default function Testimonials() {
       <div className="flex flex-col text-center items-center gap-5">
         <h1 className="font-bold text-xl lg:text-4xl">TESTIMONIALS</h1>
         <p className="w-[306px] lg:w-[750px] text-xs lg:text-base">
-          Dor ohur. Speras mikrong jepogt. Tångar nasam an. Emstat jyde. Are
-          benar. Udås tåbel stenoligt. Märk-dna bida, polyrad. Lyssna in
-          utsmarta. Söjojysk. Mikrons ultrang: om än sad. Ressade bek antitism.
-          Sofav telenilig. Matilda Gustavsson n
+          {info.testimonialsDesc}
         </p>
       </div>
       <Swiper
@@ -63,7 +59,7 @@ export default function Testimonials() {
         navigation={true}
         onSwiper={(swiper) => swiper.slideNext}
       >
-        {data.Testimonials.map((testimony) => {
+        {data.map((testimony: any) => {
           return (
             <SwiperSlide>
               <div className="w-full flex justify-center my-20">

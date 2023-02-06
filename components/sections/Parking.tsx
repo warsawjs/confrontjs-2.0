@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import FloorMap from "../FloorMap";
 
-export default function Parking() {
+export default function Parking({venue}: any) {
   return (
     <div className="flex flex-col items-center justify-center text-sm lg:text-base">
       <FloorMap />
@@ -10,31 +10,21 @@ export default function Parking() {
         <div className="flex flex-col items-center text-center gap-5">
           <h1 className="font-bold text-2xl lg:text-4xl">PARKING</h1>
           <p className="w-[200px] lg:w-[370px] font-semibold text-primary">
-            There will be 746 parking spaces available for use near the
-            conference venue.
+            {venue.parking}
           </p>
         </div>
 
         <div className="flex flex-col items-center text-center gap-5">
           <h2 className="font-bold text-xl lg:text-2xl">ENTRY GATES:</h2>
           <p className="w-[307px] lg:w-[640px]">
-            Three accessibles from Emilii Plater Street (one near Jerozolimskie
-            Street/Museum of Technology; the second near the Congress Hall; and
-            the third near Świętokrzyska Street on the PKiN side dedicated to
-            children) and one from Marszłkowska Street. Gates can be opened by
-            picking up the parking ticket or inserting a proximity subscriber
-            card
+            {venue.entry}
           </p>
         </div>
 
         <div className="flex flex-col items-center text-center gap-5">
           <h2 className="font-bold text-xl lg:text-2xl">EXITS:</h2>
           <p className="w-[307px] lg:w-[640px]">
-            One leaving toward Marszałkowska Street (next to the historic
-            pedestal for open-air speeches) and five towards Emilii Plater
-            Street (two next to the Museum of Technology near Jerozolimskie
-            Street; one next to the Congress Hall, and two near the swimming
-            pool by Świętokrzyska Street).
+            {venue.exit}
           </p>
         </div>
         <Link
