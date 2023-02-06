@@ -4,7 +4,11 @@ import Image from "next/image";
 import Link from "next/link";
 import { AiOutlineMenu } from "react-icons/ai";
 
-export default function Navbar() {
+const defaultProps = {
+  callForPapers: process.env.NEXT_PUBLIC_CALLFORPAPERS,
+}
+
+export function Nav({ info = defaultProps }: any) {
   const [menuOpen, setMenuOpen] = useState(true);
   const [activeLink, setActiveLink] = useState("");
 
@@ -92,3 +96,5 @@ export default function Navbar() {
     </section>
   );
 }
+
+export default Nav;

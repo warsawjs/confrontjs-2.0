@@ -6,8 +6,7 @@ import {
   AiFillInstagram,
   AiFillFacebook,
 } from "react-icons/ai";
-import data from "../../data/data.json";
-
+import { fetchData } from "@/hooks/useRemoteData";
 
 type params = {
   slug: string;
@@ -15,14 +14,15 @@ type params = {
   speaker: any;
 };
 
-
 export async function getStaticPaths() {
-  const paths = data.speakers.map((speaker) => `/speakers/${speaker.slug}`);
+  const speakers = await fetchData('speakers');
+  const paths = speakers.map((speaker: any) => `/speakers/${speaker.slug}`);
   return { paths, fallback: false };
 }
 
 export async function getStaticProps({ params }: params) {
-  const speaker = data.speakers.find((speaker) => speaker.slug === params.slug);
+  const speakers = await fetchData('speakers');
+  const speaker = speakers.find((speaker: any) => speaker.slug === params.slug);
   return { props: { speaker } };
 }
 
@@ -34,8 +34,8 @@ export default function Speaker({ speaker }: params) {
         <h2 className="text-sm lg:text-3xl">24MARCH 2023 IN WARSAW, POLAND</h2>
         <h1 className="font-bold text-3xl lg:text-[75px]">{speaker.name}</h1>
         <div className="flex flex-row text-xl text-white lg:text-5xl">
-          <h2>{speaker.company}</h2>
-          <h2>+{speaker.position}</h2>
+          <h2 title="company">{speaker.company}</h2>
+          <h2 title="position">+{speaker.position}</h2>
         </div>
         <div className="w-[145px] h-[145px] lg:w-[300px] lg:h-[300px] my-10 rounded-xl bg-white overflow-hidden drop-shadow-xl shadow-[#392740]">
         <Image

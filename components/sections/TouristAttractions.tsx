@@ -1,14 +1,13 @@
 import React from "react";
 import Link from "next/link";
-import data from "../../data/data.json";
 
-export default function TouristAttractions() {
+export default function TouristAttractions({ attractions }: { attractions: any[] }) {
   return (
     <div className="flex flex-col items-center gap-10 py-20 lg:py-40">
       <h1 className="font-bold text-2xl text-primary lg:text-4xl pb-20">
         TOURIST ATTRACTIONS
       </h1>
-      {data.Attractions.map((attraction, index) => {
+      {attractions.map((attraction, index) => {
         return (
           <div
             className={`flex flex-col-reverse ${
@@ -34,7 +33,12 @@ export default function TouristAttractions() {
                 BUY A TICKET
               </Link>
             </div>
-            <div className="lg:w-[520px] lg:h-[480px] w-[310px] h-[185px] rounded-3xl bg-tertiary"></div>
+            <div className="lg:w-[520px] lg:h-[480px] w-[310px] h-[185px] rounded-3xl bg-tertiary">
+              <img
+                className="w-full"
+                src={attraction.image_url}
+              />
+            </div>
           </div>
         );
       })}

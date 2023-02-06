@@ -2,9 +2,13 @@ import Image from "next/image";
 import React from "react";
 import Link from "next/link";
 import logo from "../../public/logo.png";
-type Props = { variant: string };
 
-export default function Hero({ variant }: Props) {
+type Props = {
+  variant: string;
+  info: any;
+};
+
+export default function Hero({ variant, info }: Props) {
 
   return (
     <div className="flex flex-col py-20 gap-5 items-center text-center">
@@ -26,8 +30,7 @@ export default function Hero({ variant }: Props) {
         </h1>
         <div className="flex flex-col lg:flex-row gap-5 py-10">
           <Link
-            /* will be replaced after setting up CMS */
-            href="https://docs.google.com/forms/d/e/1FAIpQLSd4k9O91d66nfxxQG4N1HOrkBLczlQ7ZxaBkN7bnFU7omTB7A/viewform"
+            href={info.sponsorLink}
             className="font-bold px-6 py-4 border-2 text-xs lg:text-xl text-black hover:bg-secondary hover:text-black transition-all duration-300 ease-in-out rounded-2xl"
           >
             BECOME A SPONSOR
@@ -57,12 +60,9 @@ export default function Hero({ variant }: Props) {
         <h1 className="font-bold text-3xl lg:text-7xl text-tertiary">
           SCHEDULE
         </h1>
-        <h2 className="text-xl lg:text-3xl">LOREM IPSUM</h2>
+        <h2 className="text-xl lg:text-3xl">{info.heroTitle}</h2>
         <p className="w-72 lg:w-[750px]">
-          Dor ohur. Speras mikrong jepogt. Tångar nasam an. Emstat jyde. Are
-          benar. Udås tåbel stenoligt. Märk-dna bida, polyrad. Lyssna in
-          utsmarta. Söjojysk. Mikrons ultrang: om än sad. Ressade bek antitism.
-          Sofav telenilig. Matilda Gustavsson n
+          {info.heroDesc}
         </p>
       </div>
 
@@ -75,12 +75,9 @@ export default function Hero({ variant }: Props) {
         <h1 className="font-bold text-3xl lg:text-7xl text-tertiary">
           SPEAKERS
         </h1>
-        <h2 className="font-bold text-xl text-white lg:text-3xl">LOREM IPSUM</h2>
+        <h2 className="font-bold text-xl text-white lg:text-3xl">{info.heroTitle}</h2>
         <p className="w-72 lg:w-[750px]">
-          Dor ohur. Speras mikrong jepogt. Tångar nasam an. Emstat jyde. Are
-          benar. Udås tåbel stenoligt. Märk-dna bida, polyrad. Lyssna in
-          utsmarta. Söjojysk. Mikrons ultrang: om än sad. Ressade bek antitism.
-          Sofav telenilig. Matilda Gustavsson n
+          {info.heroDesc}
         </p>
       </div>
 
@@ -95,10 +92,7 @@ export default function Hero({ variant }: Props) {
         </h1>
         <h2 className="font-bold text-xl text-white lg:text-3xl">PRICING PLANS</h2>
         <p className="w-72 lg:w-[750px]">
-          Dor ohur. Speras mikrong jepogt. Tångar nasam an. Emstat jyde. Are
-          benar. Udås tåbel stenoligt. Märk-dna bida, polyrad. Lyssna in
-          utsmarta. Söjojysk. Mikrons ultrang: om än sad. Ressade bek antitism.
-          Sofav telenilig. Matilda Gustavsson n
+          {info.heroDesc}
         </p>
       </div>
 
@@ -123,7 +117,7 @@ export default function Hero({ variant }: Props) {
         <h1 className="font-bold text-3xl lg:text-7xl text-tertiary">
           WHY CONFRONTJS?
         </h1>
-        <h2 className="font-bold text-xl text-white lg:text-3xl">LOREM IPSUM</h2>
+        <h2 className="font-bold text-xl text-white lg:text-3xl">{info.whyDesc}</h2>
       </div>
     </div>
   );
