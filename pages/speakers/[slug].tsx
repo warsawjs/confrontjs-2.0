@@ -16,13 +16,13 @@ type params = {
 
 export async function getStaticPaths() {
   const speakers = await fetchData('speakers');
-  const paths = speakers.map((speaker) => `/speakers/${speaker.slug}`);
+  const paths = speakers.map((speaker: any) => `/speakers/${speaker.slug}`);
   return { paths, fallback: false };
 }
 
 export async function getStaticProps({ params }: params) {
   const speakers = await fetchData('speakers');
-  const speaker = speakers.find((speaker) => speaker.slug === params.slug);
+  const speaker = speakers.find((speaker: any) => speaker.slug === params.slug);
   return { props: { speaker } };
 }
 

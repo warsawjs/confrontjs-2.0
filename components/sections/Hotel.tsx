@@ -15,7 +15,7 @@ export default function Hotel({ data = [] }: any) {
         </p>
       </div>
       <div className="grid grid-cols-2 lg:grid-cols-3">
-        {data.map((hotel) => {
+        {data.map((hotel: any) => {
           return (
             <div className="flex flex-col items-center gap-5 pb-10 text-center">
               <div className="flex flex-row gap-2 lg:gap-5">

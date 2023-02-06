@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-export default function TouristAttractions({ attractions }) {
+export default function TouristAttractions({ attractions }: { attractions: any[] }) {
   return (
     <div className="flex flex-col items-center gap-10 py-20 lg:py-40">
       <h1 className="font-bold text-2xl text-primary lg:text-4xl pb-20">

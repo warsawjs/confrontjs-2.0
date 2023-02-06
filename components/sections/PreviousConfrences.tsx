@@ -10,7 +10,7 @@ export default function PreviousConfrences({ data = [], info }: any) {
         <p className="w-[306px] lg:w-[750px] text-xs lg:text-base">{info.previousConferences}</p>
       </div>
       <div className='grid grid-cols-1 lg:grid-cols-2'>
-        {data.map((conference) => {
+        {data.map((conference: any) => {
             return(
                 <div className='flex flex-col items-center gap-5 pb-20'>
                     <h2 className='font-bold text-xl lg:text-2xl'>{conference.title}</h2>

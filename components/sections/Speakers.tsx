@@ -25,7 +25,7 @@ export default function Speakers({ variant, data, info }: Props) {
 
       <div className="grid grid-cols-2 lg:grid-cols-3">
         {variant === "main"
-          ? data.slice(0, 6).map((speaker, i) => {
+          ? data.slice(0, 6).map((speaker: any, i: number) => {
               return (
                 <div className="flex flex-col items-center pb-10 gap-5">
                   <div className="relative w-[145px] h-[145px] lg:w-[300px] lg:h-[300px] flex items-end justify-center rounded-3xl bg-white overflow-hidden drop-shadow-xl shadow-[#392740]">
@@ -53,7 +53,7 @@ export default function Speakers({ variant, data, info }: Props) {
                 </div>
               );
             })
-          : data.map((speaker, i) => {
+          : data.map((speaker: any, i: number) => {
               return (
                 <div className="flex flex-col items-center pb-10 gap-5">
                   <div className="relative w-[145px] h-[145px] lg:w-[300px] lg:h-[300px] flex items-end justify-center rounded-3xl bg-white overflow-hidden drop-shadow-xl shadow-[#392740]">
