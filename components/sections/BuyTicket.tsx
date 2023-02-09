@@ -7,7 +7,7 @@ export default function buyTicket({ data = [] }: { data: object[] }) {
       <div>
         <div className="w-[100vw] flex flex-col lg:flex-row mt-10 justify-center items-center gap-10">
           {data.map((ticket, i) => {
-            const Ticket = [Premium, Regular, PreEarly][i % 3];
+            const Ticket = [Premium, Regular][i % 2];
             return <Ticket ticket={ticket} />;
           })}
         </div>

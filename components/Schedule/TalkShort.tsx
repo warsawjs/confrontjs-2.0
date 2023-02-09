@@ -9,7 +9,8 @@ interface TalkShortProps {
 
 export function TalkShort({ lineVariant, talkDetails }: TalkShortProps) {
   const [open, setOpen] = useState(false);
-  const { author, date, description, timeFrom, timeTo, title } = talkDetails;
+  const { author, date, description, timeFrom, timeTo, title, picture } =
+    talkDetails;
 
   return (
     <article className="mb-10 md:mb-12">
@@ -46,13 +47,21 @@ export function TalkShort({ lineVariant, talkDetails }: TalkShortProps) {
           <div className="flex justify-between items-center">
             <div>
               <h5 className="font-semibold text-lg mb-1">{title}</h5>
-              <span className="block text-xs">By {author}</span>
+              <span className="block text-xs">
+                {author !== "" ? "By" : ""} {author}
+              </span>
             </div>
             <Image
-              src="/microphone.svg"
-              width="28"
-              height="28"
-              alt="decoration"
+              src={picture}
+              style={{
+                borderRadius: "60px",
+                border: "2px",
+                borderStyle: "solid",
+                borderColor: "#A64AC9",
+              }}
+              width="60"
+              height="60"
+              alt="avatar"
             />
           </div>
           <p
