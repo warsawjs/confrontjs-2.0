@@ -19,15 +19,6 @@ export default function Premium({ ticket }: any) {
           background: "#A64AC9",
         }}
       />
-      <p>{ticket.description}</p>
-      <hr
-        style={{
-          width: "80%",
-          height: "2px",
-          color: "#A64AC9",
-          background: "#A64AC9",
-        }}
-      />
       <h3 className="font-bold text-xl lg:text-2xl text-primary uppercase">
         {ticket.price}
       </h3>
