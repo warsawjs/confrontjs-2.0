@@ -6,7 +6,6 @@ export function SpeakerShort({ children }: any) {
     <Link href={"/speaker/evan-you"}>open page</Link>
     <small onClick={ev => {/* TODO change implementation */ (ev.target as any).nextElementSibling.showModal()}}>Speaker details</small>
     <dialog onSubmit={() => {}}>
-      [Speaker details here]
       <SpeakerDetails/>
       <form method="dialog">
         <button type="submit">Close</button>

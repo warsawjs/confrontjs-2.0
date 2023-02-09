@@ -12,7 +12,6 @@ const nextConfig = {
       "pbs.twimg.com",
       "i.ibb.co",
       "1drv.ms",
-      "kulkarniankita.com",
       "upload.wikimedia.org",
       "profitroom-uploads.fra1.digitaloceanspaces.com",
       "u.profitroom.pl",
