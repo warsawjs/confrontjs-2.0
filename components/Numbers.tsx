@@ -1,4 +1,4 @@
-type Props = { color: string, info: any };
+type Props = { color: string; info: any };
 /* to make the component reusable and changing style quickly */
 const secondary = "#17E9E0";
 const primary = "#A64AC9";
@@ -7,7 +7,9 @@ export function Numbers({ color, info }: Props) {
     <>
       <div className="flex flex-col py-40 items-center text-center gap-6 text-xs lg:text-sm">
         <div className={`${color === secondary ? "flex" : "hidden"}`}>
-          <h1 className="font-bold text-xl lg:text-4xl">WHY CONFRONTJS?</h1>
+          <h1 className="font-bold text-xl lg:text-4xl uppercase">
+            WHY CONFRONTJS?
+          </h1>
         </div>
         <div className="flex flex-row justify-center gap-2 lg:gap-24">
           <div className="flex flex-col items-center">
@@ -18,7 +20,7 @@ export function Numbers({ color, info }: Props) {
               {info.days}
             </h1>
             <h2 className="pb-2 lg:pb-4 font-bold text-lg lg:text-3xl text-black uppercase">
-              {'Day' + (info.days > 1 ? 's' : '')}
+              {"Day" + (info.days > 1 ? "s" : "")}
             </h2>
             <hr
               style={{
@@ -37,7 +39,7 @@ export function Numbers({ color, info }: Props) {
               {info.lines}
             </h1>
             <h2 className="pb-2 lg:pb-4 font-bold text-lg lg:text-3xl text-black">
-              {'Line' + (info.lines > 1 ? 's' : '')}
+              {"Line" + (info.lines > 1 ? "s" : "")}
             </h2>
             <hr
               style={{
@@ -56,7 +58,7 @@ export function Numbers({ color, info }: Props) {
               {info.speakers}
             </h1>
             <h2 className="pb-2 lg:pb-4 font-bold text-lg lg:text-3xl text-black">
-              {'Speakers' + (info.lines > 1 ? 's' : '')}
+              {"Speakers" + (info.lines > 1 ? "s" : "")}
             </h2>
             <hr
               style={{
@@ -87,9 +89,7 @@ export function Numbers({ color, info }: Props) {
             />
           </div>
         </div>
-        <p className="w-[308px] lg:w-[950px]">
-          {info.desc}
-        </p>
+        <p className="w-[308px] lg:w-[950px]">{info.desc}</p>
       </div>
     </>
   );

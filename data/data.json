@@ -84,25 +84,25 @@
             "title": "VENUE1",
             "index": 1,
             "paragraph": "The world is constantly evolving, and with it, so are the ways in which we communicate. Technology has played a big role in shaping the way we interact with one another, from the way we send messages to the way we connect with people on the other side of the world. Social media has become a powerful tool for connecting people, but it also has its drawbacks. One of the biggest concerns is the impact it has on our mental health and well-being.",
-             "url": "url1"
+            "url": "url1"
         },
         {
             "title": "VENUE2",
             "index": 2,
             "paragraph": "The world is constantly evolving, and with it, so are the ways in which we communicate. Technology has played a big role in shaping the way we interact with one another, from the way we send messages to the way we connect with people on the other side of the world. Social media has become a powerful tool for connecting people, but it also has its drawbacks. One of the biggest concerns is the impact it has on our mental health and well-being.",
-             "url": "url2"
+            "url": "url2"
         },
         {
             "title": "VENUE3",
             "index": 3,
             "paragraph": "The world is constantly evolving, and with it, so are the ways in which we communicate. Technology has played a big role in shaping the way we interact with one another, from the way we send messages to the way we connect with people on the other side of the world. Social media has become a powerful tool for connecting people, but it also has its drawbacks. One of the biggest concerns is the impact it has on our mental health and well-being.",
-             "url": "url3"
+            "url": "url3"
         },
         {
             "title": "VENUE4",
             "index": 4,
             "paragraph": "The world is constantly evolving, and with it, so are the ways in which we communicate. Technology has played a big role in shaping the way we interact with one another, from the way we send messages to the way we connect with people on the other side of the world. Social media has become a powerful tool for connecting people, but it also has its drawbacks. One of the biggest concerns is the impact it has on our mental health and well-being.",
-             "url": "url4"
+            "url": "url4"
         }
     ],
     "Tickets": [
@@ -110,22 +110,22 @@
             "type": "PREMIUM",
             "title": "by chris Lilley",
             "description": "d web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in",
-             "price": "1200PLN",
-             "url": "url1"
+            "price": "1200PLN",
+            "url": "url1"
         },
         {
             "type": "REGULAR",
             "title": "by chris Lilley",
             "description": "d web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in",
-             "price": "600PLN",
-             "url": "url2"
+            "price": "600PLN",
+            "url": "url2"
         },
         {
             "type": "PRE EARLY",
             "title": "by chris Lilley",
             "description": "d web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in",
-             "price": "300PLN",
-             "url": "url3"
+            "price": "300PLN",
+            "url": "url3"
         }
     ],
     "Testimonials": [
@@ -159,7 +159,6 @@
             "position": "project menager",
             "comment": "Dor ohur. Speras mikrong jepogt. Tångar nasam an. Emstat jyde. Are benar. Udås tåbel stenoligt. Märk-dna bida, polyrad. Lyssna in utsmarm än sad. Ressade bek antitism. . Matilda Gustavsson n"
         }
-        
     ],
     "PreviousConferences": [
         {
@@ -201,7 +200,6 @@
             "talkTitle": "The art of visualization and composition in building component systems.",
             "talkDescription": "Let's face it, understanding a long page of specs is not always a trivial task to do. Same as building a complex component system. Let's explore how we can combine visualization and composition API to create our reusable and visual-able logic system for your components, ready to use in Vue application.",
             "Technologies": "XState, Stately, Vue, JavaScript"
-
         },
         {
             "id": "2",
@@ -216,7 +214,6 @@
             "talkTitle": "The modern frontend ecosystem (keynote)",
             "talkDescription": "2022 saw the rise of new paradigms, from Qwik to SolidJS to SvelteKit 1.0. This talk explores the current and predicted state of frontend frameworks and enables engineers to be in the loop and make the best choice for their teams. ",
             "Technologies": "Qwik, solid, next.js, React, javascript "
-
         },
         {
             "id": "3",
@@ -231,7 +228,6 @@
             "talkTitle": "GraphQL is just HTTP",
             "talkDescription": "Let's face it, there are many advantages to using GraphQL compared to REST APIs. But if you strip it down to the network protocol, it's using HTTP just as REST. We developers need to write a lot of imperative code to retrieve data to display in our applications and handle state. With GraphQL you can, when using the correct libraries, decrease the amount of code needed around data fetching and state-management. Next to increased flexibility, better performance and most of all an improved developer experience. In this talk I show GraphQL's magic and how (in the end) it's just HTTP.",
             "Technologies": "GraphQL, JavaScript, Data fetching, state management"
-
         },
         {
             "id": "4",
@@ -246,9 +242,7 @@
             "talkTitle": "Channeling your inner tech blogger",
             "talkDescription": "There is a saying that the best way to learn something is to teach it to someone else. When we write a tech blog, we share our knowledge with others and deepen our understanding of the subject. We also improve other skills along the way and build our professional brand and signature.In this talk, we will discuss the benefits of writing a blog and try to remove all the barriers that have stopped us so far from writing a blog.",
             "Technologies": "JavaScript"
-
         },
-        
         {
             "id": "5",
             "name": "Marek Kirejczyk",
@@ -262,7 +256,6 @@
             "talkTitle": "3 magic techniques",
             "talkDescription": "Unveiling the secrets of successful project delivery: Discover three overlooked yet powerful techniques that can help you overcome common challenges faced by CTOs, Agile coaches, and DevOps teams. Learn how to deliver on time, foster positive relationships with stakeholders, and avoid project failure with these easy-to-implement tricks.",
             "Technologies": "Web, Mobile, Blockchain and Satellites "
-
         },
         {
             "id": "6",
@@ -277,7 +270,6 @@
             "talkTitle": "Test Drive Your Code",
             "talkDescription": "What can software developers learn from doctors, scientists and martial artists? During my years as a developer I’ve written lots of software. Ranging from data related like image processing, sound analysis and synthesis, and data analysis to working on fullstack web applications.I’ve picked up some skills in various fields like performance, design patterns and devops. In this talk I’m going to share with you the one thing that makes me a better developer than my younger self - automated tests. You will learn how tests can improve your code, how to write better tests, how to use code coverage and how it is all related to medicine, housekeeping work and martial arts.",
             "Technologies": "javascript, code quality"
-
         },
         {
             "id": "7",
@@ -292,7 +284,6 @@
             "talkTitle": "Digital ecology: How can you mitigate the carbon footprint of websites?",
             "talkDescription": "Did you know that about 250 000 websites are published every day? The majority uses too heavy fonts, unnecessary images or utilises redundant libraries generating carbon footprint. ec0lint is a tool for frontend developers that mitigates the carbon footprint of websites by showing tips on how to create a more climate-friendly code. Thanks to code optimization ec0lint can help in reducing emissions from 1.8 g to ~0.2 g per one view saving 216 kg CO2 for each website (-88%!) annually.",
             "Technologies": "JavaScript, React, TypeScript"
-
         },
         {
             "id": "8",
@@ -307,7 +298,6 @@
             "talkTitle": "## **Building a lightning-fast site with Next.js, GraphQL and Tailwind ",
             "talkDescription": "Next.js has grown in popularity over the past couple of years with features like server-side rendering, incremental static regeneration, image optimization, and more. In contrast, GraphQL is known for not just returning data for what you need with good schema design practices but also a good dev experience.In this talk, I’ll talk about how one can build an app that not just scales but also has high performance with Next.js, GraphQL and Tailwind. And Lastly, the future of CSS and Frontend development is building utilities, so CSS does not feel like an afterthought. At the end of this talk, you will learn how to go from making a sample app to a highly performant production-ready application.",
             "Technologies": "react, tailwind, graphql"
-
         },
         {
             "id": "9",
@@ -322,8 +312,38 @@
             "talkTitle": "Classic design patterns for the modern JS developer",
             "talkDescription": "In this session we will learn how and why classic software design patterns are relevant for the modern frontend developer - and how to leverage then for everyday challenges.All with live coding examples based on real world use-cases",
             "Technologies": "TypeScript"
-
         }
-        
+    ],
+    "sponsors": [
+        {
+            "id": "1",
+            "name": "evolution",
+            "picture": "",
+            "url": "https://www.evolution.com/"
+        },
+        {
+            "id": "2",
+            "name": "daftcode",
+            "picture": "",
+            "url": "https://daftcode.pl/"
+        },
+        {
+            "id": "3",
+            "name": "prisma",
+            "picture": "",
+            "url": "https://www.prisma.io/"
+        },
+        {
+            "id": "4",
+            "name": "fresha",
+            "picture": "",
+            "url": "https://www.fresha.com/"
+        },
+        {
+            "id": "5",
+            "name": "xfaang",
+            "picture": "",
+            "url": "https://xfaang.com/"
+        }
     ]
 }
