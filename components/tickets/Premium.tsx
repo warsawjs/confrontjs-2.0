@@ -5,9 +5,11 @@ export default function Premium({ ticket }: any) {
   return (
     <div
       className="w-[240px] h-[440px] lg:w-[312px] lg:h-[530px] flex flex-col justify-around py-4 px-14 items-center 
-            text-center bg-white drop-shadow-xl shadow-[#392740] rounded-3xl text-black font-medium"
+       text-center bg-white drop-shadow-xl shadow-[#392740] rounded-3xl text-black font-medium"
     >
-      <h3 className="font-bold text-xl lg:text-2xl text-primary">{ticket.type}</h3>
+      <h3 className="font-bold text-xl lg:text-2xl text-primary uppercase">
+        {ticket.type}
+      </h3>
       <p>{ticket.title}</p>
       <hr
         style={{
@@ -17,9 +19,7 @@ export default function Premium({ ticket }: any) {
           background: "#A64AC9",
         }}
       />
-      <p>
-        {ticket.description}
-      </p>
+      <p>{ticket.description}</p>
       <hr
         style={{
           width: "80%",
@@ -28,9 +28,11 @@ export default function Premium({ ticket }: any) {
           background: "#A64AC9",
         }}
       />
-      <h3 className="font-bold text-xl lg:text-2xl text-primary">{ticket.price}</h3>
+      <h3 className="font-bold text-xl lg:text-2xl text-primary uppercase">
+        {ticket.price}
+      </h3>
       <Link
-        className="py-4 px-6 font-bold text-white bg-primary hover:bg-secondary hover:text-black transition-all duration-300 ease-in-out rounded-xl"
+        className="py-4 px-6 font-bold text-white uppercase bg-primary hover:bg-secondary hover:text-black transition-all duration-300 ease-in-out rounded-xl"
         href={ticket.url}
       >
         BUY

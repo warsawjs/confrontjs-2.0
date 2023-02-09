@@ -43,7 +43,9 @@ export default function Testimonials({ data, info }: any) {
   return (
     <div className="flex-col items-center justify-center py-40 lg:px-40 lg:px-38">
       <div className="flex flex-col text-center items-center gap-5">
-        <h1 className="font-bold text-xl lg:text-4xl">TESTIMONIALS</h1>
+        <h1 className="font-bold text-xl lg:text-4xl uppercase">
+          TESTIMONIALS
+        </h1>
         <p className="w-[306px] lg:w-[750px] text-xs lg:text-base">
           {info.testimonialsDesc}
         </p>

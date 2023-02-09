@@ -19,7 +19,7 @@ export function Line({
       <div className="text-center">
         <h3
           className={`font-bold text-xl md:text-4xl mb-6 mt-12 md:mt-0 ${
-            lineVariant === "one" ? "text-primary" : ""
+            lineVariant === "one" ? "text-primary" : "text-secondary"
           }`}
         >
           {title}
