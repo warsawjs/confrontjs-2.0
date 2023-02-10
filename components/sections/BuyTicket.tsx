@@ -1,5 +1,5 @@
 import React from "react";
-import { Regular, Premium, PreEarly } from "../tickets";
+import { Regular, Premium } from "../tickets";
 
 export default function buyTicket({ data = [] }: { data: object[] }) {
   return (

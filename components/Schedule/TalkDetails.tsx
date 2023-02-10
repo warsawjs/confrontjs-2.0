@@ -1,6 +1,6 @@
 export function TalkDetails({ children = [] }) {
   return (<div className="lg:max-w-[800px]">
-    <h3>TalkDetails</h3>
+    <h3>Talk Details</h3>
     <div>
       {children}
     </div>

@@ -19,7 +19,6 @@ export default function Premium({ ticket }: any) {
           background: "#A64AC9",
         }}
       />
-
       <h3 className="font-bold text-xl lg:text-2xl text-primary uppercase">
         {ticket.price}
       </h3>

@@ -130,7 +130,7 @@ export function Organizers() {
               <p>Assistant Organizer</p>
             </div>
             <p className="w-56 lg:w-64">
-              She has an eye for beauty and passion to demonstrate it.
+              Communications specialist. She has an eye for beauty and passion to demonstrate it.
             </p>
             <div className="text-4xl text-black flex justify-center gap-2 py-2">
               <Link
@@ -177,7 +177,7 @@ export function Organizers() {
               <p>Assistant Organizer</p>
             </div>
             <p className="w-56 lg:w-64">
-              International Businessman and entrepreneur.
+              International Businessman and entrepreneur. ConfrontJS Webapp Project Manager
             </p>
             <div className="text-4xl text-black flex justify-center gap-2 py-2">
               <Link

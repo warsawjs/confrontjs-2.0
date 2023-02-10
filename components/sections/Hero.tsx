@@ -29,7 +29,7 @@ export default function Hero({ variant, info }: Props) {
           Join us for the Next Front - End Conference
         </h3>
         <h2 className="text-sm text-white lg:text-3xl">
-          24th of March 2023 - Warsaw, poland
+          24th of March 2023 - Warsaw, Poland
         </h2>
         <h1 className="w-72 lg:w-[740px] font-bold text-xl lg:text-4xl text-tertiary uppercase">
           EMPOWERING THE NEXT GENERATION OF FRONT-END PROFESSIONALS
@@ -63,7 +63,7 @@ export default function Hero({ variant, info }: Props) {
         } flex-col gap-5 items-center text-center text-sm lg:text-base`}
       >
         <p className="text-sm text-white lg:text-3xl">
-          24 march 2023 in warsaw, poland
+          24 March 2023 in Warsaw, Poland
         </p>
         <h1 className="font-bold text-3xl lg:text-7xl text-tertiary uppercase">
           SCHEDULE
@@ -80,7 +80,7 @@ export default function Hero({ variant, info }: Props) {
         } flex-col gap-5 items-center text-center text-sm lg:text-base`}
       >
         <p className="text-sm text-white lg:text-3xl">
-          24 march 2023 in warsaw, poland
+          24 March 2023 in Warsaw, Poland
         </p>
         <h1 className="font-bold text-3xl lg:text-7xl text-tertiary">
           SPEAKERS
@@ -97,7 +97,7 @@ export default function Hero({ variant, info }: Props) {
         } flex-col gap-5 items-center text-center text-sm lg:text-base`}
       >
         <p className="text-sm text-white lg:text-3xl">
-          24 march 2023 in warsaw, poland
+          24 March 2023 in Warsaw, Poland
         </p>
         <h1 className="font-bold text-3xl lg:text-7xl text-tertiary">
           GET YOUR TICKET
@@ -114,7 +114,7 @@ export default function Hero({ variant, info }: Props) {
         } flex-col gap-5 items-center text-center text-sm lg:text-base`}
       >
         <h2 className="text-sm text-white lg:text-3xl">
-          24 march 2023 in warsaw, poland
+          24 March 2023 in Warsaw, Poland
         </h2>
         <h1 className="font-bold text-3xl lg:text-7xl text-tertiary">
           CONFRONTJS 2023
@@ -128,7 +128,7 @@ export default function Hero({ variant, info }: Props) {
         } flex-col gap-5 items-center text-center text-sm lg:text-base`}
       >
         <p className="text-sm text-white lg:text-3xl">
-          24 march 2023 in warsaw, poland
+          24 March 2023 in Warsaw, Poland
         </p>
         <h1 className="font-bold text-3xl lg:text-7xl text-tertiary">
           WHY CONFRONTJS?

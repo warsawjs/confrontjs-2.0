@@ -76,7 +76,7 @@ export function Nav({ info = defaultProps }: any) {
           className="hover:text-primary uppercase transition-all duration-300 ease-in-out"
           href="https://docs.google.com/forms/d/e/1FAIpQLSdnBD9KUIS58ciXIXiUoNfvaN_DgHLoeg0QAwOex9YfOAdp0w/viewform"
         >
-          CALL FOR PAPERS
+          CALL FOR PROPOSALS
         </Link>
         <Link
           /* will be replaced after setting up CMS */
