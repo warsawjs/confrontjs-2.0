@@ -9,8 +9,7 @@ export const timelineData: TalkDetails[] = [
     timeFrom: "8:00",
     timeTo: "8:30",
     picture: "https://s3.eu-central-1.amazonaws.com/www.warsawjs.com/static/images/people/tejas-kumar.jpg",
-    description:
-      "Dor ohur. Speras mikrong jepogt. Tångar nasam an. Emstat jyde. Are benar. Udås tåbel stenoligt. Märk-dna bida, polyrad. Lyssna in utsmarta. Söjojysk. Mikrons ultrang: om än sad. Ressade bek antitism. Sofav telenilig. Ma",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
   {
     id: 2,
@@ -20,8 +19,7 @@ export const timelineData: TalkDetails[] = [
     timeFrom: "9:00",
     timeTo: "9:30",
     picture: "https://s3.eu-central-1.amazonaws.com/www.warsawjs.com/static/images/people/tejas-kumar.jpg",
-    description:
-      "Dor ohur. Speras mikrong jepogt. Tångar nasam an. Emstat jyde. Are benar. Udås tåbel stenoligt. Märk-dna bida, polyrad. Lyssna in utsmarta. Söjojysk. Mikrons ultrang: om än sad. Ressade bek antitism. Sofav telenilig. Ma",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
   {
     id: 3,
@@ -31,8 +29,7 @@ export const timelineData: TalkDetails[] = [
     timeFrom: "10:00",
     timeTo: "10:30",
     picture: "https://s3.eu-central-1.amazonaws.com/www.warsawjs.com/static/images/people/tejas-kumar.jpg",
-    description:
-      "Dor ohur. Speras mikrong jepogt. Tångar nasam an. Emstat jyde. Are benar. Udås tåbel stenoligt. Märk-dna bida, polyrad. Lyssna in utsmarta. Söjojysk. Mikrons ultrang: om än sad. Ressade bek antitism. Sofav telenilig. Ma",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
   {
     id: 4,
@@ -42,8 +39,7 @@ export const timelineData: TalkDetails[] = [
     timeFrom: "11:00",
     timeTo: "11:30",
     picture: "https://s3.eu-central-1.amazonaws.com/www.warsawjs.com/static/images/people/tejas-kumar.jpg",
-    description:
-      "Dor ohur. Speras mikrong jepogt. Tångar nasam an. Emstat jyde. Are benar. Udås tåbel stenoligt. Märk-dna bida, polyrad. Lyssna in utsmarta. Söjojysk. Mikrons ultrang: om än sad. Ressade bek antitism. Sofav telenilig. Ma",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
   {
     id: 5,
@@ -53,8 +49,7 @@ export const timelineData: TalkDetails[] = [
     timeFrom: "12:00",
     timeTo: "12:30",
     picture: "https://s3.eu-central-1.amazonaws.com/www.warsawjs.com/static/images/people/tejas-kumar.jpg",
-    description:
-      "Dor ohur. Speras mikrong jepogt. Tångar nasam an. Emstat jyde. Are benar. Udås tåbel stenoligt. Märk-dna bida, polyrad. Lyssna in utsmarta. Söjojysk. Mikrons ultrang: om än sad. Ressade bek antitism. Sofav telenilig. Ma",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
   {
     id: 6,
@@ -64,8 +59,7 @@ export const timelineData: TalkDetails[] = [
     timeFrom: "13:00",
     timeTo: "13:30",
     picture: "https://s3.eu-central-1.amazonaws.com/www.warsawjs.com/static/images/people/tejas-kumar.jpg",
-    description:
-      "Dor ohur. Speras mikrong jepogt. Tångar nasam an. Emstat jyde. Are benar. Udås tåbel stenoligt. Märk-dna bida, polyrad. Lyssna in utsmarta. Söjojysk. Mikrons ultrang: om än sad. Ressade bek antitism. Sofav telenilig. Ma",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
   {
     id: 7,
@@ -75,8 +69,7 @@ export const timelineData: TalkDetails[] = [
     timeFrom: "15:00",
     timeTo: "15:30",
     picture: "https://s3.eu-central-1.amazonaws.com/www.warsawjs.com/static/images/people/tejas-kumar.jpg",
-    description:
-      "Dor ohur. Speras mikrong jepogt. Tångar nasam an. Emstat jyde. Are benar. Udås tåbel stenoligt. Märk-dna bida, polyrad. Lyssna in utsmarta. Söjojysk. Mikrons ultrang: om än sad. Ressade bek antitism. Sofav telenilig. Ma",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
   {
     id: 8,
@@ -86,7 +79,6 @@ export const timelineData: TalkDetails[] = [
     timeFrom: "16:00",
     timeTo: "16:30",
     picture: "https://s3.eu-central-1.amazonaws.com/www.warsawjs.com/static/images/people/tejas-kumar.jpg",
-    description:
-      "Dor ohur. Speras mikrong jepogt. Tångar nasam an. Emstat jyde. Are benar. Udås tåbel stenoligt. Märk-dna bida, polyrad. Lyssna in utsmarta. Söjojysk. Mikrons ultrang: om än sad. Ressade bek antitism. Sofav telenilig. Ma",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
 ];
