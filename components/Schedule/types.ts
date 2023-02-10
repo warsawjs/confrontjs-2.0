@@ -6,6 +6,7 @@ export interface TalkDetails {
   title: string;
   author: string;
   description: string;
+  picture: string;
 }
 
 export type LineVariant = "one" | "two";

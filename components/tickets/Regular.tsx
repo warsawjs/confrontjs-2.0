@@ -17,6 +17,7 @@ export default function Regular({ ticket }: any) {
           background: "#FFFFFF",
         }}
       />
+
       <h3 className="font-bold text-xl lg:text-2xl uppercase">
         {ticket.price}
       </h3>
