@@ -9,13 +9,30 @@ const defaultProps = {
 };
 
 export function Nav({ info = defaultProps }: any) {
-  const [menuOpen, setMenuOpen] = useState(true);
+  const [menuOpen, setMenuOpen] = useState(false);
   const [activeLink, setActiveLink] = useState("/");
 
   useEffect(() => {
     const pathname = window.location.pathname;
-    setMenuOpen(true);
     setActiveLink(pathname);
+
+    if (window.innerWidth < 1270) {
+      setMenuOpen(false);
+    } else {
+      setMenuOpen(true);
+    }
+
+    window.addEventListener("resize", () => {
+      if (window.innerWidth < 1270) {
+        setMenuOpen(false);
+      } else {
+        setMenuOpen(true);
+      }
+    });
+
+    return () => {
+      window.removeEventListener("resize", () => {});
+    };
   }, []);
 
   return (

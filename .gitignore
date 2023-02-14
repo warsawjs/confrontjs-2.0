@@ -34,3 +34,5 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+components/sections/Tweets.tsx
+pages/api/twitter.tsx

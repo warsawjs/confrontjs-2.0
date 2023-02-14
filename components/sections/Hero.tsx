@@ -133,7 +133,7 @@ export default function Hero({ variant, info }: Props) {
         <h1 className="font-bold text-3xl lg:text-7xl text-tertiary">
           WHY CONFRONTJS?
         </h1>
-        <h2 className="font-bold text-xl text-white lg:text-3xl">
+        <h2 className="w-72 lg:w-[750px] font-bold text-xl text-white lg:text-3xl">
           {info.whyDesc}
         </h2>
       </div>
