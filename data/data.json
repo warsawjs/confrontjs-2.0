@@ -345,5 +345,77 @@
             "picture": "",
             "url": "https://xfaang.com/"
         }
+    ],
+    "staff": [
+        {
+            "id": "1",
+            "name": "Barry Solone",
+            "title": "Master of Ceremony",
+            "picture": "",
+            "linkedin": "",
+            "twitter": "",
+            "facebook": "https://www.facebook.com/barry.solone",
+            "instagram": ""
+        },
+        {
+            "id": "2",
+            "name": "Luiza Haas",
+            "title": "Technical Support",
+            "picture": "",
+            "linkedin": "https://www.linkedin.com/in/luizahaas/",
+            "twitter": "https://twitter.com/luizaahaas",
+            "facebook": "",
+            "instagram": ""
+        },
+        {
+            "id": "3",
+            "name": "Mehdi Akbari",
+            "title": "Volunteer",
+            "picture": "",
+            "linkedin": "https://www.linkedin.com/in/mehdi-akbari-3697a3241",
+            "twitter": "https://twitter.com/MehdiAk76",
+            "facebook": "",
+            "instagram": ""
+        },
+        {
+            "id": "4",
+            "name": "Konrad Dziekonski",
+            "title": "Volunteer",
+            "picture": "",
+            "linkedin": "https://www.linkedin.com/in/konrad-dziekonski/",
+            "twitter": "https://twitter.com/jaSeveenPL",
+            "facebook": "",
+            "instagram": ""
+        },
+        {
+            "id": "5",
+            "name": "Artur Zochniak",
+            "title": "Volunteer",
+            "picture": "",
+            "linkedin": "https://www.linkedin.com/in/artur-zochniak-2858a1a2/",
+            "twitter": "",
+            "facebook": "",
+            "instagram": ""
+        },
+        {
+            "id": "6",
+            "name": "Piotr Slawinski",
+            "title": "Volunteer",
+            "picture": "",
+            "linkedin": "https://www.linkedin.com/in/piotrekslawinski/",
+            "twitter": "https://twitter.com/piotr_slawinski",
+            "facebook": "",
+            "instagram": ""
+        },
+        {
+            "id": "7",
+            "name": "Maciej Machniewski",
+            "title": "Volunteer",
+            "picture": "",
+            "linkedin": "https://www.linkedin.com/in/maciej-machniewski",
+            "twitter": "https://twitter.com/mmach1988",
+            "facebook": "",
+            "instagram": ""
+        }
     ]
 }
