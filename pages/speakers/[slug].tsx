@@ -32,7 +32,7 @@ export default function Speaker({ speaker }: params) {
   return (
     <div className="flex flex-col items-center gap-20 py-40 bg-gradient-to-b from-[#A64AC9] via-white to-white">
       <div className="flex flex-col items-center text-center gap-5 lg:gap-10">
-        <h2 className="text-sm lg:text-3xl">24MARCH 2023 IN WARSAW, POLAND</h2>
+        <h2 className="text-sm lg:text-3xl">24 MARCH 2023 IN WARSAW, POLAND</h2>
         <h1 className="font-bold text-3xl lg:text-[75px]">{speaker.name}</h1>
         <div className="flex flex-row gap-2 text-xl text-white lg:text-3xl">
           <h2 title="company">{speaker.company}</h2>
