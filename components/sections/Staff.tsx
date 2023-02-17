@@ -1,6 +1,5 @@
 import React from "react";
 import Link from "next/link";
-import data from "../../data/data.json";
 import {
   AiFillTwitterCircle,
   AiFillInstagram,
@@ -9,15 +8,15 @@ import {
 } from "react-icons/ai";
 import Image from "next/image";
 
-export function Staff() {
+export function Staff({ staff }: any) {
   return (
     <>
       <div className="flex flex-col items-center justify-center gap-10 text-xs lg:text-sm pt-20 pb-40">
         <h1 className="font-bold text-xl text-black lg:text-4xl pb-10">
           Supporting team
         </h1>
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-10">
-          {data.staff.map((stf) => {
+        <div className="grid grid-cols-2 lg:grid-cols-3 gap-10">
+          {staff.map((stf: any) => {
             return (
               <div className="flex flex-col items-center text-center gap-4">
                 <div className="w-24 lg:w-56 h-24 lg:h-56 rounded-3xl overflow-hidden drop-shadow-xl">
