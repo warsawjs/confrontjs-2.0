@@ -9,6 +9,7 @@ import BecomeSponsor from "@/components/sections/BecomeSponsor";
 import { buildStaticProps, fetchData } from "@/hooks/useRemoteData";
 import type { InferGetStaticPropsType } from "next";
 import Sponsors from "@/components/sections/Sponsors";
+import { Staff } from "@/components/sections/Staff";
 
 export type HomePageProps = InferGetStaticPropsType<typeof getStaticProps>;
 
@@ -35,6 +36,7 @@ export default function MainPage({
 
       <div className="bg-gradient-to-b from-[#A64AC9] via-white to-white">
         <Organizers />
+        <Staff />
         <Venue variant="main" info={info} venue={venue} />
 
         <Testimonials data={testimonials} info={info} />
