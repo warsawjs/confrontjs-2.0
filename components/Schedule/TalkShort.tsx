@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import type { LineVariant, TalkDetails } from "./types";
+import Link from "next/link";
 
 interface TalkShortProps {
   talkDetails: TalkDetails;
@@ -9,7 +10,7 @@ interface TalkShortProps {
 
 export function TalkShort({ lineVariant, talkDetails }: TalkShortProps) {
   const [open, setOpen] = useState(false);
-  const { author, date, description, timeFrom, timeTo, title, picture } =
+  const { author, date, description, timeFrom, timeTo, title, picture, slug } =
     talkDetails;
 
   return (
@@ -51,18 +52,20 @@ export function TalkShort({ lineVariant, talkDetails }: TalkShortProps) {
                 {author !== "" ? "By" : ""} {author}
               </span>
             </div>
-            <Image
-              src={picture}
-              style={{
-                borderRadius: "60px",
-                border: "2px",
-                borderStyle: "solid",
-                borderColor: "#A64AC9",
-              }}
-              width="60"
-              height="60"
-              alt="avatar"
-            />
+            <Link href={`speakers/${slug}`}>
+              <Image
+                src={picture}
+                style={{
+                  borderRadius: "60px",
+                  border: "2px",
+                  borderStyle: "solid",
+                  borderColor: "#A64AC9",
+                }}
+                width="60"
+                height="60"
+                alt="avatar"
+              />
+            </Link>
           </div>
           <p
             className={`text-sm overflow-hidden transition-all duration-250 ease-in-out ${

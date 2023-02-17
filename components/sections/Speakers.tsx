@@ -17,10 +17,10 @@ export default function Speakers({ variant, data, info }: Props) {
           variant === "main" ? "flex" : "hidden"
         } flex-col items-center text-center gap-5`}
       >
-        <h2 className="font-bold text-xl text-white lg:text-4xl uppercase">
+        <h2 className="font-bold text-xl text-black lg:text-4xl uppercase">
           SPEAKERS
         </h2>
-        <p className="w-[306px] lg:w-[750px] text-xs text-white lg:text-base">
+        <p className="w-[306px] lg:w-[750px] text-xs text-black lg:text-base">
           {info.speakersDescription}
         </p>
       </div>

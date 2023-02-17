@@ -19,24 +19,25 @@ export default function MainPage({
   testimonials,
   venue,
   info,
+  staff,
 }: HomePageProps) {
   return (
     <section>
       <div className="bg-gradient-to-b from-[#A64AC9] via-white to-white">
         <Hero variant="main" info={info} />
+        <Speakers variant="main" data={speakers} info={info} />
         <Numbers color="#17E9E0" info={info} />
+      </div>
+
+      <div className="bg-gradient-to-b from-[#A64AC9] via-white to-white">
+        <BecomeSponsor info={info} />
+        <Schedule tracksData={tracksData} info={info} venue={venue} />
         <Sponsors />
       </div>
 
       <div className="bg-gradient-to-b from-[#A64AC9] via-white to-white">
-        <Speakers variant="main" data={speakers} info={info} />
-        <BecomeSponsor info={info} />
-        <Schedule tracksData={tracksData} info={info} venue={venue} />
-      </div>
-
-      <div className="bg-gradient-to-b from-[#A64AC9] via-white to-white">
         <Organizers />
-        <Staff />
+        <Staff staff={staff} />
         <Venue variant="main" info={info} venue={venue} />
 
         <Testimonials data={testimonials} info={info} />
