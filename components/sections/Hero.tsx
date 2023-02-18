@@ -26,7 +26,7 @@ export default function Hero({ variant, info }: Props) {
           />
         </div>
         <h3 className="font-bold text-sm lg:text-xl">
-          Join us for the Next Front - End Conference
+          Are you ready to take your JavaScript skills to the next level?
         </h3>
         <h2 className="text-sm text-white lg:text-3xl">
           24th of March 2023 - Warsaw, Poland
