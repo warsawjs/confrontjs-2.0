@@ -19,7 +19,7 @@ export function Numbers({ color, info }: Props) {
             >
               {info.days}
             </h1>
-            <h2 className="pb-2 lg:pb-4 font-bold text-lg lg:text-3xl text-black uppercase">
+            <h2 className="pb-2 lg:pb-4 font-bold text-lg lg:text-3xl text-black">
               {"Day" + (info.days > 1 ? "s" : "")}
             </h2>
             <hr
@@ -58,7 +58,7 @@ export function Numbers({ color, info }: Props) {
               {info.speakers}
             </h1>
             <h2 className="pb-2 lg:pb-4 font-bold text-lg lg:text-3xl text-black">
-              {"Speaker" + (info.lines > 1 ? "s" : "")}
+              {"Speaker" + (info.speakers > 1 ? "s" : "")}
             </h2>
             <hr
               style={{

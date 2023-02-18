@@ -3,6 +3,8 @@ import Hero from "@/components/sections/Hero";
 import Sponsors from "@/components/sections/Sponsors";
 import Testimonials from "@/components/sections/Testimonials";
 import { buildStaticProps, useData } from "@/hooks/useRemoteData";
+import Head from "next/head";
+
 const primary = "#A64AC9";
 
 export const getStaticProps = buildStaticProps(["testimonials", "previous"]);
@@ -17,6 +19,9 @@ export function WhyConfrontPage({ info, testimonials, previous }: any) {
   }
   return (
     <section>
+      <Head>
+        <title>Why ConfrontJS?</title>
+      </Head>
       <div className="bg-gradient-to-b from-[#A64AC9] to-white">
         <Hero variant="about" info={info} />
         <Numbers color={primary} info={info} />

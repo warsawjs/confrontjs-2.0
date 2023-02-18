@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Head from "next/head";
 import Image from "next/image";
 import {
   AiFillTwitterCircle,
@@ -31,6 +32,9 @@ export async function getStaticProps({ params }: params) {
 export default function Speaker({ speaker }: params) {
   return (
     <div className="flex flex-col items-center gap-20 py-20 bg-gradient-to-b from-[#A64AC9] via-white to-white">
+      <Head>
+        <title>{speaker.name}</title>
+      </Head>
       <div className="flex flex-col items-center text-center gap-5 lg:gap-10">
         {/* <h2 className="text-sm lg:text-3xl">24 MARCH 2023 IN WARSAW, POLAND</h2> */}
 
