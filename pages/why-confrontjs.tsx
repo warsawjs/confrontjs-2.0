@@ -1,5 +1,6 @@
 import { Numbers } from "@/components/Numbers";
 import Hero from "@/components/sections/Hero";
+import PreviousConferences from "@/components/sections/PreviousConferences";
 import Sponsors from "@/components/sections/Sponsors";
 import Testimonials from "@/components/sections/Testimonials";
 import { buildStaticProps, useData } from "@/hooks/useRemoteData";
@@ -29,6 +30,7 @@ export function WhyConfrontPage({ info, testimonials, previous }: any) {
       </div>
 
       <Testimonials data={testimonials} info={info} />
+      <PreviousConferences info={info} data={previous} />
     </section>
   );
 }
