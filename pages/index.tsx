@@ -10,6 +10,7 @@ import { buildStaticProps, fetchData } from "@/hooks/useRemoteData";
 import type { InferGetStaticPropsType } from "next";
 import Sponsors from "@/components/sections/Sponsors";
 import { Staff } from "@/components/sections/Staff";
+import Head from "next/head";
 
 export type HomePageProps = InferGetStaticPropsType<typeof getStaticProps>;
 
@@ -23,6 +24,9 @@ export default function MainPage({
 }: HomePageProps) {
   return (
     <section>
+      <Head>
+        <title>Welcome to ConfrontJS</title>
+      </Head>
       <div className="bg-gradient-to-b from-[#A64AC9] via-white to-white">
         <Hero variant="main" info={info} />
         <Speakers variant="main" data={speakers} info={info} />
