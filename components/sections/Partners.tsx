@@ -27,12 +27,12 @@ export default function Partners({ data }: Props) {
             <div className="w-72 h-40 flex items-center justify-center">
               <Link href={value} target="_blank" rel="noopener noreferrer">
                 <Image
-                  src={`https://s3.eu-central-1.amazonaws.com/www.warsawjs.com/static/images/sponsors/logo-${key.slice(
+                  src={`https://s3.eu-central-1.amazonaws.com/www.warsawjs.com/static/images/partners/${key.slice(
                     0,
                     -1
                   )}.png`}
-                  width={500}
-                  height={250}
+                  width={200}
+                  height={200}
                   className=""
                   alt="partner avatar"
                 />
