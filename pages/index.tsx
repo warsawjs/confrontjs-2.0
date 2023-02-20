@@ -11,6 +11,7 @@ import type { InferGetStaticPropsType } from "next";
 import Sponsors from "@/components/sections/Sponsors";
 import { Staff } from "@/components/sections/Staff";
 import Head from "next/head";
+import Partners from "@/components/sections/Partners";
 
 export type HomePageProps = InferGetStaticPropsType<typeof getStaticProps>;
 
@@ -37,6 +38,7 @@ export default function MainPage({
         <BecomeSponsor info={info} />
         <Schedule tracksData={tracksData} info={info} venue={venue} />
         <Sponsors />
+        <Partners data={info} />
       </div>
 
       <div className="bg-gradient-to-b from-[#A64AC9] via-white to-white">
