@@ -1,5 +1,6 @@
 import { Numbers } from "@/components/Numbers";
 import Hero from "@/components/sections/Hero";
+import Partners from "@/components/sections/Partners";
 import PreviousConferences from "@/components/sections/PreviousConferences";
 import Sponsors from "@/components/sections/Sponsors";
 import Testimonials from "@/components/sections/Testimonials";
@@ -27,6 +28,7 @@ export function WhyConfrontPage({ info, testimonials, previous }: any) {
         <Hero variant="about" info={info} />
         <Numbers color={primary} info={info} />
         <Sponsors />
+        <Partners data={info} />
       </div>
 
       <Testimonials data={testimonials} info={info} />
