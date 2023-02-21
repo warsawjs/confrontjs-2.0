@@ -37,6 +37,9 @@ export default function MainPage({
       <div className="bg-gradient-to-b from-[#A64AC9] via-white to-white">
         <BecomeSponsor info={info} />
         <Schedule tracksData={tracksData} info={info} venue={venue} />
+      </div>
+
+      <div className="bg-gradient-to-b from-[#A64AC9] via-white to-white">
         <Sponsors />
         <Partners data={info} />
       </div>
