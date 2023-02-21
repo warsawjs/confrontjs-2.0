@@ -14,14 +14,14 @@ export default function Sponsors() {
         </div>
         <div className="flex flex-col items-center gap-10 justify-center pt-10">
           <div className="flex flex-col items-center justify-center pt-20 text-center">
-            <h1 className="font-bold text-lg text-black lg:text-3xl pb-10">
+            <h1 className="font-bold text-lg text-black lg:text-3xl pb-20">
               Gold sponsor
             </h1>
             <div className="flex items-center justify-center gap-20">
               {data.sponsors.map((sponsor) => {
                 if (sponsor.type === "gold") {
                   return (
-                    <div className="w-72 h-40 flex items-center justify-center rounded-xl overflow-hidden cursor-pointer opacity-60 hover:opacity-100 transition-all duration-300 ease-in-out">
+                    <div className="w-72 h-30 flex items-center justify-center rounded-xl overflow-hidden cursor-pointer opacity-80 hover:opacity-100 transition-all duration-300 ease-in-out">
                       <Link href={sponsor.url}>
                         <Image
                           width={1000}
@@ -37,14 +37,14 @@ export default function Sponsors() {
             </div>
           </div>
           <div className="flex flex-col items-center justify-center pt-20 text-center">
-            <h1 className="font-bold text-lg text-black lg:text-3xl pb-10">
+            <h1 className="font-bold text-lg text-black lg:text-3xl pb-20">
               Silver sponsors
             </h1>
-            <div className="grid grid-cols-1 lg:grid-cols-4 items-center justify-center gap-20">
+            <div className="grid grid-cols-1 lg:grid-cols-2 items-center justify-center gap-20">
               {data.sponsors.map((sponsor) => {
                 if (sponsor.type === "silver") {
                   return (
-                    <div className="w-64 h-40 flex items-center justify-center rounded-xl overflow-hidden cursor-pointer opacity-60 hover:opacity-100 transition-all duration-300 ease-in-out">
+                    <div className="w-64 h-25 flex items-center justify-center rounded-xl overflow-hidden cursor-pointer opacity-80 hover:opacity-100 transition-all duration-300 ease-in-out">
                       <Link href={sponsor.url}>
                         <Image
                           width={800}
