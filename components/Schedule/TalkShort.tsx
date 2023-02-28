@@ -41,12 +41,12 @@ export function TalkShort({ lineVariant, talkDetails }: TalkShortProps) {
       </div>
       <div className="relative">
         <div
-          className={`bg-white px-9 py-5 border-2 rounded-[40px] relative z-20 ${
+          className={`bg-white px-4 md:px-9 py-5 border-2 rounded-[40px] relative z-20 ${
             lineVariant === "one" ? "border-primary" : "border-secondary"
           }`}
         >
           <div className="flex justify-between items-center">
-            <div>
+            <div className="w-[250px] md:w-full">
               <h5 className="font-semibold text-lg mb-1">{title}</h5>
               <span className="block text-xs">
                 {author !== "" ? "By" : ""} {author}
