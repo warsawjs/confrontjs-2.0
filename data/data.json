@@ -317,34 +317,41 @@
     "sponsors": [
         {
             "id": "1",
+            "type": "diamond",
+            "name": "bec",
+            "picture": "",
+            "url": "https://www.bec.dk/"
+        },
+        {
+            "id": "2",
             "type": "gold",
             "name": "evolution",
             "picture": "",
             "url": "https://www.evolution.com/"
         },
         {
-            "id": "2",
+            "id": "3",
             "type": "silver",
             "name": "daftcode",
             "picture": "",
             "url": "https://daftcode.pl/"
         },
         {
-            "id": "3",
+            "id": "4",
             "type": "silver",
             "name": "prisma",
             "picture": "",
             "url": "https://www.prisma.io/"
         },
         {
-            "id": "4",
+            "id": "5",
             "type": "silver",
             "name": "fresha",
             "picture": "",
             "url": "https://www.fresha.com/"
         },
         {
-            "id": "5",
+            "id": "6",
             "type": "silver",
             "name": "xfaang",
             "picture": "",
