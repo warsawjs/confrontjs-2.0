@@ -12,7 +12,7 @@ export default function buyTicket({ data = [] }: { data: object[] }) {
           })}
         </div>
         <p className="pt-10 font-bold text-black uppercase">
-          ALL TAXES INCLUDE 23% VAT
+          VAT-exclusive price
         </p>
       </div>
     </div>
