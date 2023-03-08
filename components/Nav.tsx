@@ -10,7 +10,12 @@ const defaultProps = {
 
 export function Nav({ info = defaultProps }: any) {
   const [menuOpen, setMenuOpen] = useState(false);
-  const [activeLink, setActiveLink] = useState("/");
+  const [activeLink, setActiveLink] = useState<String>("/");
+
+  const handleLink = (e: String) => {
+    setActiveLink(e);
+    window.innerWidth < 1270 ? setMenuOpen(false) : "";
+  };
 
   useEffect(() => {
     const pathname = window.location.pathname;
@@ -58,7 +63,7 @@ export function Nav({ info = defaultProps }: any) {
             activeLink === "/schedule" ? "text-primary" : ""
           }`}
           href="/schedule"
-          onClick={() => setActiveLink("/schedule")}
+          onClick={() => handleLink("/schedule")}
         >
           SCHEDULE
         </Link>
@@ -67,7 +72,7 @@ export function Nav({ info = defaultProps }: any) {
             activeLink === "/speakers" ? "text-primary" : ""
           }`}
           href="/speakers"
-          onClick={() => setActiveLink("/speakers")}
+          onClick={() => handleLink("/speakers")}
         >
           SPEAKERS
         </Link>
@@ -76,7 +81,7 @@ export function Nav({ info = defaultProps }: any) {
             activeLink === "/venue" ? "text-primary" : ""
           }`}
           href="/venue"
-          onClick={() => setActiveLink("/venue")}
+          onClick={() => handleLink("/venue")}
         >
           VENUE
         </Link>
@@ -85,24 +90,29 @@ export function Nav({ info = defaultProps }: any) {
             activeLink === "/why-confrontjs" ? "text-primary" : ""
           }`}
           href="/why-confrontjs"
-          onClick={() => setActiveLink("/why-confrontjs")}
+          onClick={() => handleLink("/why-confrontjs")}
         >
           ABOUT
         </Link>
         <Link
           className="hover:text-primary uppercase transition-all duration-300 ease-in-out"
           href="https://docs.google.com/forms/d/e/1FAIpQLSdnBD9KUIS58ciXIXiUoNfvaN_DgHLoeg0QAwOex9YfOAdp0w/viewform"
+          target="_blank"
+          rel="noopener"
         >
           CALL FOR PROPOSALS
         </Link>
         <Link
           /* will be replaced after setting up CMS */
           href="https://docs.google.com/forms/d/e/1FAIpQLSd4k9O91d66nfxxQG4N1HOrkBLczlQ7ZxaBkN7bnFU7omTB7A/viewform"
+          target="_blank"
+          rel="noopener"
           className="font-bold px-6 py-4 bg-primary hover:bg-secondary hover:text-black transition-all duration-300 ease-in-out text-white uppercase rounded-2xl"
         >
           BECOME A SPONSOR
         </Link>
         <Link
+          onClick={() => handleLink("/buy-a-ticket")}
           href="/buy-a-ticket"
           className="font-bold px-6 py-4 bg-tertiary text-secondary uppercase hover:bg-secondary hover:text-black transition-all duration-300 ease-in-out rounded-2xl"
         >
