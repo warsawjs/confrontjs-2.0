@@ -43,7 +43,7 @@ export function Nav({ info = defaultProps }: any) {
   return (
     <section className="flex flex-col lg:flex-row justify-between items-center px-10 py-4 font-bold text-sm text-black">
       <div className="w-full lg:w-[200px] flex flex-row justify-between items-center px-10 pb-6 lg:pb-4 py-4">
-        <Link href="/" onClick={() => setActiveLink("/")}>
+        <Link href="/" onClick={() => handleLink("/")}>
           <Image src={logo} width={80} height={50} alt="logo" />
         </Link>
 
