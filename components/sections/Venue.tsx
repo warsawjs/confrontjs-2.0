@@ -48,7 +48,7 @@ export function Venue({ info, venue, variant }: Props) {
             </div>
             <div className="flex flex-col text-center lg:text-left justify-around gap-10 py-4">
               <h2 className="font-bold text-2xl uppercase">
-                About Pałac Kultury
+                About BEC
               </h2>
               <p className="w-[306px] lg:w-[520px]">{venue.about}</p>
             </div>

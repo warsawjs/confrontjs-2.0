@@ -10,12 +10,11 @@ export default function Terms() {
         </h1>
         <div className="flex flex-col gap-5">
           <h2 className="font-bold text-xl uppercase">
-            REGULAMIN CONFRONTJS 26 MARCA 2023
+            REGULAMIN CONFRONTJS 24 MARCA 2023
           </h2>
           <p className="text-sm lg:text-base">
             Niniejszy regulamin określa warunki udziału w konferencji ConfrontJS
-            w dniu 26 marca 2022 roku, która odbywa się stacjonarnie w Kinotece
-            Pałacu Kultury i Nauki w Warszawie. Organizatorem konferencji jest
+            w dniu 24 marca 2023 roku, która odbywa się stacjonarnie w BEC w Warszawie. Organizatorem konferencji jest
             WarsawJS sp. z o.o. z siedzibą w Warszawie.
           </p>
         </div>
@@ -227,7 +226,7 @@ export default function Terms() {
               osoba, na rzecz której zawarta jest ta umowa, uzyskuje status
               Uczestnika, który umożliwia jej stacjonarne uczestniczenie we
               wszystkich prelekcjach wskazanych w Agendzie. Miejscem Konferencji
-              jest Kinoteka Pałacu Kultury i Nauki w Warszawie
+              jest BEC, Emilii Plater 53.
             </li>
             <li>
               Uczestnik i Zgłaszający zobowiązani są do zapoznania się oraz
@@ -320,15 +319,15 @@ export default function Terms() {
                   promocji dostępna w Serwisie w trakcie jej trwania.
                 </li>
                 <li>
-                  Regular - 500 zł. Bilet dla jednego Uczestnika upoważnia do
+                  Regular - 600 zł netto. Bilet dla jednego Uczestnika upoważnia do
                   stacjonarnego udziału w Konferencji. Oferta ważna do
                   wyczerpania zapasów.
                 </li>
                 <li>
-                  VIP Premium - 1500 zł. Bilet dla jednego Uczestnika upoważnia
+                  VIP Premium - 1200 zł netto. Bilet dla jednego Uczestnika upoważnia
                   do stacjonarnego udziału w Konferencji, obejmuje zaproszenie
-                  do udziału w kolacji z Prelegentami organizowanej w dniu 25
-                  marca 2022 w miejscu ustalonym przez Organizatora oraz zawiera
+                  do udziału w kolacji z Prelegentami organizowanej w dniu 23
+                  marca 2023 w miejscu ustalonym przez Organizatora oraz zawiera
                   pakiet upominków od sponsorów.
                 </li>
               </ul>
