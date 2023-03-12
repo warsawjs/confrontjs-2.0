@@ -30,7 +30,7 @@ export function VenuePage({ info, venue, attractions, hotels }: any) {
       <div className="bg-gradient-to-b from-[#A64AC9] via-white to-white">
         <Hero variant="venue" info={info} />
         <Venue variant="venue" info={info} venue={venue} />
-        {/*<Parking venue={venue} />*/}
+        <Parking venue={venue} />
       </div>
 
       <div className="bg-gradient-to-b from-[#A64AC9] via-white to-white">
