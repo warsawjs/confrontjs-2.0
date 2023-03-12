@@ -21,7 +21,7 @@ export default function Partners({ data }: Props) {
           partners
         </h2>
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-5 items-center justify-center gap-24 pt-40">
+      <div className="grid grid-cols-1 lg:grid-cols-4 items-center justify-center gap-20 pt-40">
         {Object.entries(filteredObj).map(([key, value]) => {
           return (
             <div className="w-50 h-30 flex items-center justify-center rounded-lg opacity-80 hover:opacity-100 transition-all duration-300 ease-in-out overflow-hidden">
@@ -31,8 +31,8 @@ export default function Partners({ data }: Props) {
                     0,
                     -1
                   )}.png`}
-                  width={120}
-                  height={120}
+                  width={150}
+                  height={150}
                   className=""
                   alt="partner avatar"
                 />

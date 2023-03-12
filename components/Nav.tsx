@@ -94,14 +94,14 @@ export function Nav({ info = defaultProps }: any) {
         >
           ABOUT
         </Link>
-        <Link
+        {/* <Link
           className="hover:text-primary uppercase transition-all duration-300 ease-in-out"
           href="https://docs.google.com/forms/d/e/1FAIpQLSdnBD9KUIS58ciXIXiUoNfvaN_DgHLoeg0QAwOex9YfOAdp0w/viewform"
           target="_blank"
           rel="noopener"
         >
           CALL FOR PROPOSALS
-        </Link>
+        </Link> */}
         <Link
           /* will be replaced after setting up CMS */
           href="https://docs.google.com/forms/d/e/1FAIpQLSd4k9O91d66nfxxQG4N1HOrkBLczlQ7ZxaBkN7bnFU7omTB7A/viewform"

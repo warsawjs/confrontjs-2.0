@@ -22,13 +22,15 @@ export function Venue({ info, venue, variant }: Props) {
               BUY A TICKET
             </Link>
           </div>
-          <div className="flex items-center w-[306px] lg:w-[523px] h-[310px] rounded-3xl overflow-hidden drop-shadow-xl">
-            <Image
-              width={800}
-              height={1000}
-              src={venue.img}
-              alt="venue picture"
-            />
+          <div className="flex items-center w-[306px]  lg:w-[523px] h-[210px] lg:h-[324px] rounded-3xl overflow-hidden drop-shadow-xl">
+            <Link href="/venue">
+              <Image
+                width={800}
+                height={1000}
+                src={venue.img}
+                alt="venue picture"
+              />
+            </Link>
           </div>
         </div>
 
@@ -37,8 +39,8 @@ export function Venue({ info, venue, variant }: Props) {
             variant === "venue" ? "flex" : "hidden"
           } flex-col items-center gap-20`}
         >
-          <div className="flex flex-col lg:flex-row justify-center gap-20">
-            <div className="flex items-center w-[306px] h-[310px] lg:w-[452px] lg:h-[524px] rounded-3xl overflow-hidden drop-shadow-xl">
+          <div className="flex flex-col lg:flex-row justify-center gap-10">
+            <div className="flex items-center w-[306px] h-[210px] lg:w-[452px] lg:h-[324px] rounded-3xl overflow-hidden drop-shadow-xl">
               <Image
                 width={800}
                 height={1000}
@@ -47,9 +49,7 @@ export function Venue({ info, venue, variant }: Props) {
               />
             </div>
             <div className="flex flex-col text-center lg:text-left justify-around gap-10 py-4">
-              <h2 className="font-bold text-2xl uppercase">
-                About BEC
-              </h2>
+              <h2 className="font-bold text-2xl uppercase">About BEC</h2>
               <p className="w-[306px] lg:w-[520px]">{venue.about}</p>
             </div>
           </div>
