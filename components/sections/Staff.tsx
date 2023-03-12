@@ -24,9 +24,10 @@ export function Staff({ staff }: any) {
                     className="w-full h-full"
                     width={1000}
                     height={1000}
-                    src={`https://s3.eu-central-1.amazonaws.com/www.warsawjs.com/static/images/people/${stf.name
-                      .toLowerCase()
-                      .replace(/\s+/g, "-")}.jpg`}
+                    src={stf.picture}
+                    // src={`https://s3.eu-central-1.amazonaws.com/www.warsawjs.com/static/images/people/${stf.name
+                    //   .toLowerCase()
+                    //   .replace(/\s+/g, "-")}.jpg`}
                     alt="avatar"
                   />
                 </div>
@@ -38,6 +39,8 @@ export function Staff({ staff }: any) {
                 <div className="text-4xl text-black flex justify-center gap-2 py-2">
                   {stf.linkedin !== "" ? (
                     <Link
+                      target="_blank"
+                      rel="noopener"
                       className="hover:text-secondary transition-all duration-300 ease-in-out"
                       href={stf.linkedin}
                     >
@@ -48,6 +51,8 @@ export function Staff({ staff }: any) {
                   )}
                   {stf.twitter !== "" ? (
                     <Link
+                      target="_blank"
+                      rel="noopener"
                       className="hover:text-secondary transition-all duration-300 ease-in-out"
                       href={stf.twitter}
                     >
@@ -58,6 +63,8 @@ export function Staff({ staff }: any) {
                   )}
                   {stf.instagram !== "" ? (
                     <Link
+                      target="_blank"
+                      rel="noopener"
                       className="hover:text-secondary transition-all duration-300 ease-in-out"
                       href={stf.instagram}
                     >
@@ -68,6 +75,8 @@ export function Staff({ staff }: any) {
                   )}
                   {stf.facebook !== "" ? (
                     <Link
+                      target="_blank"
+                      rel="noopener"
                       className="hover:text-secondary transition-all duration-300 ease-in-out"
                       href={stf.facebook}
                     >
