@@ -320,7 +320,11 @@
             "type": "diamond",
             "name": "bec",
             "picture": "",
-            "url": "https://www.bec.dk/"
+            "url": "https://www.bec.dk/",
+            "linkedin": "https://www.linkedin.com/company/becpoland/",
+            "facebook": "https://www.facebook.com/BECPoland/",
+            "instagram": "https://www.instagram.com/bec_poland/",
+            "youtube": "https://www.youtube.com/@BEC_Financial_Technologies"
         },
         {
             "id": "2",
