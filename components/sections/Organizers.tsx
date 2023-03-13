@@ -38,24 +38,32 @@ export function Organizers() {
             </p>
             <div className="text-4xl text-black flex justify-center gap-2 py-2">
               <Link
+                target="_blank"
+                rel="noopener"
                 className="hover:text-secondary transition-all duration-300 ease-in-out"
                 href="https://www.linkedin.com/in/piotr-zientara/"
               >
                 {<AiFillLinkedin />}
               </Link>
               <Link
+                target="_blank"
+                rel="noopener"
                 className="hover:text-secondary transition-all duration-300 ease-in-out"
                 href="https://twitter.com/piotr_zientara"
               >
                 {<AiFillTwitterCircle />}
               </Link>
               <Link
+                target="_blank"
+                rel="noopener"
                 className="hover:text-secondary transition-all duration-300 ease-in-out"
                 href="https://www.instagram.com/piotr_zientara/"
               >
                 {<AiFillInstagram />}
               </Link>
               <Link
+                target="_blank"
+                rel="noopener"
                 className="hover:text-secondary transition-all duration-300 ease-in-out"
                 href="https://www.facebook.com/ylgiusz"
               >
@@ -87,6 +95,8 @@ export function Organizers() {
             </p>
             <div className="text-4xl text-black flex justify-center gap-2 py-2">
               <Link
+                target="_blank"
+                rel="noopener"
                 className="hover:text-secondary transition-all duration-300 ease-in-out"
                 href="https://www.linkedin.com/in/gabriela-czucha-483b6320b/"
               >
@@ -130,10 +140,13 @@ export function Organizers() {
               <p>Assistant Organizer</p>
             </div>
             <p className="w-56 lg:w-64">
-              Communications specialist. She has an eye for beauty and passion to demonstrate it.
+              Communications specialist. She has an eye for beauty and passion
+              to demonstrate it.
             </p>
             <div className="text-4xl text-black flex justify-center gap-2 py-2">
               <Link
+                target="_blank"
+                rel="noopener"
                 className="hover:text-secondary transition-all duration-300 ease-in-out"
                 href="https://www.linkedin.com/in/julia-wieliczko-2a0878264/"
               >
@@ -146,12 +159,16 @@ export function Organizers() {
                 {<AiFillTwitterCircle />}
               </Link> */}
               <Link
+                target="_blank"
+                rel="noopener"
                 className="hover:text-secondary transition-all duration-300 ease-in-out"
                 href="https://www.instagram.com/lucy__wieliczko"
               >
                 {<AiFillInstagram />}
               </Link>
               <Link
+                target="_blank"
+                rel="noopener"
                 className="hover:text-secondary transition-all duration-300 ease-in-out"
                 href="https://www.facebook.com/Art.is.my.whole.life"
               >
@@ -177,10 +194,13 @@ export function Organizers() {
               <p>Assistant Organizer</p>
             </div>
             <p className="w-56 lg:w-64">
-              International Businessman and entrepreneur. ConfrontJS Webapp Project Manager
+              International Businessman and entrepreneur. ConfrontJS Webapp
+              Project Manager
             </p>
             <div className="text-4xl text-black flex justify-center gap-2 py-2">
               <Link
+                target="_blank"
+                rel="noopener"
                 className="hover:text-secondary transition-all duration-300 ease-in-out"
                 href="https://www.linkedin.com/in/marcell-dengi-379752163/?originalSubdomain=hu"
               >
@@ -199,6 +219,8 @@ export function Organizers() {
                 {<AiFillInstagram />}
               </Link> */}
               <Link
+                target="_blank"
+                rel="noopener"
                 className="hover:text-secondary transition-all duration-300 ease-in-out"
                 href="https://www.facebook.com/marcell.dengi"
               >
