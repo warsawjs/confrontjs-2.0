@@ -343,19 +343,12 @@
         {
             "id": "4",
             "type": "silver",
-            "name": "prisma",
-            "picture": "",
-            "url": "https://www.prisma.io/"
-        },
-        {
-            "id": "5",
-            "type": "silver",
             "name": "fresha",
             "picture": "",
             "url": "https://www.fresha.com/"
         },
         {
-            "id": "6",
+            "id": "5",
             "type": "silver",
             "name": "xfaang",
             "picture": "",
