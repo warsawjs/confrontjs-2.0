@@ -9,6 +9,7 @@ export default function Document() {
         <Main />
         <NextScript />
         <noscript
+            id="no-script-tag-manager"
             dangerouslySetInnerHTML={{
                 __html: `<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M89PW2Q"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>`,
