@@ -3,25 +3,15 @@ import Hero from "@/components/sections/Hero";
 import Parking from "@/components/sections/Parking";
 import Hotel from "@/components/sections/Hotel";
 import TouristAttractions from "@/components/sections/TouristAttractions";
-import { buildStaticProps, useData } from "@/hooks/useRemoteData";
 import Head from "next/head";
+import data from ".././data/data.json";
 
-export const getStaticProps = buildStaticProps([
-  "attractions",
-  "venue",
-  "hotels",
-  "info",
-]);
+const info = data.info;
+const attractions = data.attractions;
+const venue = data.venue;
+const hotels = data.hotels;
 
-export function VenuePage({ info, venue, attractions, hotels }: any) {
-  if (process.env.NEXT_PUBLIC_RELOAD) {
-    ({ info, venue, attractions, hotels } = useData({
-      info,
-      venue,
-      attractions,
-      hotels,
-    }));
-  }
+export function VenuePage() {
   return (
     <section>
       <Head>

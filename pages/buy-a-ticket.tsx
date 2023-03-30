@@ -1,15 +1,13 @@
 import Hero from "@/components/sections/Hero";
-import { buildStaticProps, useData } from "@/hooks/useRemoteData";
 import Head from "next/head";
 import React from "react";
 import BuyTicket from "../components/sections/BuyTicket";
+import data from ".././data/data.json";
+import { Info } from "@/types";
+const info: Info = data.info;
+const tickets = data.tickets;
 
-export const getStaticProps = buildStaticProps(["info", "tickets"]);
-
-export default function buyATicket({ info, tickets }: any) {
-  if (process.env.NEXT_PUBLIC_RELOAD) {
-    ({ tickets } = useData({ tickets }));
-  }
+export default function buyATicket() {
   return (
     <section className="bg-gradient-to-b from-[#A64AC9] to-white">
       <Head>

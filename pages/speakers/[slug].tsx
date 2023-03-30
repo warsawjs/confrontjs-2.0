@@ -9,7 +9,9 @@ import {
   AiFillLinkedin,
 } from "react-icons/ai";
 import { BsGlobe2 } from "react-icons/bs";
-import { fetchData } from "@/hooks/useRemoteData";
+import data from "../../data/data.json";
+
+const speakers = data.speakers;
 
 type params = {
   slug: string;
@@ -18,13 +20,11 @@ type params = {
 };
 
 export async function getStaticPaths() {
-  const speakers = await fetchData("speakers");
   const paths = speakers.map((speaker: any) => `/speakers/${speaker.slug}`);
   return { paths, fallback: false };
 }
 
 export async function getStaticProps({ params }: params) {
-  const speakers = await fetchData("speakers");
   const speaker = speakers.find((speaker: any) => speaker.slug === params.slug);
   return { props: { speaker } };
 }

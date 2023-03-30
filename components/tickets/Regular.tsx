@@ -31,6 +31,7 @@ export default function Regular({ ticket }: any) {
         {ticket.price}
       </h3>
       <Link
+        onClick={(e) => e.preventDefault()}
         className="py-4 px-6 font-bold bg-white text-primary uppercase hover:bg-secondary hover:text-black transition-all duration-300 ease-in-out rounded-xl"
         href={ticket.url}
       >

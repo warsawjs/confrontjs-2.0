@@ -6,23 +6,29 @@ import Hero from "@/components/sections/Hero";
 import Testimonials from "@/components/sections/Testimonials";
 import Speakers from "@/components/sections/Speakers";
 import BecomeSponsor from "@/components/sections/BecomeSponsor";
-import { buildStaticProps, fetchData } from "@/hooks/useRemoteData";
-import type { InferGetStaticPropsType } from "next";
 import Sponsors from "@/components/sections/Sponsors";
 import { Staff } from "@/components/sections/Staff";
 import Head from "next/head";
 import Partners from "@/components/sections/Partners";
+import data from ".././data/data.json";
+import {
+  Info,
+  VenueData,
+  Testimonial,
+  Speaker,
+  StaffMember,
+  ScheduleEvent,
+  TracksData,
+} from "@/types";
 
-export type HomePageProps = InferGetStaticPropsType<typeof getStaticProps>;
+const info: Info = data.info;
+const venue: VenueData = data.venue;
+const staff: StaffMember[] = data.staff;
+const testimonials: Testimonial[] = data.testimonials;
+const speakers: Speaker[] = data.speakers;
+const schedule: ScheduleEvent[] = data.schedule;
 
-export default function MainPage({
-  tracksData,
-  speakers,
-  testimonials,
-  venue,
-  info,
-  staff,
-}: HomePageProps) {
+export default function MainPage() {
   return (
     <section>
       <Head>
@@ -41,7 +47,7 @@ export default function MainPage({
 
       <div className="bg-gradient-to-b from-[#A64AC9] via-white to-white">
         <Sponsors />
-        <Partners data={info} />
+        <Partners info={info} />
       </div>
 
       <div className="bg-gradient-to-b from-[#A64AC9] via-white to-white">
@@ -55,27 +61,15 @@ export default function MainPage({
   );
 }
 
-export const getStaticProps = async () => {
-  const schedule = await fetchData("schedule");
-  const venue = await fetchData("venue");
-  const info = await fetchData("info");
-  return {
-    props: {
-      ...(await (await buildStaticProps()()).props),
-      info,
-      venue,
-      tracksData: {
-        trackOne: {
-          title: info.line1Title,
-          textContent: info.line1Desc,
-          talkList: schedule.filter((event: any) => event.day != 2),
-        },
-        trackTwo: {
-          title: info.line2Title,
-          textContent: info.line2Desc,
-          talkList: schedule.filter((event: any) => event.day == 2),
-        },
-      },
-    },
-  };
+export const tracksData: TracksData = {
+  trackOne: {
+    title: info.line1Title,
+    textContent: info.line1Desc,
+    talkList: schedule.filter((event) => event.day !== 2),
+  },
+  trackTwo: {
+    title: info.line2Title,
+    textContent: info.line2Desc,
+    talkList: schedule.filter((event) => event.day === 2),
+  },
 };

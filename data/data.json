@@ -1,189 +1,201 @@
 {
-    "Hotels": [
+    "hotels": [
         {
-            "name": "Hotel Witkowski",
-            "address": "Aleja Krakowska 131",
-            "image_url": "/hotels/Hotel-Witkowski.png",
-            "distance": "~ 250 M",
-            "trip": [
-                {
-                    "time": "~ 3 MIN",
-                    "type": "walk"
-                }
-            ],
-            "profile_url": "http://www.hotelwitkowski.pl/"
+            "name": "InterContinental Warszawa",
+            "address": "Emilii Plater 49",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/InterContinental_z_Emili_Plater_Warszawa.jpg/250px-InterContinental_z_Emili_Plater_Warszawa.jpg",
+            "image_url1": "/hotels/Hotel-Witkowski.png",
+            "distance": "0.2 km",
+            "trip.time": "2 minutes",
+            "trip.type": "walk",
+            "profile_url": "https://www.ihg.com/intercontinental/hotels/gb/en/warsaw/wrsha/hoteldetail",
+            "hidden": ""
         },
         {
-            "name": "Golden Tulip Warsaw Airport",
-            "address": "Aleja Krakowska 235",
-            "image_url": "/hotels/Golden-Tulip.png",
-            "distance": "~ 1.5 KM",
-            "trip": [
-                {
-                    "time": "~ 3 MIN",
-                    "type": "car"
-                }
-            ],
-            "profile_url": "https://warsaw-airport.goldentulip.com/pl?arrival=2019-10-30T00:00:00&departure=2019-10-31T00:00:00&rooms[0][adult]=1&rooms[0][child]=0&location="
+            "name": "Novotel Warszawa Centrum",
+            "address": "Marszałkowska 94/98",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Hotel_Novotel_Centrum_w_Warszawie_2019.jpg",
+            "image_url1": "/hotels/Golden-Tulip.png",
+            "distance": "0.9 km",
+            "trip.time": "12 minutes",
+            "trip.type": "walk",
+            "profile_url": "https://all.accor.com/hotel/3383/index.en.shtml?utm_campaign=seo+maps&utm_medium=seo+maps&utm_source=google+Maps",
+            "hidden": ""
         },
         {
-            "name": "Hotel Gordon",
-            "address": "Aleja Krakowska 157a",
-            "image_url": "/hotels/Hotel-Gordon.png",
-            "distance": "~ 550 M",
-            "trip": [
-                {
-                    "time": "~ 7 MIN",
-                    "type": "walk"
-                }
-            ],
-            "profile_url": "http://hotelgordon.pl/"
+            "name": "Hotel Polonia Palace",
+            "address": "Al. Jerozolimskie 45",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Hotel_Polonia_Palace_w_Warszawie_2022.jpg",
+            "image_url1": "/hotels/Hotel-Gordon.png",
+            "distance": "1.4 km",
+            "trip.time": "8 minutes",
+            "trip.type": "car",
+            "profile_url": "https://www.poloniapalace.com/",
+            "hidden": ""
         },
         {
-            "name": "Air Hotel",
-            "address": "Aleja Krakowska 42",
-            "image_url": "/hotels/Air-Hotel.png",
-            "distance": "~ 1,7 KM",
-            "trip": [
-                {
-                    "time": "~ 3 MIN",
-                    "type": "car"
-                }
-            ],
-            "profile_url": "https://airhotel.pl/"
+            "name": "Hotel Mercure Warszawa Centrum",
+            "address": "Złota 48/54",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Krucza5DSC_0815.JPG",
+            "image_url1": "/hotels/Air-Hotel.png",
+            "distance": "1.6 km",
+            "trip.time": "7 minutes",
+            "trip.type": "car",
+            "profile_url": "https://all.accor.com/hotel/3385/index.pl.shtml",
+            "hidden": ""
         },
         {
-            "name": "Renaissance Warsaw Airport Hotel",
-            "address": "Żwirki i Wigury 1H",
-            "image_url": "/hotels/Renaissance-Warsaw-Airport-Hotel.png",
-            "distance": "~ 4.6 KM",
-            "trip": [
-                {
-                    "time": "~ 8 MIN",
-                    "type": "car"
-                }
-            ],
-            "profile_url": "https://www.renaissancewarszawa.pl/"
+            "name": "Radisson Collection Hotel, Warsaw",
+            "address": "Grzybowska 24",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Rad1DSC_1002.jpg",
+            "image_url1": "/hotels/Renaissance-Warsaw-Airport-Hotel.png",
+            "distance": "0.6 km",
+            "trip.time": "7 minutes",
+            "trip.type": "walk",
+            "profile_url": "https://www.radissonhotels.com/en-us/hotels/radisson-collection-warsaw-centrum?cid=a:se+b:gmb+c:emea+i:local+e:rco+d:eerut+h:PLWAWCTR",
+            "hidden": ""
         },
         {
-            "name": "B&B Hotel Warszawa-Okęcie",
-            "address": "Aleja Krakowska 193",
-            "image_url": "/hotels/BB-Hotel-Warszawa-Okecie.png",
-            "distance": "~ 1.3 KM",
-            "trip": [
-                {
-                    "time": "~ 4 M",
-                    "type": "car"
-                }
-            ],
-            "profile_url": "https://www.hotelbb.pl/pl/warszawa-okecie"
+            "name": "Hilton Warsaw Hotel and Convention Centre",
+            "address": "Grzybowska 63",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/View17DSC_1061.jpg",
+            "image_url1": "/hotels/BB-Hotel-Warszawa-Okecie.png",
+            "distance": "2.1 km",
+            "trip.time": "12 minutes",
+            "trip.type": "car",
+            "profile_url": "https://www.hilton.com/en/hotels/wawhihi-hilton-warsaw-city/?SEO_id=GMB-EMEA-HI-WAWHIHI",
+            "hidden": ""
         }
     ],
-    "Attractions": [
+    "attractions": [
         {
-            "title": "VENUE1",
-            "index": 1,
-            "paragraph": "The world is constantly evolving, and with it, so are the ways in which we communicate. Technology has played a big role in shaping the way we interact with one another, from the way we send messages to the way we connect with people on the other side of the world. Social media has become a powerful tool for connecting people, but it also has its drawbacks. One of the biggest concerns is the impact it has on our mental health and well-being.",
-            "url": "url1"
+            "title": "Zamek Królewski",
+            "index": "1",
+            "paragraph": "The castle was originally built in the 14th century, but was largely destroyed during World War II. It was meticulously reconstructed in the decades that followed, using original plans, photographs, and documents, and was finally reopened to the public in 1984. It is one of Warsaw's most popular tourist destinations, drawing visitors from all over the world to explore its ornate interiors, stunning architecture, and fascinating history and is home to a variety of museums and exhibits, including the Royal Apartments and the Great Assembly Hall, where the country's parliament once convened.",
+            "url": "https://bilety.zamek-krolewski.pl/",
+            "image_url": "https://www.zamek-krolewski.pl/sites/default/files/2021/12/938/fotorelacja/Ogrody-Zamku-Krolewskiego-fot.Marcin-Kmiecinski-2.JPG",
+            "imgsrc": "https://www.zamek-krolewski.pl/ogrody-zamkowe#&gid=1&pid=7",
+            "image_url1": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Zamek_kr%C3%B3lewski_fasada_saska_06.jpg/640px-Zamek_kr%C3%B3lewski_fasada_saska_06.jpg",
+            "hidden": ""
         },
         {
-            "title": "VENUE2",
-            "index": 2,
-            "paragraph": "The world is constantly evolving, and with it, so are the ways in which we communicate. Technology has played a big role in shaping the way we interact with one another, from the way we send messages to the way we connect with people on the other side of the world. Social media has become a powerful tool for connecting people, but it also has its drawbacks. One of the biggest concerns is the impact it has on our mental health and well-being.",
-            "url": "url2"
+            "title": "Ogród Saski",
+            "index": "2",
+            "paragraph": "Ogród Saski, or the Saxon Garden, is a beautiful and historic public park located in the heart of Warsaw, Poland. This idyllic green space provides a peaceful retreat from the hustle and bustle of the city, and is a popular destination for both tourists and locals alike. Ogród Saski features winding paths, lush gardens, and a variety of historic monuments and sculptures, making it a favorite spot for picnics, strolls, and relaxation. One of the most impressive features of the park is the Palace on the Water, a beautifully restored 18th-century palace that now houses a museum dedicated to the history and culture of Poland.",
+            "url": "https://eko.um.warszawa.pl/",
+            "image_url": "https://bi.im-g.pl/im/c8/33/13/z20132040IHR,Poczatek-XX-wieku--Widok-na-Ogrod-Saski--Palac-Sas.jpg",
+            "imgsrc": "https://polona.pl/search/?filters=keyword:%22Ogr%C3%B3d_Saski_(Warszawa)%22,public:1,hasTextContent:0\\n\\nhttps://warszawa.wyborcza.pl/warszawa/51,54420,20132063.html?i=2\\n\\nhttps://www.warszawa1939.pl/obiekt-powiazany/saski-ogrod-g/obiekt-powiazany-4668-plany-ogrodu",
+            "image_url1": "",
+            "hidden": ""
         },
         {
-            "title": "VENUE3",
-            "index": 3,
-            "paragraph": "The world is constantly evolving, and with it, so are the ways in which we communicate. Technology has played a big role in shaping the way we interact with one another, from the way we send messages to the way we connect with people on the other side of the world. Social media has become a powerful tool for connecting people, but it also has its drawbacks. One of the biggest concerns is the impact it has on our mental health and well-being.",
-            "url": "url3"
+            "title": "Puszcza Kampinowska",
+            "index": "3",
+            "paragraph": "Puszcza Kampinowska is a beautiful and expansive forest located just outside of Warsaw, Poland. This pristine wilderness area is a popular destination for outdoor enthusiasts and nature lovers, and offers a peaceful retreat from the hustle and bustle of city life. The forest covers over 300 square kilometers and features a wide variety of landscapes, including dense forests, winding rivers, and rolling hills. One of the most popular activities in Puszcza Kampinowska is hiking, with a variety of trails available for visitors of all skill levels.",
+            "url": "https://www.kampinoski-pn.gov.pl/",
+            "image_url": "https://ocdn.eu/pulscms-transforms/1/PdXk9kpTURBXy82ZjA4YzM2M2QwMzZhZTBmNTEwYWU3OTAzZjdlZWJhNy5qcGeSlQLNAxQAwsOVAgDNAvjCw94AAaEwBQ",
+            "imgsrc": "",
+            "image_url1": "https://ocdn.eu/pulscms-transforms/1/FBPk9kpTURBXy81YmQ1MWNjM2M2OGJkZjdkY2UzMTAzYjZlOWM3MGFhMS5qcGeSlQLNAxQAwsOVAgDNAvjCw94AAaEwBQ",
+            "hidden": ""
         },
         {
-            "title": "VENUE4",
-            "index": 4,
-            "paragraph": "The world is constantly evolving, and with it, so are the ways in which we communicate. Technology has played a big role in shaping the way we interact with one another, from the way we send messages to the way we connect with people on the other side of the world. Social media has become a powerful tool for connecting people, but it also has its drawbacks. One of the biggest concerns is the impact it has on our mental health and well-being.",
-            "url": "url4"
+            "title": "Łazienki Królewskie",
+            "index": "4",
+            "paragraph": "This magnificent park, located in the heart of the city, is a sprawling complex of gardens, palaces, and historic monuments, and offers visitors a unique glimpse into the city's rich cultural and architectural heritage. The park was established in the 18th century as a summer residence for King Stanisław August Poniatowski, and features a variety of stunning architectural features, including the iconic Palace on the Water, which appears to float on a tranquil lake. In addition to the palace, the park features a variety of other historic buildings, including the Old Orangery, the White House, and the Myślewicki Palace.",
+            "url": "https://www.lazienki-krolewskie.pl/pl/zwiedzanie/cennik",
+            "image_url": "http://escapeclub.eu/wp-content/uploads/2017/10/Fotolia_154693757_Subscription_Monthly_M.jpg",
+            "imgsrc": "http://escapeclub.eu/warszawa-na-nowo/lazienki-krolewskie/#!\\n\\npolskatravel",
+            "image_url1": "https://www.polska.travel/images/pl-PL/zobacz-koniecznie/zlote_pinezki_google/GoldenPins_540x360_Lazienki.jpg",
+            "hidden": ""
+        },
+        {
+            "title": "Stare Miasto (Old Town)",
+            "index": "",
+            "paragraph": "As you stroll through Stare Miasto, you'll be transported back in time to the medieval era, when the district was first established. The area is home to many well-preserved buildings and structures, including the Royal Castle, the Barbican, and the St. John's Cathedral. These landmarks provide an insight into the rich history and culture of Poland.\\n\\nIn addition to its historical sites, Stare Miasto is also known for its bustling cafes, restaurants, and shops. The area is a hub for local artists and artisans, and you can find a wide variety of traditional Polish crafts and souvenirs.",
+            "url": "https://www.viator.com/Warsaw-attractions/Warsaw-Old-Town/d528-a18947",
+            "image_url": "https://www.polska.travel/images/pl-PL/co-zobaczyc/UNESCO/stare_miasto_warszawa_540.jpg",
+            "imgsrc": "",
+            "image_url1": "",
+            "hidden": ""
+        },
+        {
+            "title": "Fryderyk Chopin Museum",
+            "index": "",
+            "paragraph": "The Fryderyk Chopin Museum in Warsaw, Poland is a must-visit destination for music lovers and history buffs alike. This modern museum is dedicated to the life and legacy of Fryderyk Chopin, one of the greatest composers in the history of classical music.\\n\\nLocated in the heart of Warsaw's historic district, the Fryderyk Chopin Museum is housed in a beautifully restored 17th-century palace. The museum is home to an extensive collection of Chopin's personal belongings, including manuscripts, letters, and instruments, as well as interactive exhibits that allow visitors to explore his life and music in depth.",
+            "url": "https://muzeum.nifc.pl/en/muzeum/wizyta-informacje-miejsce/1/1007_ceny-biletow",
+            "image_url": "https://warsawtour.pl/wp-content/uploads/2020/08/Muzeum-Fryderyka-Chopina-fot.-Filip-Kwiatkowski-8.jpg",
+            "imgsrc": "https://warsawtour.pl/project/muzeum-fryderyka-chopina/",
+            "image_url1": "",
+            "hidden": ""
         }
     ],
-    "Tickets": [
+    "tickets": [
         {
-            "type": "PREMIUM",
-            "title": "by chris Lilley",
-            "description": "d web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in",
-            "price": "1200PLN",
-            "url": "url1"
-        },
-        {
-            "type": "REGULAR",
-            "title": "by chris Lilley",
-            "description": "d web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in",
-            "price": "600PLN",
-            "url": "url2"
-        },
-        {
-            "type": "PRE EARLY",
-            "title": "by chris Lilley",
-            "description": "d web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in",
-            "price": "300PLN",
-            "url": "url3"
+            "type": "LAST CALL",
+            "title": "like regular ticket, bought on last call!",
+            "feature1": "Conference Entry",
+            "feature2": "Snacks",
+            "feature3": "Gift pack",
+            "feature4": "After party",
+            "feature5": "---",
+            "description": "Regular ticket description",
+            "price": "813 PLN",
+            "url": "https://app.easycart.pl/checkout/confrontjs/confrontjs-2023?plan=price_1Kjkn3EMmVuoJdChDVkYFs8x&promo="
         }
     ],
-    "Testimonials": [
+    "testimonials": [
         {
-            "name": "Nick lorem ipsum",
-            "position": "project menager",
-            "comment": "Dor ohur. Speras mikrong jepogt. Tångar nasam an. Emstat jyde. Are benar. Udås tåbel stenoligt. Märk-dna bida, polyrad. Lyssna in utsmarm än sad. Ressade bek antitism. . Matilda Gustavsson n"
+            "name": "Tiffany Horan",
+            "position": "Human-centered Technology Enthusiast",
+            "comment": "We’re at #ConfrontJS and we are loving it. Thank you to everyone who has made this happen!"
         },
         {
-            "name": "Arthur lorem ipsum",
-            "position": "project menager",
-            "comment": "Dor ohur. Speras mikrong jepogt. Tångar nasam an. Emstat jyde. Are benar. Udås tåbel stenoligt. Märk-dna bida, polyrad. Lyssna in utsmarm än sad. Ressade bek antitism. . Matilda Gustavsson n"
+            "name": "Artur Z.",
+            "position": "Developer",
+            "comment": "Sto tysięcy ogromnych dzięki za konfę"
         },
         {
-            "name": "Konrad lorem ipsum",
-            "position": "project menager",
-            "comment": "Dor ohur. Speras mikrong jepogt. Tångar nasam an. Emstat jyde. Are benar. Udås tåbel stenoligt. Märk-dna bida, polyrad. Lyssna in utsmarm än sad. Ressade bek antitism. . Matilda Gustavsson n"
+            "name": "Tomasz Stachewicz",
+            "position": "Senior Staff Developer at Shopify",
+            "comment": "For me 10/10!"
         },
         {
-            "name": "Blake lorem ipsum",
-            "position": "project menager",
-            "comment": "Dor ohur. Speras mikrong jepogt. Tångar nasam an. Emstat jyde. Are benar. Udås tåbel stenoligt. Märk-dna bida, polyrad. Lyssna in utsmarm än sad. Ressade bek antitism. . Matilda Gustavsson n"
+            "name": "Ran Yitzhaki",
+            "position": "JavaScripter & OSS evangelist",
+            "comment": "I Watched his Amazing talk on #confrontjs and I was enlightened by it."
         },
         {
-            "name": "John lorem ipsum",
-            "position": "project menager",
-            "comment": "Dor ohur. Speras mikrong jepogt. Tångar nasam an. Emstat jyde. Are benar. Udås tåbel stenoligt. Märk-dna bida, polyrad. Lyssna in utsmarm än sad. Ressade bek antitism. . Matilda Gustavsson n"
+            "name": "Vivek Patel",
+            "position": "Tech Lead",
+            "comment": "After freaking Party is freaking amazing! #ConFrontJS thanks for this amazing day full of fun!"
         },
         {
-            "name": "Daniel lorem ipsum",
-            "position": "project menager",
-            "comment": "Dor ohur. Speras mikrong jepogt. Tångar nasam an. Emstat jyde. Are benar. Udås tåbel stenoligt. Märk-dna bida, polyrad. Lyssna in utsmarm än sad. Ressade bek antitism. . Matilda Gustavsson n"
+            "name": "Magdalena O-S",
+            "position": "Founder and Chief Designer at UX GIRL",
+            "comment": "Listening to presentations at #ConFrontJS in Google Campus. Huge crowd of WarsawJS Community around"
         }
     ],
-    "PreviousConferences": [
+    "previous": [
         {
-            "title": "Confrence 2019",
-            "description": "Dor ohur. Speras mikrong jepogt. Tångar nasam an.",
-            "picture": "Dor ohur. Speras mikrong jepogt. Tångar nasam an. Emstat jyde. Are benar. Udås tåbel stenoligt. Märk-dna bida, polyrad. Lyssna in utsmarm än sad. Ressade bek antitism. . Matilda Gustavsson n",
-            "url": ""
+            "title": "ConfrontJS 2022",
+            "description": "Third edition of the conference at Kinoteka, Palace of Culture",
+            "picture": "https://lh3.googleusercontent.com/fife/AMPSemcf5er6e2asRAOmqeGXoeA_RZqkZrwa2EGqdw-iJRgJyFhn4kYCNlRNVtzdJCSqL9MnJGvS_XiHlMAXMll2woA30v1qy7dgV7Y63q2Q1NYaM7M7zuOx4H62PFoi73-86EFuUxpevBtYgPkXgCsMiTu5M2WpLfECn3uolpX4H9o8YB9ByHtzEcvf9fWh6b1EipZDKH3oKXwOddiBMhQQCVJ6QG2gu-ozPIk4m-RF_P6Al4Ys6B7BYjxpUeeYvhOXHPjcLCZUWeILCqpj80yPRuble2GSNqEUfFwFHQ8RVrj25ueMrDbnxPiPLhok0x2oO_gtwqioRTxTVs08KORRh_QvPKsO__2K6nT_jjJFPysAfpOLbk2dYyxbk4vElo1XlItyK8dqC63BL2Hyux4fn19LvW14bsXDdqlsmWNIScTGBdsykVeJMEF5iFbTLRWefAIacSr2BpgKKfjC9bO4JsKpLfb7aygegsG33gx4Mge8xD0RcyzAICcNjWocen6KeTIP691EgR2xGz2PrHidRYNF6QLBtiBGXMYjd3qZYGv6sY98kST6nZ1Z_0vLnR-jkt9Bn8dBvWDRqob5L4Y4udVWKeEQ-3g7yGsTSSZDf_y2SKva7ZK-9isYSRpcB-R7YscM7o2aRiVzkkrOzfH3Ca2KxbKz8xYUjPhKHQyTi4gTl8ltqYqKMe2Ng0V2CPbojuCUPe92Tiv_FXd5Yzp4ZT8DsRVPd6SkhIp4f6pdOThkYHhQtg7J2xXG-vNX_1DtaCobwA0ZIXnOonEFHXq7PmIBFbzBAn8aHGNSSahyhslhmg4SROBRMQpObpYr9-uFaS8B0L_Nyoej7afSp3hWOTa-7tmQZhz9cCpVShXURMqdEy3ZAL1phhysPn-q1v6IrowOH_VZArljAIf1FprrXJi9ysaYbbGf_GE4dVyELUD4y8jV-dqoipGGsAgq6WWSmTQVop6olPnm57qzO3vyf6AoQtYUid-2RGIdQTQIZMQQZTSiaCjCpfhx76572IPbtDK7BVOeJQzQ9_W2E07gypMWdaRkq8TWalXVm3fC4d-i4uNAnr1XWynNQCT6tOfWie39BMsr-uSV0PBvzbQ70gfr6pav4cSEjNUbL4ccr62Xbum7-Q1p2sVWschziKQiswdKiGco0VHpHrvQo4ALFmV9-2r5d3l64XhXCm1Mew-EnndxHjK1TRVsdvxhttmVNe8gDJWjOgFEI6E4V4x53BbAUH3jTUEZc2L8p0dYN5q9A_VPb-dmUzKGrodXb_cwenQIBzBdbISlxrOF2IiLuwvUl2k2LED9nrbkPgkAf4xDaNd9VgP8XE_Xv6MIWAbIiXyakfQy6h7ps4_Uc2UmpzAPHuNNTZs54OL7gOAxh0eLTyvmbt7MCcVrvXgd0LjLR8h4WOPSu_o-nkox6woA5qaDxtUqEacYh-teyDZYI3Hl7rAWFaLM2MAEB8ScR3j0YDiihGm06y-uZ_nM_rE=w2000-h972",
+            "url": "https://2022.confrontjs.pl/",
+            "hidden": ""
         },
         {
-            "title": "Confrence 2020",
-            "description": "Dor ohur. Speras mikrong jepogt. Tångar nasam an.",
-            "picture": "Dor ohur. Speras mikrong jepogt. Tångar nasam an. Emstat jyde. Are benar. Udås tåbel stenoligt. Märk-dna bida, polyrad. Lyssna in utsmarm än sad. Ressade bek antitism. . Matilda Gustavsson n",
-            "url": ""
+            "title": "ConfrontJS 2019",
+            "description": "second edition at Engineering Design Center (EDC)",
+            "picture": "https://s3.eu-central-1.amazonaws.com/www.warsawjs.com/static/photos/IMG_5333.jpg",
+            "url": "http://2019.confrontjs.com.s3-website.eu-central-1.amazonaws.com/",
+            "hidden": ""
         },
         {
-            "title": "Confrence 2021",
-            "description": "Dor ohur. Speras mikrong jepogt. Tångar nasam an.",
-            "picture": "Dor ohur. Speras mikrong jepogt. Tångar nasam an. Emstat jyde. Are benar. Udås tåbel stenoligt. Märk-dna bida, polyrad. Lyssna in utsmarm än sad. Ressade bek antitism. . Matilda Gustavsson n",
-            "url": ""
-        },
-        {
-            "title": "Confrence 2022",
-            "description": "Dor ohur. Speras mikrong jepogt. Tångar nasam an.",
-            "picture": "Dor ohur. Speras mikrong jepogt. Tångar nasam an. Emstat jyde. Are benar. Udås tåbel stenoligt. Märk-dna bida, polyrad. Lyssna in utsmarm än sad. Ressade bek antitism. . Matilda Gustavsson n",
-            "url": ""
+            "title": "ConfrontJS 2018",
+            "description": "first edition of ConfrontJS at CampusWarsaw",
+            "picture": "http://2018.confrontjs.com.s3-website.eu-central-1.amazonaws.com/static/photos/community/IMG_0213.jpg",
+            "url": "http://2018.confrontjs.com.s3-website.eu-central-1.amazonaws.com/",
+            "hidden": ""
         }
     ],
     "speakers": [
@@ -191,129 +203,251 @@
             "id": "1",
             "name": "Maya Shavin",
             "slug": "mayashavin",
-            "position": "unknown",
-            "avatar": "https://pbs.twimg.com/profile_images/1180146252371111936/pwOaWc29_400x400.jpg",
-            "social": "https://twitter.com/mayashavin",
+            "position": "Senior SE",
+            "avatar": "https://s3.eu-central-1.amazonaws.com/www.warsawjs.com/static/images/people/maya-shavin.jpg",
+            "twitter": "https://twitter.com/mayashavin",
+            "facebook": "https://www.facebook.com/mayashavin",
+            "linkedin": "https://www.linkedin.com/in/mayashavin/",
+            "instagram": "https://www.instagram.com/mayashavin",
+            "website": "https://mayashavin.com/",
             "company": "Microsoft",
             "country": "Israel",
             "bio": "Maya is Senior Software Engineer in Microsoft, working extensively with JavaScript and frontend frameworks and based in Israel. She founded and is currently the organizer of the VueJS Israel Meetup Community, helping to create a strong playground for Vue.js lovers and like-minded developers. Maya is also a published author, international speaker and an open-source library maintainer of frontend and web projects. As a core maintainer of StorefrontUI framework for e-commerce, she focuses on delivering performant components and best practices to the community while believing a strong Vanilla JavaScript knowledge is necessary for being a good web developer. She can be reached at her blog (https://mayashavin.com), on Twitter @mayashavin, or via email.",
             "talkTitle": "The art of visualization and composition in building component systems.",
             "talkDescription": "Let's face it, understanding a long page of specs is not always a trivial task to do. Same as building a complex component system. Let's explore how we can combine visualization and composition API to create our reusable and visual-able logic system for your components, ready to use in Vue application.",
-            "Technologies": "XState, Stately, Vue, JavaScript"
+            "Technologies": "XState, Stately, Vue, JavaScript",
+            "hidden": ""
         },
         {
             "id": "2",
             "name": "Tejas Kumar",
             "slug": "tejaskumar",
-            "position": "unknown",
-            "avatar": "https://github.com/tejasq.png",
-            "social": "https://twitter.com/tejaskumar_",
+            "position": "Keynote Speaker",
+            "avatar": "https://s3.eu-central-1.amazonaws.com/www.warsawjs.com/static/images/people/tejas-kumar.jpg",
+            "twitter": "https://twitter.com/tejaskumar_",
+            "facebook": "",
+            "linkedin": "",
+            "instagram": "",
+            "website": "https://tej.as/",
             "company": "YouTube",
             "country": "Germany",
-            "bio": "Tejas is an international Keynote speaker and software engineer who shares best practices with engineers. ",
+            "bio": "Tejas is an international Keynote speaker and software engineer who shares best practices with engineers.",
             "talkTitle": "The modern frontend ecosystem (keynote)",
-            "talkDescription": "2022 saw the rise of new paradigms, from Qwik to SolidJS to SvelteKit 1.0. This talk explores the current and predicted state of frontend frameworks and enables engineers to be in the loop and make the best choice for their teams. ",
-            "Technologies": "Qwik, solid, next.js, React, javascript "
+            "talkDescription": "2022 saw the rise of new paradigms, from Qwik to SolidJS to SvelteKit 1.0. This talk explores the current and predicted state of frontend frameworks and enables engineers to be in the loop and make the best choice for their teams.",
+            "Technologies": "Qwik, solid, next.js, React, javascript",
+            "hidden": ""
         },
         {
             "id": "3",
             "name": "Roy Derks",
-            "slug": "royderek",
-            "position": "unknown",
-            "avatar": "https://pbs.twimg.com/profile_images/1169941475372781569/-10BXZ3k_400x400.jpg",
-            "social": "https://twitter.com/gethackteam",
+            "slug": "royderks",
+            "position": "Keynote speaker",
+            "avatar": "https://s3.eu-central-1.amazonaws.com/www.warsawjs.com/static/images/people/roy-derks.jpg",
+            "twitter": "https://twitter.com/gethackteam",
+            "facebook": "https://www.facebook.com/gethackteam",
+            "linkedin": "https://www.linkedin.com/in/royderks1/",
+            "instagram": "https://www.instagram.com/gethackteam",
+            "website": "https://hackteam.io/workshops",
             "company": "StepZen",
             "country": "The Netherlands",
             "bio": "Roy is an entrepreneur, speaker and author from The Netherlands and, in his own words, 'wants to make the world a better place through tech'. He has been giving talks and training to developers worldwide on technologies like GraphQL, React and TypeScript. Most recently he wrote the books Fullstack GraphQL and React Projects.",
             "talkTitle": "GraphQL is just HTTP",
             "talkDescription": "Let's face it, there are many advantages to using GraphQL compared to REST APIs. But if you strip it down to the network protocol, it's using HTTP just as REST. We developers need to write a lot of imperative code to retrieve data to display in our applications and handle state. With GraphQL you can, when using the correct libraries, decrease the amount of code needed around data fetching and state-management. Next to increased flexibility, better performance and most of all an improved developer experience. In this talk I show GraphQL's magic and how (in the end) it's just HTTP.",
-            "Technologies": "GraphQL, JavaScript, Data fetching, state management"
+            "Technologies": "GraphQL, JavaScript, Data fetching, state management",
+            "hidden": ""
         },
         {
             "id": "4",
             "name": "Keren Kenzi",
             "slug": "kerenkenzi",
-            "position": "unknown",
-            "avatar": "https://pbs.twimg.com/profile_images/1527418445171675147/URqs2qNh_400x400.jpg",
-            "social": "https://twitter.com/KerenKenzi",
-            "company": "Torii",
+            "position": "Keynote speaker",
+            "avatar": "https://s3.eu-central-1.amazonaws.com/www.warsawjs.com/static/images/people/keren-kenzi.jpg",
+            "twitter": "https://twitter.com/KerenKenzi",
+            "facebook": "https://www.facebook.com/keren.kenzi",
+            "linkedin": "https://www.linkedin.com/in/keren-kenzi/",
+            "instagram": "",
+            "website": "",
+            "company": "Baot",
             "country": "Israel",
-            "bio": "Keren is a full-stack developer at Torii, who has been working as a software engineer for more than a decade. She has a M.Sc. in Computer Science and loves React and learning new technologies. Keren volunteers as a program manager at Baot, a community that helps women in tech in their professional growth. She is also a dev community leader and co-organizes meetups. And in her not-so-spare time, she studies psychology. Her hobbies include drawing, photography, and singing.",
+            "bio": "Keren is a senior software engineer with over a decade of experience in the industry. She holds an M.Sc. in Computer Science and is passionate about React and learning new technologies. Keren volunteers as a program manager at Baot, a community that supports women in R&D in their professional growth. She instructs and inspires developers to write blogs in her tech blogging workshops. Keren has experience as a dev community leader and a co-organizer of meetups and events. And in her not-so-spare time, she studies psychology. Her hobbies include drawing, photography, and singing.",
             "talkTitle": "Channeling your inner tech blogger",
             "talkDescription": "There is a saying that the best way to learn something is to teach it to someone else. When we write a tech blog, we share our knowledge with others and deepen our understanding of the subject. We also improve other skills along the way and build our professional brand and signature.In this talk, we will discuss the benefits of writing a blog and try to remove all the barriers that have stopped us so far from writing a blog.",
-            "Technologies": "JavaScript"
+            "Technologies": "JavaScript",
+            "hidden": ""
         },
         {
             "id": "5",
-            "name": "Marek Kirejczyk",
-            "slug": "marekkirejczyk",
-            "position": "unknown",
-            "avatar": "https://pbs.twimg.com/profile_images/692445308668682240/cEqpfN66_400x400.jpg",
-            "social": "https://twitter.com/ethmarek",
-            "company": "",
+            "name": "Vadym Tarasich",
+            "slug": "vadymtarasich",
+            "position": "Frontend developer",
+            "avatar": "https://s3.eu-central-1.amazonaws.com/www.warsawjs.com/static/images/people/vadym-tarasich.jpg",
+            "twitter": "https://www.linkedin.com/in/vtarasich/",
+            "facebook": "https://www.facebook.com/vadym.tarasich",
+            "linkedin": "https://ua.linkedin.com/in/vtarasich",
+            "instagram": "https://www.instagram.com/vadym.tarasich",
+            "website": "",
+            "company": "Evolution",
             "country": "Poland",
-            "bio": "Enthusiast of technology, programming, and managing technology teams. Creator of the open-source libraries Waffle and useDApp popular in the Blockchain and Ethereum environment. Founder of well-known Polish software houses Ethworks and El Passion, which he successfully exited. Currently, he is taking a one-year break from work.",
-            "talkTitle": "3 magic techniques",
-            "talkDescription": "Unveiling the secrets of successful project delivery: Discover three overlooked yet powerful techniques that can help you overcome common challenges faced by CTOs, Agile coaches, and DevOps teams. Learn how to deliver on time, foster positive relationships with stakeholders, and avoid project failure with these easy-to-implement tricks.",
-            "Technologies": "Web, Mobile, Blockchain and Satellites "
+            "bio": "A Frontend developer with a great passion for the no-bullshit approach. Loves challenges and solving tricky cases. Big fan of improving things and throwing dead code out",
+            "talkTitle": "How do we build games? Connecting past, present and future.",
+            "talkDescription": "How did we create our game framework with React + Redux and build dozens of games? How we have solved problems of introducing new tech to large codebases and connecting Redux and Mobx.",
+            "Technologies": "JavaScript, TypeScript",
+            "hidden": ""
         },
         {
             "id": "6",
             "name": "Yonatan Kra",
             "slug": "yonatankra",
-            "position": "unknown",
-            "avatar": "https://i.ibb.co/5nGbMXY/head-Shot-Me.png",
-            "social": "https://twitter.com/yonatankra",
+            "position": "Keynote speaker",
+            "avatar": "https://s3.eu-central-1.amazonaws.com/www.warsawjs.com/static/images/people/yonatan-kra.png",
+            "twitter": "https://twitter.com/YonatanKra",
+            "facebook": "https://www.facebook.com/yonatan.kra.37",
+            "linkedin": "https://www.linkedin.com/in/jonathan-kra-99a5bb87/",
+            "instagram": "https://www.instagram.com/yonatankra",
+            "website": "https://yonatankra.com/",
             "company": "Vonage",
             "country": "Israel",
-            "bio": "Yonatan has been involved in some awesome projects in the academy and the industry - from C/C++ through Matlab to PHP and javascript. Former CTO at Webiks and Software Architect at WalkMe. Currently he is a software architect at Vonage and an egghead instructor.",
-            "talkTitle": "Test Drive Your Code",
-            "talkDescription": "What can software developers learn from doctors, scientists and martial artists? During my years as a developer I’ve written lots of software. Ranging from data related like image processing, sound analysis and synthesis, and data analysis to working on fullstack web applications.I’ve picked up some skills in various fields like performance, design patterns and devops. In this talk I’m going to share with you the one thing that makes me a better developer than my younger self - automated tests. You will learn how tests can improve your code, how to write better tests, how to use code coverage and how it is all related to medicine, housekeeping work and martial arts.",
-            "Technologies": "javascript, code quality"
+            "bio": "Yonatan has been involved in some awesome projects in the academy and the industry - from C/C++ through Matlab to PHP and JavaScript. Former CTO at Webiks and Software Architect at WalkMe. Currently he is a software architect at Vonage and an egghead instructor.",
+            "talkTitle": "Classic design patterns for the modern JS developer",
+            "talkDescription": "In this session we will learn how and why classic software design patterns are relevant for the modern frontend developer - and how to leverage then for everyday challenges.All with live coding examples based on real world use-cases",
+            "Technologies": "TypeScript",
+            "hidden": ""
         },
         {
             "id": "7",
-            "name": "Malwina Kubas",
-            "slug": "malwinakubas",
-            "position": "unknown",
-            "avatar": "https://1drv.ms/u/s!AiZBvVtFLPT1hUfwwcevldDnJx5E?e=70WaQw",
-            "social": "",
-            "company": "ec0lint",
+            "name": "Marek Kirejczyk",
+            "slug": "marekkirejczyk",
+            "position": "Keynote speaker",
+            "avatar": "https://s3.eu-central-1.amazonaws.com/www.warsawjs.com/static/images/people/marek-kirejczyk.jpg",
+            "twitter": "https://twitter.com/ethmarek",
+            "facebook": "https://www.facebook.com/profile.php?id=100011145616287",
+            "linkedin": "https://www.linkedin.com/in/kirejczyk/",
+            "instagram": "https://www.instagram.com/marekkirejczyk",
+            "website": "",
+            "company": "",
             "country": "Poland",
-            "bio": "Malwina is the Co-founder and CTO of ec0lint - a tool for frontend developers that mitigates the carbon footprint of websites. On top of that, she works as a Full-Stack Developer with technologies like JavaScript, TypeScript, React and Java. Malwina's interests are leadership and project management.",
-            "talkTitle": "Digital ecology: How can you mitigate the carbon footprint of websites?",
-            "talkDescription": "Did you know that about 250 000 websites are published every day? The majority uses too heavy fonts, unnecessary images or utilises redundant libraries generating carbon footprint. ec0lint is a tool for frontend developers that mitigates the carbon footprint of websites by showing tips on how to create a more climate-friendly code. Thanks to code optimization ec0lint can help in reducing emissions from 1.8 g to ~0.2 g per one view saving 216 kg CO2 for each website (-88%!) annually.",
-            "Technologies": "JavaScript, React, TypeScript"
-        },
-        {
-            "id": "8",
-            "name": "Ankita Kulkarni",
-            "slug": "ankitakulkarni",
-            "position": "unknown",
-            "avatar": "https://pbs.twimg.com/profile_banners/741285805/1555724714/1500x500",
-            "social": "https://twitter.com/Kulkarniankita9",
-            "company": "SelfEmployed",
-            "country": "Canada",
-            "bio": "Ankita is a Senior Engineering Technical Leader with over a decade of Tech industry experience. She is currently an Educator and creates digital products such as her [E-book](http://bit.ly/3grSPSI) on taking control of your first 90 days, best suited for newer leaders or her [course](http://bit.ly/3tUPRcr) on Next.js. She is passionate about growing developers and leaders. She worked for several companies such as WealthSimple, IBM, Loblaw Digital - ShoppersDrugMart, Rangle.io and more. As a senior leader, she has grown a lot of folks in her career, and her mission is to help mentor folks in all stages of their career. She has architected and scaled many web and mobile apps for clients using React, GraphQL, React Native and Next.js. You may know some of them: Tim Hortons, Burger King, Popeyes, Borrowell, WealthSimple, Moleskine and more. She enjoys teaching, public speaking and being outdoors",
-            "talkTitle": "## **Building a lightning-fast site with Next.js, GraphQL and Tailwind ",
-            "talkDescription": "Next.js has grown in popularity over the past couple of years with features like server-side rendering, incremental static regeneration, image optimization, and more. In contrast, GraphQL is known for not just returning data for what you need with good schema design practices but also a good dev experience.In this talk, I’ll talk about how one can build an app that not just scales but also has high performance with Next.js, GraphQL and Tailwind. And Lastly, the future of CSS and Frontend development is building utilities, so CSS does not feel like an afterthought. At the end of this talk, you will learn how to go from making a sample app to a highly performant production-ready application.",
-            "Technologies": "react, tailwind, graphql"
-        },
-        {
-            "id": "9",
-            "name": "Nir Kaufman",
-            "slug": "nirkaufman",
-            "position": "unknown",
-            "avatar": "https://drive.google.com/file/d/1WD-GE-1Ym2ZnoEaxq2wADyqxa3U_FQyosA/view?usp=share_link",
-            "social": "",
-            "company": "Tikal",
-            "country": "Israel",
-            "bio": "Frontend developer,community enthusiast, meetup organizer, international public speaker, trainer, author, and mentor, Google developer expert in web technologies. When I'm not coding I produce electronic music, and vegan food.",
-            "talkTitle": "Classic design patterns for the modern JS developer",
-            "talkDescription": "In this session we will learn how and why classic software design patterns are relevant for the modern frontend developer - and how to leverage then for everyday challenges.All with live coding examples based on real world use-cases",
-            "Technologies": "TypeScript"
+            "bio": "",
+            "talkTitle": "",
+            "talkDescription": "",
+            "Technologies": "",
+            "hidden": ""
         }
     ],
+    "schedule": [
+        {
+            "day": 1,
+            "id": "1",
+            "author": "Tejas Kumar",
+            "slug": "tejaskumar",
+            "title": "The modern frontend ecosystem (keynote)",
+            "date": "24-Mar-23",
+            "timeFrom": "9:30",
+            "timeTo": "10:30",
+            "description": "2022 saw the rise of new paradigms, from Qwik to SolidJS to SvelteKit 1.0. This talk explores the current and predicted state of frontend frameworks and enables engineers to be in the loop and make the best choice for their teams.",
+            "picture": "https://s3.eu-central-1.amazonaws.com/www.warsawjs.com/static/images/people/tejas-kumar.jpg",
+            "hidden": ""
+        },
+        {
+            "day": 1,
+            "id": "2",
+            "author": "Maya Shavin",
+            "slug": "mayashavin",
+            "title": "Visualize your State Management with XState",
+            "date": "24-Mar-23",
+            "timeFrom": "10:45",
+            "timeTo": "11:30",
+            "description": "Learn a new concept to start your developing process - advanced XState for complex State Management in modern web applications, and start building complex architecture visually!",
+            "picture": "https://s3.eu-central-1.amazonaws.com/www.warsawjs.com/static/images/people/maya-shavin.jpg",
+            "hidden": ""
+        },
+        {
+            "day": 1,
+            "id": "3",
+            "author": "Keren Kenzi",
+            "slug": "kerenkenzi",
+            "title": "Get your forms hooked with react-hook-form",
+            "date": "24-Mar-23",
+            "timeFrom": "11:45",
+            "timeTo": "12:50",
+            "description": "As Front-end developers, we all know that forms can get really messy, but what if I told you that there is a library out there that can make your life much easier. In this talk, I'll introduce react-hook-form, a library that started to gain more and more popularity. It is super light, intuitive, performant, and flexible with easy-to-use validation. We'll cover its basics through a live code example and learn about its benefits. In addition, I will share with you my thoughts about what to look for when choosing a library to use.",
+            "picture": "https://s3.eu-central-1.amazonaws.com/www.warsawjs.com/static/images/people/keren-kenzi.jpg",
+            "hidden": ""
+        },
+        {
+            "day": 1,
+            "id": "4",
+            "author": "",
+            "slug": "",
+            "title": "Lunch Break",
+            "date": "24-Mar-23",
+            "timeFrom": "13:00",
+            "timeTo": "14:00",
+            "description": "",
+            "picture": "https://s3.eu-central-1.amazonaws.com/www.warsawjs.com/static/images/people/lunch-break.png",
+            "hidden": ""
+        },
+        {
+            "day": 1,
+            "id": "5",
+            "author": "Roy Derks",
+            "slug": "royderks",
+            "title": "GraphQL is just HTTP",
+            "date": "24-Mar-23",
+            "timeFrom": "14:00",
+            "timeTo": "14:30",
+            "description": "Let's face it, there are many advantages to using GraphQL compared to REST APIs. But if you strip it down to the network protocol, it's using HTTP just as REST. We developers need to write a lot of imperative code to retrieve data to display in our applications and handle state. With GraphQL you can, when using the correct libraries, decrease the amount of code needed around data fetching and state-management. Next to increased flexibility, better performance and most of all an improved developer experience. In this talk I show GraphQL's magic and how (in the end) it's just HTTP.",
+            "picture": "https://s3.eu-central-1.amazonaws.com/www.warsawjs.com/static/images/people/roy-derks.jpg",
+            "hidden": ""
+        },
+        {
+            "day": 1,
+            "id": "6",
+            "author": "Yonatan Kra",
+            "slug": "yonatankra",
+            "title": "Test Drive Your Code",
+            "date": "24-Mar-23",
+            "timeFrom": "14:45",
+            "timeTo": "15:15",
+            "description": "What can software developers learn from doctors, scientists and martial artists? During my years as a developer I’ve written lots of software. Ranging from data related like image processing, sound analysis and synthesis, and data analysis to working on fullstack web applications. I’ve picked up some skills in various fields like performance, design patterns and devops. In this talk I’m going to share with you the one thing that makes me a better developer than my younger self - automated tests. You will learn how tests can improve your code, how to write better tests, how to use code coverage and how it is all related to medicine, housekeeping work and martial arts.",
+            "picture": "https://s3.eu-central-1.amazonaws.com/www.warsawjs.com/static/images/people/yonatan-kra.png",
+            "hidden": ""
+        },
+        {
+            "day": 1,
+            "id": "7",
+            "author": "Vadym Tarasich",
+            "slug": "vadymtarasich",
+            "title": "How do we build games? Connecting past, present and future",
+            "date": "24-Mar-23",
+            "timeFrom": "15:30",
+            "timeTo": "16:00",
+            "description": "How did we create our game framework with React + Redux and build dozens of games? How we have solved problems of introducing new tech to large codebases and connecting Redux and Mobx.",
+            "picture": "https://s3.eu-central-1.amazonaws.com/www.warsawjs.com/static/images/people/vadym-tarasich.jpg",
+            "hidden": ""
+        },
+        {
+            "day": 1,
+            "id": "8",
+            "author": "Marek Kirejczyk",
+            "slug": "marekkirejczyk",
+            "title": "The magic of continuous delivery",
+            "date": "24-Mar-23",
+            "timeFrom": "16:15",
+            "timeTo": "16:45",
+            "description": "Discover effective techniques that teams can utilize to enhance their performance, which are frequently neglected amidst the hustle and bustle of scrum ceremonies and docker containers.",
+            "picture": "https://s3.eu-central-1.amazonaws.com/www.warsawjs.com/static/images/people/marek-kirejczyk.jpg",
+            "hidden": ""
+        }
+    ],
+    "venue": {
+        "desc": "BEC Poland (www.bec.dk/poland/) is the full-service IT house providing financial tech solutions for major Danish banks. With branches in Denmark and Poland, we enable their customers to invest online, take out loans, and transfer money. In other words, we do everything it takes to run a bank.",
+        "about": "The event will take place at Emilii Plater 53 - 23rd floor of BEC Poland our Diamond sponsor! BEC is the full-service IT house providing financial tech solutions for major Danish banks. With branches in Denmark and Poland, we enable their customers to invest online, take out loans, and transfer money. In other words, we do everything it takes to run a bank.",
+        "parking": "",
+        "entry": "",
+        "exit": "",
+        "img": "https://s3.eu-central-1.amazonaws.com/www.warsawjs.com/static/images/confrontjs-2023/bec.jpg",
+        "img0": "https://via.placeholder.com/1700"
+    },
     "sponsors": [
         {
             "id": "1",
@@ -343,12 +477,19 @@
         {
             "id": "4",
             "type": "silver",
+            "name": "prisma",
+            "picture": "",
+            "url": "https://www.prisma.io/"
+        },
+        {
+            "id": "5",
+            "type": "silver",
             "name": "fresha",
             "picture": "",
             "url": "https://www.fresha.com/"
         },
         {
-            "id": "5",
+            "id": "6",
             "type": "silver",
             "name": "xfaang",
             "picture": "",
@@ -360,7 +501,7 @@
             "id": "1",
             "name": "Barry Solone",
             "title": "Master of Ceremony",
-            "picture": "",
+            "picture": "https://s3.eu-central-1.amazonaws.com/www.warsawjs.com/static/images/people/barry-solone.jpg",
             "linkedin": "",
             "twitter": "",
             "facebook": "https://www.facebook.com/barry.solone",
@@ -370,7 +511,7 @@
             "id": "2",
             "name": "Luiza Haas",
             "title": "Technical Support",
-            "picture": "",
+            "picture": "https://s3.eu-central-1.amazonaws.com/www.warsawjs.com/static/images/people/luiza-haas.jpg",
             "linkedin": "https://www.linkedin.com/in/luizahaas/",
             "twitter": "https://twitter.com/luizaahaas",
             "facebook": "",
@@ -378,43 +519,96 @@
         },
         {
             "id": "3",
+            "name": "Maciej Machniewski",
+            "title": "Social Media Specialist",
+            "picture": "https://s3.eu-central-1.amazonaws.com/www.warsawjs.com/static/images/people/maciej-machniewski.jpg",
+            "linkedin": "https://www.linkedin.com/in/maciej-machniewski",
+            "twitter": "https://twitter.com/mmach1988",
+            "facebook": "",
+            "instagram": ""
+        },
+        {
+            "id": "4",
             "name": "Mehdi Akbari",
             "title": "Volunteer",
-            "picture": "",
+            "picture": "https://s3.eu-central-1.amazonaws.com/www.warsawjs.com/static/images/people/mehdi-akbari.jpg",
             "linkedin": "https://www.linkedin.com/in/mehdi-akbari-3697a3241",
             "twitter": "https://twitter.com/MehdiAk76",
             "facebook": "",
             "instagram": ""
         },
         {
-            "id": "4",
+            "id": "5",
             "name": "Konrad Dziekonski",
             "title": "Volunteer",
-            "picture": "",
+            "picture": "https://s3.eu-central-1.amazonaws.com/www.warsawjs.com/static/images/people/konrad-dziekonski.jpg",
             "linkedin": "https://www.linkedin.com/in/konrad-dziekonski/",
             "twitter": "https://twitter.com/jaSeveenPL",
             "facebook": "",
             "instagram": ""
         },
         {
-            "id": "5",
+            "id": "6",
             "name": "Piotr Slawinski",
             "title": "Volunteer",
-            "picture": "",
+            "picture": "https://s3.eu-central-1.amazonaws.com/www.warsawjs.com/static/images/people/piotr-slawinski.jpg",
             "linkedin": "https://www.linkedin.com/in/piotrekslawinski/",
             "twitter": "https://twitter.com/piotr_slawinski",
             "facebook": "",
             "instagram": ""
         },
         {
-            "id": "6",
-            "name": "Maciej Machniewski",
+            "id": "7",
+            "name": "Milana Slobtcova",
             "title": "Volunteer",
-            "picture": "",
-            "linkedin": "https://www.linkedin.com/in/maciej-machniewski",
-            "twitter": "https://twitter.com/mmach1988",
+            "picture": "https://media.licdn.com/dms/image/C4E03AQE4ZMDjOTBfSg/profile-displayphoto-shrink_200_200/0/1655553153467?e=1684368000&v=beta&t=Axch4h4RoVkNr8PltboxybsxxakvMUNsky6K3eJErxU",
+            "linkedin": "https://www.linkedin.com/in/milana-slobtcova",
+            "twitter": "",
+            "facebook": "",
+            "instagram": ""
+        },
+        {
+            "id": "9",
+            "name": "Wenyao Lin",
+            "title": "Volunteer",
+            "picture": "https://media.licdn.com/dms/image/D4D03AQG6BKhFiJ4PBw/profile-displayphoto-shrink_800_800/0/1671486059795?e=1684368000&v=beta&t=0SGrs1lCKixVjuXuPi2k_RffPwaD5dAIzQp7vaNVpC4",
+            "linkedin": "https://www.linkedin.com/in/wenyao-l-b85b5122b/",
+            "twitter": "",
             "facebook": "",
             "instagram": ""
         }
-    ]
+    ],
+    "info": {
+        "value": "",
+        "sponsorLink": "https://docs.google.com/forms/d/e/1FAIpQLSd4k9O91d66nfxxQG4N1HOrkBLczlQ7ZxaBkN7bnFU7omTB7A/viewform",
+        "days": "1",
+        "lines": "1",
+        "speakers": "10",
+        "lang": "ENG",
+        "desc": "Welcome to ConfrontJS, the premier conference for medium level and advanced front-end developers. Our conference is designed to bring together industry leaders, developers, and enthusiasts who are eager to share their knowledge and experience in the latest front-end technologies and trends.",
+        "callForPapers": "https://docs.google.com/forms/d/e/1FAIpQLSdnBD9KUIS58ciXIXiUoNfvaN_DgHLoeg0QAwOex9YfOAdp0w/viewform",
+        "heroTitle": "Agenda",
+        "heroDesc": "This year we are hosting great guests with topics spanning very wide area of technical (and not only) knowledge...",
+        "becomeSponsorDesc": "You can join our sponsors!",
+        "speakersDescription": "this year",
+        "whyDesc": "Big know-how, small and big tech in a big city. Meet ConfrontJS",
+        "testimonialsDesc": "How were the last ConfrontJS conferences?",
+        "previousConferences": "Previous conference had been already a great experience...",
+        "line1Title": "",
+        "line1Desc": "",
+        "line2Title": "",
+        "line2Desc": "",
+        "mainPageNoASpeaker": "",
+        "zautomatyzowani*": "https://www.zautomatyzowani.pl/",
+        "warsawjs*": "https://warsawjs.com/",
+        "gamedevjs*": "https://gamedevjs.com/",
+        "overment*": "https://overment.com/",
+        "devszczepaniak*": "https://devszczepaniak.pl/",
+        "nofluffjobs*": "https://nofluffjobs.com/?utm_source=partner_website&utm_medium=logo&utm_campaign=patronage&utm_term=&utm_content=CJS",
+        "comandeer*": "https://blog.comandeer.pl/",
+        "coderslab*": "https://coderslab.pl/pl",
+        "highlab*": "https://highlab.pl/",
+        "kmag*": "https://kmag.pl/",
+        "gaminate*": "https://gaminate.pro/"
+    }
 }

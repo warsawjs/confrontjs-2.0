@@ -1,22 +1,13 @@
 import Hero from "@/components/sections/Hero";
 import { Schedule } from "@/components/sections/Schedule";
-import { useData } from "@/hooks/useRemoteData";
-import { getStaticProps as indexStaticProps } from "./index";
-import type { InferGetStaticPropsType } from "next";
+import { tracksData as indexStaticProps } from "./index";
 import Head from "next/head";
+import data from ".././data/data.json";
 
-export type ScheduleProps = InferGetStaticPropsType<
-  typeof getStaticProps | any
->;
+const info = data.info;
+const venue = data.venue;
 
-export default function SchedulePage({
-  tracksData,
-  info,
-  venue,
-}: ScheduleProps) {
-  if (process.env.NEXT_PUBLIC_RELOAD) {
-    ({ info, venue } = useData({ info, venue }));
-  }
+export default function SchedulePage() {
   return (
     <div className="bg-gradient-to-b from-[#A64AC9] via-white to-white">
       <Head>
@@ -28,4 +19,4 @@ export default function SchedulePage({
   );
 }
 
-export const getStaticProps = indexStaticProps;
+export const tracksData = indexStaticProps;

@@ -4,21 +4,15 @@ import Partners from "@/components/sections/Partners";
 import PreviousConferences from "@/components/sections/PreviousConferences";
 import Sponsors from "@/components/sections/Sponsors";
 import Testimonials from "@/components/sections/Testimonials";
-import { buildStaticProps, useData } from "@/hooks/useRemoteData";
 import Head from "next/head";
+import data from ".././data/data.json";
 
+const info = data.info;
+const testimonials = data.testimonials;
+const previous = data.previous;
 const primary = "#A64AC9";
 
-export const getStaticProps = buildStaticProps(["testimonials", "previous"]);
-
-export function WhyConfrontPage({ info, testimonials, previous }: any) {
-  if (process.env.NEXT_PUBLIC_RELOAD) {
-    ({ info, testimonials, previous } = useData({
-      info,
-      testimonials,
-      previous,
-    }));
-  }
+export function WhyConfrontPage() {
   return (
     <section>
       <Head>
@@ -28,7 +22,7 @@ export function WhyConfrontPage({ info, testimonials, previous }: any) {
         <Hero variant="about" info={info} />
         <Numbers color={primary} info={info} />
         <Sponsors />
-        <Partners data={info} />
+        <Partners info={info} />
       </div>
 
       <Testimonials data={testimonials} info={info} />

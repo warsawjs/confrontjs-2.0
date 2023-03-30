@@ -1,11 +1,9 @@
 import { useState } from "react";
 import { Line } from "../Schedule/Line";
 import { Link } from "../Link";
-
-import type { ScheduleProps } from "@/pages/schedule";
 import type { LineVariant } from "@/components/Schedule/types";
 
-export function Schedule({ tracksData }: ScheduleProps) {
+export function Schedule({ tracksData }: any) {
   const [activeTimeline, setActiveTimeline] = useState<LineVariant>("one");
   const { trackOne, trackTwo } = tracksData;
 
