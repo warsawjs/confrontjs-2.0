@@ -64,7 +64,7 @@ export default function Footer() {
         </div>
         <div className="flex flex-col text-center items-center">
           <p>
-            Copyright @ 2023 by:{" "}
+            Copyright @ 2024 by:{" "}
             <Link className="underline" href="https://warsawjs.com/">
               WarsawJS
             </Link>
