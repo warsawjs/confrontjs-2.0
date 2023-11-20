@@ -3,7 +3,7 @@ import type { TalkDetails } from "@/components/Schedule/types";
 export const timelineData: TalkDetails[] = [
   {
     id: 1,
-    author: "Chris Lilley ",
+    author: "Chris Lilley",
     title: "Opening Keynote",
     date: "24 03 2023",
     timeFrom: "8:00",
@@ -16,7 +16,7 @@ export const timelineData: TalkDetails[] = [
   },
   {
     id: 2,
-    author: "Chris Lilley ",
+    author: "Chris Lilley",
     title: "Opening Keynote",
     date: "24 03 2023",
     timeFrom: "9:00",
@@ -29,7 +29,7 @@ export const timelineData: TalkDetails[] = [
   },
   {
     id: 3,
-    author: "Chris Lilley ",
+    author: "Chris Lilley",
     title: "Opening Keynote",
     date: "24 03 2023",
     timeFrom: "10:00",
@@ -42,7 +42,7 @@ export const timelineData: TalkDetails[] = [
   },
   {
     id: 4,
-    author: "Chris Lilley ",
+    author: "Chris Lilley",
     title: "Opening Keynote",
     date: "24 03 2023",
     timeFrom: "11:00",
@@ -55,7 +55,7 @@ export const timelineData: TalkDetails[] = [
   },
   {
     id: 5,
-    author: "Chris Lilley ",
+    author: "Chris Lilley",
     title: "Opening Keynote",
     date: "24 03 2023",
     timeFrom: "12:00",
@@ -68,7 +68,7 @@ export const timelineData: TalkDetails[] = [
   },
   {
     id: 6,
-    author: "Chris Lilley ",
+    author: "Chris Lilley",
     title: "Opening Keynote",
     date: "24 03 2023",
     timeFrom: "13:00",
@@ -81,7 +81,7 @@ export const timelineData: TalkDetails[] = [
   },
   {
     id: 7,
-    author: "Chris Lilley ",
+    author: "Chris Lilley",
     title: "Opening Keynote",
     date: "24 03 2023",
     timeFrom: "15:00",
@@ -94,7 +94,7 @@ export const timelineData: TalkDetails[] = [
   },
   {
     id: 8,
-    author: "Chris Lilley ",
+    author: "Chris Lilley",
     title: "Opening Keynote",
     date: "24 03 2023",
     timeFrom: "16:00",
