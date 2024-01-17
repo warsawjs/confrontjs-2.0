@@ -10,11 +10,11 @@ export default function Terms() {
         </h1>
         <div className="flex flex-col gap-5">
           <h2 className="font-bold text-xl uppercase">
-            REGULAMIN CONFRONTJS 24 MARCA 2023
+            REGULAMIN CONFRONTJS 12 KWIETNIA 2023
           </h2>
           <p className="text-sm lg:text-base">
             Niniejszy regulamin określa warunki udziału w konferencji ConfrontJS
-            w dniu 24 marca 2023 roku, która odbywa się stacjonarnie w BEC w Warszawie. Organizatorem konferencji jest
+            w dniu 12 kwietnia 2024 roku, która odbywa się stacjonarnie w BEC w Warszawie. Organizatorem konferencji jest
             WarsawJS sp. z o.o. z siedzibą w Warszawie.
           </p>
         </div>
@@ -46,9 +46,9 @@ export default function Terms() {
               Serwis - strona internetowa dostępna pod adresem
               <Link
                 className="pl-2 font-bold hover:text-primary underline"
-                href="https://confrontjs.com/"
+                href="https://confrontjs.pl/"
               >
-                https://confrontjs.com/
+                https://confrontjs.pl/
               </Link>
               , na której znajdują się wszelkie informacje organizacyjne
               dotyczące Konferencji
@@ -369,9 +369,9 @@ export default function Terms() {
               na stronie internetowej Konferencji dostępnej pod linkiem{" "}
               <Link
                 className="pl-2 font-bold hover:text-primary underline"
-                href="https://confrontjs.com/"
+                href="https://confrontjs.pl/"
               >
-                https://confrontjs.com/
+                https://confrontjs.pl/
               </Link>
             </li>
             <li>

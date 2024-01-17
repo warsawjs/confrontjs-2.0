@@ -36,7 +36,7 @@ export default function Speaker({ speaker }: params) {
         <title>{speaker.name}</title>
       </Head>
       <div className="flex flex-col items-center text-center gap-5 lg:gap-10">
-        {/* <h2 className="text-sm lg:text-3xl">24 MARCH 2023 IN WARSAW, POLAND</h2> */}
+        {/* <h2 className="text-sm lg:text-3xl">12 APRIL 2024 IN WARSAW, POLAND</h2> */}
 
         <div className="flex items-center w-[145px] h-[145px] lg:w-[300px] lg:h-[300px] my-10 rounded-xl bg-white overflow-hidden drop-shadow-xl shadow-[#392740]">
           <Image width={400} height={400} alt="avatar" src={speaker.avatar} />
