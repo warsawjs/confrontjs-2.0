@@ -104,7 +104,7 @@ export function Nav({ info = defaultProps }: any) {
         </Link> */}
         <Link
           /* will be replaced after setting up CMS */
-          href="https://docs.google.com/forms/d/e/1FAIpQLSd4k9O91d66nfxxQG4N1HOrkBLczlQ7ZxaBkN7bnFU7omTB7A/viewform"
+          href="https://drive.google.com/file/d/1TLIU-54ws6_PLD0b8tybB1tiwpRuSSYS/view?usp=drive_link"
           target="_blank"
           rel="noopener"
           className="font-bold px-6 py-4 bg-primary hover:bg-secondary hover:text-black transition-all duration-300 ease-in-out text-white uppercase rounded-2xl"
