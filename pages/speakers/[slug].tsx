@@ -17,7 +17,6 @@ type params = {
   speaker: any;
 };
 
-// Method 1
 export async function getStaticPaths() {
   const speakers = await fetchData("speakers");
   const paths = speakers.map((speaker: any) => ({
@@ -29,16 +28,6 @@ export async function getStaticPaths() {
   };
 }
 
-// Method 2
-// export async function getStaticPaths() {
-//   const speakers = await fetchData("speakers");
-//   return {
-//     paths: speakers.map((speaker: any) => ({
-//       params: { slug: speaker.slug },
-//     })),
-//     fallback: false,
-//   };
-// }
 
 export async function getStaticProps({ params }: params) {
   const speakers = await fetchData("speakers");
