@@ -20,7 +20,7 @@ type params = {
 export async function getStaticPaths() {
   const speakers = await fetchData("speakers");
   const paths = speakers.map((speaker: any) => ({
-    params: { slug: speaker.slug || "404" },
+    params: { slug: speaker.slug },
   }));
   return {
     paths,
