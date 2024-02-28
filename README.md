@@ -4,6 +4,8 @@ Version 0.2
 
 CMS added by Artur!
 
+- careful when using it - zoom in and zoom out or use full screen to see the cells.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
