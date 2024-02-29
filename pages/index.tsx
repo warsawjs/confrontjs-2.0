@@ -27,6 +27,11 @@ export default function MainPage({
     <section>
       <Head>
         <title>Welcome to ConfrontJS</title>
+        <meta
+          name="image"
+          property="og:image"
+          content="https://s3.eu-central-1.amazonaws.com/confrontjs.com/banners/og2024.png"
+        ></meta>
       </Head>
       <div className="bg-gradient-to-b from-[#A64AC9] via-white to-white">
         <Hero variant="main" info={info} />
