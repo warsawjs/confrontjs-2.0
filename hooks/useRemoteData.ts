@@ -25,7 +25,7 @@ export function useRemoteData(
     React.useEffect(() => {
       const id = window.setInterval(() => {
         fetchData(filename).then(setData);
-      }, interval * 1e3);
+      }, interval * 5e3);
       return () => window.clearInterval(id);
     }, []);
   }
@@ -56,6 +56,18 @@ export function buildStaticProps(sections: string[] = []) {
         info,
         schedule,
         staff,
+        tracksData: {
+          trackOne: {
+            title: info.line1Title,
+            textContent: info.line1Desc,
+            talkList: schedule?.filter?.((event: any) => event?.day != 2),
+          },
+          trackTwo: {
+            title: info.line2Title,
+            textContent: info.line2Desc,
+            talkList: schedule?.filter?.((event: any) => event?.day == 2),
+          },
+        },
       },
     };
     return ret;
