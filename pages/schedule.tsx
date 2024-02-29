@@ -11,11 +11,24 @@ export type ScheduleProps = InferGetStaticPropsType<
 
 export default function SchedulePage({
   tracksData,
+  schedule,
   info,
   venue,
 }: ScheduleProps) {
   if (process.env.NEXT_PUBLIC_RELOAD) {
-    ({ info, venue } = useData({ info, venue }));
+    ({ info, venue, schedule } = useData({ info, venue, schedule }));
+    tracksData = {
+      trackOne: {
+        title: info.line1Title,
+        textContent: info.line1Desc,
+        talkList: schedule?.filter?.((event: any) => event?.day != 2),
+      },
+      trackTwo: {
+        title: info.line2Title,
+        textContent: info.line2Desc,
+        talkList: schedule?.filter?.((event: any) => event?.day == 2),
+      },
+    }
   }
   return (
     <div className="bg-gradient-to-b from-[#A64AC9] via-white to-white">
