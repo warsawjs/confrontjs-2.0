@@ -11,13 +11,13 @@ type Props = {
 
 export default function Speakers({ variant, data, info }: Props) {
   return (
-    <div className="flex flex-col gap-20 px-5 lg:px-40 py-20">
+    <div className="flex flex-col gap-20 px-5 py-20 lg:px-40">
       <div
         className={`${
           variant === "main" ? "flex" : "hidden"
         } flex-col items-center text-center gap-5`}
       >
-        <h2 className="font-bold text-xl text-black lg:text-4xl uppercase">
+        <h2 className="text-xl font-bold text-black uppercase lg:text-4xl">
           SPEAKERS
         </h2>
         <p className="w-[306px] lg:w-[750px] text-xs text-black lg:text-base">
@@ -29,7 +29,7 @@ export default function Speakers({ variant, data, info }: Props) {
         {variant === "main"
           ? data.slice(0, 6).map((speaker: any, i: number) => {
               return (
-                <div className="flex flex-col items-center pb-10 gap-5">
+                <div key={i} className="flex flex-col items-center gap-5 pb-10">
                   <div className="w-[145px] h-[145px] lg:w-[300px] lg:h-[300px] flex items-end justify-center rounded-3xl bg-white overflow-hidden drop-shadow-xl shadow-[#392740]">
                     <Link
                       className="relative"
@@ -52,7 +52,7 @@ export default function Speakers({ variant, data, info }: Props) {
                     </Link>
                   </div>
                   <div className="flex flex-col items-center gap-2">
-                    <h3 className="font-bold text-sm lg:text-2xl">
+                    <h3 className="text-sm font-bold lg:text-2xl">
                       <Link
                         className="relative"
                         href={`speakers/${speaker.slug}`}
@@ -67,7 +67,7 @@ export default function Speakers({ variant, data, info }: Props) {
             })
           : data.map((speaker: any, i: number) => {
               return (
-                <div className="flex flex-col items-center pb-10 gap-5">
+                <div key={i} className="flex flex-col items-center gap-5 pb-10">
                   <div className="relative w-[145px] h-[145px] lg:w-[300px] lg:h-[300px] flex items-end justify-center rounded-3xl bg-white overflow-hidden drop-shadow-xl shadow-[#392740]">
                     <Link
                       className="relative"
@@ -90,7 +90,7 @@ export default function Speakers({ variant, data, info }: Props) {
                     </Link>
                   </div>
                   <div className="flex flex-col items-center gap-2">
-                    <h3 className="font-bold text-sm lg:text-2xl">
+                    <h3 className="text-sm font-bold lg:text-2xl">
                       <Link
                         className="relative"
                         href={`speakers/${speaker.slug}`}
@@ -112,7 +112,7 @@ export default function Speakers({ variant, data, info }: Props) {
       >
         <Link
           href="/speakers"
-          className="font-bold text-xs lg:text-xl px-6 py-4 bg-tertiary text-secondary uppercase hover:bg-secondary hover:text-black transition-all duration-300 ease-in-out rounded-2xl"
+          className="px-6 py-4 text-xs font-bold uppercase transition-all duration-300 ease-in-out lg:text-xl bg-tertiary text-secondary hover:bg-secondary hover:text-black rounded-2xl"
         >
           SEE ALL SPEAKERS
         </Link>
@@ -125,7 +125,7 @@ export default function Speakers({ variant, data, info }: Props) {
       >
         <Link
           href="/buy-a-ticket"
-          className="font-bold text-sm lg:text-xl px-6 py-4 bg-tertiary text-secondary uppercase hover:bg-secondary hover:text-black transition-all duration-300 ease-in-out rounded-2xl"
+          className="px-6 py-4 text-sm font-bold uppercase transition-all duration-300 ease-in-out lg:text-xl bg-tertiary text-secondary hover:bg-secondary hover:text-black rounded-2xl"
         >
           BUY A TICKET
         </Link>

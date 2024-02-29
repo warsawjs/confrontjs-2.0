@@ -11,15 +11,18 @@ import Image from "next/image";
 export function Staff({ staff }: any) {
   return (
     <>
-      <div className="flex flex-col items-center justify-center gap-10 text-xs lg:text-sm pt-20 pb-40">
-        <h1 className="font-bold text-xl text-black lg:text-4xl pb-10">
+      <div className="flex flex-col items-center justify-center gap-10 pt-20 pb-40 text-xs lg:text-sm">
+        <h1 className="pb-10 text-xl font-bold text-black lg:text-4xl">
           Supporting team
         </h1>
-        <div className="grid grid-cols-2 lg:grid-cols-3 gap-10">
-          {staff.map((stf: any) => {
+        <div className="grid grid-cols-2 gap-10 lg:grid-cols-3">
+          {staff.map((stf: any, i: number) => {
             return (
-              <div className="flex flex-col items-center text-center gap-4">
-                <div className="w-24 lg:w-56 h-24 lg:h-56 rounded-3xl overflow-hidden drop-shadow-xl">
+              <div
+                key={i}
+                className="flex flex-col items-center gap-4 text-center"
+              >
+                <div className="w-24 h-24 overflow-hidden lg:w-56 lg:h-56 rounded-3xl drop-shadow-xl">
                   <Image
                     className="w-full h-full"
                     width={1000}
@@ -32,16 +35,16 @@ export function Staff({ staff }: any) {
                   />
                 </div>
                 <div className="flex flex-col">
-                  <h2 className="font-bold text-sm lg:text-xl">{stf.name}</h2>
+                  <h2 className="text-sm font-bold lg:text-xl">{stf.name}</h2>
                   <p>{stf.title}</p>
                 </div>
                 {/* <p className="w-56 lg:w-64"></p> */}
-                <div className="text-4xl text-black flex justify-center gap-2 py-2">
+                <div className="flex justify-center gap-2 py-2 text-4xl text-black">
                   {stf.linkedin !== "" ? (
                     <Link
                       target="_blank"
                       rel="noopener"
-                      className="hover:text-secondary transition-all duration-300 ease-in-out"
+                      className="transition-all duration-300 ease-in-out hover:text-secondary"
                       href={stf.linkedin}
                     >
                       {<AiFillLinkedin />}
@@ -53,7 +56,7 @@ export function Staff({ staff }: any) {
                     <Link
                       target="_blank"
                       rel="noopener"
-                      className="hover:text-secondary transition-all duration-300 ease-in-out"
+                      className="transition-all duration-300 ease-in-out hover:text-secondary"
                       href={stf.twitter}
                     >
                       {<AiFillTwitterCircle />}
@@ -65,7 +68,7 @@ export function Staff({ staff }: any) {
                     <Link
                       target="_blank"
                       rel="noopener"
-                      className="hover:text-secondary transition-all duration-300 ease-in-out"
+                      className="transition-all duration-300 ease-in-out hover:text-secondary"
                       href={stf.instagram}
                     >
                       {<AiFillInstagram />}
@@ -77,7 +80,7 @@ export function Staff({ staff }: any) {
                     <Link
                       target="_blank"
                       rel="noopener"
-                      className="hover:text-secondary transition-all duration-300 ease-in-out"
+                      className="transition-all duration-300 ease-in-out hover:text-secondary"
                       href={stf.facebook}
                     >
                       {<AiFillFacebook />}

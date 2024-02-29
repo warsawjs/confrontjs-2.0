@@ -42,8 +42,8 @@ export default function Testimonials({ data, info }: any) {
 
   return (
     <div className="flex-col items-center justify-center py-40 lg:px-40 lg:px-38">
-      <div className="flex flex-col text-center items-center gap-5">
-        <h1 className="font-bold text-xl lg:text-4xl uppercase">
+      <div className="flex flex-col items-center gap-5 text-center">
+        <h1 className="text-xl font-bold uppercase lg:text-4xl">
           TESTIMONIALS
         </h1>
         <p className="w-[306px] lg:w-[750px] text-xs lg:text-base">
@@ -61,10 +61,10 @@ export default function Testimonials({ data, info }: any) {
         navigation={true}
         onSwiper={(swiper) => swiper.slideNext}
       >
-        {data.map((testimony: any) => {
+        {data.map((testimony: any, i: number) => {
           return (
-            <SwiperSlide>
-              <div className="w-full flex justify-center my-20">
+            <SwiperSlide key={i}>
+              <div className="flex justify-center w-full my-20">
                 <div className="w-[185px] h-[235px] lg:w-[280px] lg:h-[300px] flex flex-col justify-center text-center p-8 lg:p-14 bg-white rounded-3xl shadow-2xl shadow-primary">
                   <h3 className="font-bold text-[10px] lg:text-sm text-primary">
                     {testimony.name}
