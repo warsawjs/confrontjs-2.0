@@ -19,14 +19,14 @@ export function Venue({ info, venue, variant }: Props) {
             variant === "main" ? "flex" : "hidden"
           } flex flex-col-reverse lg:flex-row items-center justify-center gap-12`}
         >
-          <div className="flex flex-col items-center lg:items-end text-center lg:text-right justify-between gap-5 py-4">
-            <h2 className="font-bold text-xl lg:text-4xl uppercase">VENUE</h2>
+          <div className="flex flex-col items-center justify-between gap-5 py-4 text-center lg:items-end lg:text-right">
+            <h2 className="text-xl font-bold uppercase lg:text-4xl">VENUE</h2>
             <p className="w-[306px] lg:w-[520px]">{venue.desc}</p>
-            <div className="text-4xl text-black flex justify-center gap-2 py-2">
-              {data.sponsors.map((sponsor: any) => {
+            <div className="flex justify-center gap-2 py-2 text-4xl text-black">
+              {data.sponsors.map((sponsor: any, i: number) => {
                 if (sponsor.type === "diamond") {
                   return (
-                    <div className="flex flex-row items-center gap-2">
+                    <div key={i} className="flex flex-row items-center gap-2">
                       <div className="rounded-xl overflow-hidden border-4 border-[transparent] hover:border-secondary transition-all duration-300 ease-in-out">
                         <Link href={sponsor.url}>
                           <Image
@@ -40,7 +40,7 @@ export function Venue({ info, venue, variant }: Props) {
                       <Link
                         target="_blank"
                         rel="noopener"
-                        className="hover:text-secondary transition-all duration-300 ease-in-out"
+                        className="transition-all duration-300 ease-in-out hover:text-secondary"
                         href={sponsor.linkedin}
                       >
                         {<AiFillLinkedin />}
@@ -48,7 +48,7 @@ export function Venue({ info, venue, variant }: Props) {
                       <Link
                         target="_blank"
                         rel="noopener"
-                        className="hover:text-secondary transition-all duration-300 ease-in-out"
+                        className="transition-all duration-300 ease-in-out hover:text-secondary"
                         href={sponsor.facebook}
                       >
                         {<AiFillFacebook />}
@@ -56,7 +56,7 @@ export function Venue({ info, venue, variant }: Props) {
                       <Link
                         target="_blank"
                         rel="noopener"
-                        className="hover:text-secondary transition-all duration-300 ease-in-out"
+                        className="transition-all duration-300 ease-in-out hover:text-secondary"
                         href={sponsor.instagram}
                       >
                         {<AiFillInstagram />}
@@ -64,7 +64,7 @@ export function Venue({ info, venue, variant }: Props) {
                       <Link
                         target="_blank"
                         rel="noopener"
-                        className="hover:text-secondary transition-all duration-300 ease-in-out"
+                        className="transition-all duration-300 ease-in-out hover:text-secondary"
                         href={sponsor.youtube}
                       >
                         {<AiFillYoutube />}
@@ -76,7 +76,7 @@ export function Venue({ info, venue, variant }: Props) {
             </div>
             <Link
               href="/buy-a-ticket"
-              className="font-bold px-6 py-4 bg-primary text-white hover:bg-secondary hover:text-black transition-all duration-300 ease-in-out text-sm lg:text-2xl rounded-2xl"
+              className="px-6 py-4 text-sm font-bold text-white transition-all duration-300 ease-in-out bg-primary hover:bg-secondary hover:text-black lg:text-2xl rounded-2xl"
             >
               BUY A TICKET
             </Link>
@@ -98,7 +98,7 @@ export function Venue({ info, venue, variant }: Props) {
             variant === "venue" ? "flex" : "hidden"
           } flex-col items-center gap-20`}
         >
-          <div className="flex flex-col lg:flex-row justify-center gap-10">
+          <div className="flex flex-col justify-center gap-10 lg:flex-row">
             <div className="flex items-center w-[306px] h-[210px] lg:w-[452px] lg:h-[340px] rounded-3xl overflow-hidden drop-shadow-xl">
               <Image
                 width={800}
@@ -107,15 +107,15 @@ export function Venue({ info, venue, variant }: Props) {
                 alt="venue picture"
               />
             </div>
-            <div className="flex flex-col text-center lg:items-start lg:text-left justify-around gap-5 py-4">
-              <h2 className="font-bold text-2xl uppercase">About BEC</h2>
+            <div className="flex flex-col justify-around gap-5 py-4 text-center lg:items-start lg:text-left">
+              <h2 className="text-2xl font-bold uppercase">About BEC</h2>
               <p className="w-[306px] lg:w-[520px]">{venue.about}</p>
-              <h2 className="font-bold pt-2">Learn more about BEC:</h2>
-              <div className="text-4xl text-black flex justify-center gap-2">
-                {data.sponsors.map((sponsor: any) => {
+              <h2 className="pt-2 font-bold">Learn more about BEC:</h2>
+              <div className="flex justify-center gap-2 text-4xl text-black">
+                {data.sponsors.map((sponsor: any, i: number) => {
                   if (sponsor.type === "diamond") {
                     return (
-                      <div className="flex flex-row items-center gap-2">
+                      <div key={i} className="flex flex-row items-center gap-2">
                         <div className="rounded-xl overflow-hidden border-4 border-[transparent] hover:border-secondary transition-all duration-300 ease-in-out">
                           <Link href={sponsor.url}>
                             <Image
@@ -129,7 +129,7 @@ export function Venue({ info, venue, variant }: Props) {
                         <Link
                           target="_blank"
                           rel="noopener"
-                          className="hover:text-secondary transition-all duration-300 ease-in-out"
+                          className="transition-all duration-300 ease-in-out hover:text-secondary"
                           href={sponsor.linkedin}
                         >
                           {<AiFillLinkedin />}
@@ -137,7 +137,7 @@ export function Venue({ info, venue, variant }: Props) {
                         <Link
                           target="_blank"
                           rel="noopener"
-                          className="hover:text-secondary transition-all duration-300 ease-in-out"
+                          className="transition-all duration-300 ease-in-out hover:text-secondary"
                           href={sponsor.facebook}
                         >
                           {<AiFillFacebook />}
@@ -145,7 +145,7 @@ export function Venue({ info, venue, variant }: Props) {
                         <Link
                           target="_blank"
                           rel="noopener"
-                          className="hover:text-secondary transition-all duration-300 ease-in-out"
+                          className="transition-all duration-300 ease-in-out hover:text-secondary"
                           href={sponsor.instagram}
                         >
                           {<AiFillInstagram />}
@@ -153,7 +153,7 @@ export function Venue({ info, venue, variant }: Props) {
                         <Link
                           target="_blank"
                           rel="noopener"
-                          className="hover:text-secondary transition-all duration-300 ease-in-out"
+                          className="transition-all duration-300 ease-in-out hover:text-secondary"
                           href={sponsor.youtube}
                         >
                           {<AiFillYoutube />}
