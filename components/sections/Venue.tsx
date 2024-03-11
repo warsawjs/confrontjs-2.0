@@ -117,7 +117,11 @@ export function Venue({ info, venue, variant }: Props) {
                     return (
                       <div key={i} className="flex flex-row items-center gap-2">
                         <div className="rounded-xl overflow-hidden border-4 border-[transparent] hover:border-secondary transition-all duration-300 ease-in-out">
-                          <Link href={sponsor.url}>
+                          <Link
+                            href={sponsor.url}
+                            target="_blank"
+                            rel="noopener"
+                          >
                             <Image
                               width={60}
                               height={30}

@@ -33,7 +33,7 @@ export default function Sponsors() {
                     key={i}
                     className="flex items-center justify-center overflow-hidden transition-all duration-300 ease-in-out cursor-pointer w-72 h-30 rounded-xl opacity-80 hover:opacity-100"
                   >
-                    <Link href={sponsor.url}>
+                    <Link href={sponsor.url} target="_blank" rel="noopener">
                       <Image
                         width={1200}
                         height={600}
@@ -57,7 +57,7 @@ export default function Sponsors() {
                     key={i}
                     className="flex items-center justify-center overflow-hidden transition-all duration-300 ease-in-out cursor-pointer w-72 h-30 rounded-xl opacity-80 hover:opacity-100"
                   >
-                    <Link href={sponsor.url}>
+                    <Link href={sponsor.url} target="_blank" rel="noopener">
                       <Image
                         width={1000}
                         height={500}
@@ -80,7 +80,9 @@ export default function Sponsors() {
                   <Link
                     key={i}
                     href={sponsor.url}
-                    className="relative flex items-center justify-center overflow-hidden transition-all duration-300 ease-in-out cursor-pointer rounded-xl opacity-80 hover:opacity-100 h-24 w-64"
+                    target="_blank"
+                    rel="noopener"
+                    className="relative flex items-center justify-center w-64 h-24 overflow-hidden transition-all duration-300 ease-in-out cursor-pointer rounded-xl opacity-80 hover:opacity-100"
                   >
                     <Image
                       fill

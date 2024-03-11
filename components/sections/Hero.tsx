@@ -10,13 +10,13 @@ type Props = {
 
 export default function Hero({ variant, info }: Props) {
   return (
-    <div className="flex flex-col py-20 gap-5 items-center text-center">
+    <div className="flex flex-col items-center gap-5 py-20 text-center">
       <div
         className={`${
           variant === "main" ? "flex" : "hidden"
         } flex-col gap-5 items-center text-center text-sm lg:text-base`}
       >
-        <div className="w-44 h-32 lg:w-72 lg:h-64 mb-10">
+        <div className="h-32 mb-10 w-44 lg:w-72 lg:h-64">
           <Image
             className="w-full"
             src={logo}
@@ -25,7 +25,7 @@ export default function Hero({ variant, info }: Props) {
             alt="logo"
           />
         </div>
-        <h3 className="font-bold text-sm lg:text-xl">
+        <h3 className="text-sm font-bold lg:text-xl">
           Are you ready to take your JavaScript skills to the next level?
         </h3>
         <h2 className="text-sm text-white lg:text-3xl">
@@ -34,16 +34,18 @@ export default function Hero({ variant, info }: Props) {
         <h1 className="w-72 lg:w-[740px] font-bold text-xl lg:text-4xl text-tertiary uppercase">
           EMPOWERING THE NEXT GENERATION OF FRONT-END PROFESSIONALS
         </h1>
-        <div className="flex flex-col lg:flex-row gap-5 py-10">
+        <div className="flex flex-col gap-5 py-10 lg:flex-row">
           <Link
             href={info.sponsorLink}
-            className="font-bold px-6 py-4 border-2 text-xs lg:text-xl text-black uppercase hover:bg-secondary hover:text-black transition-all duration-300 ease-in-out rounded-2xl"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-6 py-4 text-xs font-bold text-black uppercase transition-all duration-300 ease-in-out border-2 lg:text-xl hover:bg-secondary hover:text-black rounded-2xl"
           >
             BECOME A SPONSOR
           </Link>
           <Link
             href="/buy-a-ticket"
-            className="font-bold px-6 py-4 bg-tertiary text-xs lg:text-xl uppercase text-white hover:bg-secondary hover:text-black transition-all duration-300 ease-in-out rounded-2xl"
+            className="px-6 py-4 text-xs font-bold text-white uppercase transition-all duration-300 ease-in-out bg-tertiary lg:text-xl hover:bg-secondary hover:text-black rounded-2xl"
           >
             BUY A TICKET
           </Link>
@@ -65,10 +67,10 @@ export default function Hero({ variant, info }: Props) {
         <p className="text-sm text-white lg:text-3xl">
           12 April 2024 in Warsaw, Poland
         </p>
-        <h1 className="font-bold text-3xl lg:text-7xl text-tertiary uppercase">
+        <h1 className="text-3xl font-bold uppercase lg:text-7xl text-tertiary">
           SCHEDULE
         </h1>
-        <h2 className="font-bold text-xl text-white lg:text-3xl">
+        <h2 className="text-xl font-bold text-white lg:text-3xl">
           {info.heroTitle}
         </h2>
         <p className="w-72 lg:w-[750px]">{info.heroDesc}</p>
@@ -82,10 +84,10 @@ export default function Hero({ variant, info }: Props) {
         <p className="text-sm text-white lg:text-3xl">
           12 April 2024 in Warsaw, Poland
         </p>
-        <h1 className="font-bold text-3xl lg:text-7xl text-tertiary">
+        <h1 className="text-3xl font-bold lg:text-7xl text-tertiary">
           SPEAKERS
         </h1>
-        <h2 className="font-bold text-xl text-white lg:text-3xl">
+        <h2 className="text-xl font-bold text-white lg:text-3xl">
           {info.heroTitle}
         </h2>
         <p className="w-72 lg:w-[750px]">{info.heroDesc}</p>
@@ -99,10 +101,10 @@ export default function Hero({ variant, info }: Props) {
         <p className="text-sm text-white lg:text-3xl">
           12 April 2024 in Warsaw, Poland
         </p>
-        <h1 className="font-bold text-3xl lg:text-7xl text-tertiary">
+        <h1 className="text-3xl font-bold lg:text-7xl text-tertiary">
           GET YOUR TICKET
         </h1>
-        <h2 className="font-bold text-xl text-white lg:text-3xl">
+        <h2 className="text-xl font-bold text-white lg:text-3xl">
           PRICING PLANS
         </h2>
         <p className="w-72 lg:w-[750px]">{info.heroDesc}</p>
@@ -116,10 +118,10 @@ export default function Hero({ variant, info }: Props) {
         <h2 className="text-sm text-white lg:text-3xl">
           12 April 2024 in Warsaw, Poland
         </h2>
-        <h1 className="font-bold text-3xl lg:text-7xl text-tertiary">
+        <h1 className="text-3xl font-bold lg:text-7xl text-tertiary">
           CONFRONTJS 2024
         </h1>
-        <h2 className="font-bold text-xl text-white lg:text-5xl">venue</h2>
+        <h2 className="text-xl font-bold text-white lg:text-5xl">venue</h2>
       </div>
 
       <div
@@ -130,7 +132,7 @@ export default function Hero({ variant, info }: Props) {
         <p className="text-sm text-white lg:text-3xl">
           12 April 2024 in Warsaw, Poland
         </p>
-        <h1 className="font-bold text-3xl lg:text-7xl text-tertiary">
+        <h1 className="text-3xl font-bold lg:text-7xl text-tertiary">
           WHY CONFRONTJS?
         </h1>
         <h2 className="w-72 lg:w-[750px] font-bold text-xl text-white lg:text-3xl">
