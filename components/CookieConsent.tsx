@@ -38,24 +38,24 @@ const CookieConsent: React.FC<Props> = ({ onConsent }) => {
         style={{ zIndex: 9998 }}
       ></div>
       <div
-        className="fixed flex justify-center gap-6 bottom-0 left-0 w-full p-6 bg-tertiary shadow-md text-center"
+        className="fixed bottom-0 left-0 flex flex-col justify-center w-full gap-6 p-6 shadow-md md:flex-row bg-tertiary"
         style={{ zIndex: 9999 }}
       >
-        <p className="flex text-left py-4 text-white">
+        <p className="py-4 text-center text-white md:text-left ">
           We use cookies to improve your browsing experience. By continuing to
           use this website, you agree to our use of cookies.
         </p>
-        <div className="flex flex-row gap-4 py-2 lg:py-0">
+        <div className="flex flex-row justify-center gap-4 py-2 lg:py-0">
           <button
             onClick={handleRefuse}
-            className="text-sm text-white uppercase px-6 py-2 rounded-xl border-2 font-bold hover:bg-danger hover:text-black transition-all duration-300 ease-in-out"
+            className="px-6 py-2 text-sm font-bold text-white uppercase transition-all duration-300 ease-in-out border-2 rounded-xl hover:bg-danger hover:text-black"
           >
             Refuse
           </button>
 
           <button
             onClick={handleAccept}
-            className="text-sm text-white uppercase px-6 py-2 rounded-xl border-2 font-bold hover:bg-secondary hover:text-black transition-all duration-300 ease-in-out"
+            className="px-6 py-2 text-sm font-bold text-white uppercase transition-all duration-300 ease-in-out border-2 rounded-xl hover:bg-secondary hover:text-black"
           >
             Accept
           </button>
