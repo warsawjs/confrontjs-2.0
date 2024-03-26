@@ -217,24 +217,45 @@
         }
     ],
     "sponsors": [
-        {
-            "id": "1",
-            "type": "diamond",
-            "name": "bec",
-            "picture": "",
-            "url": "https://www.bec.dk/",
-            "linkedin": "https://www.linkedin.com/company/becpoland/",
-            "facebook": "https://www.facebook.com/BECPoland/",
-            "instagram": "https://www.instagram.com/bec_poland/",
-            "youtube": "https://www.youtube.com/@BEC_Financial_Technologies"
-        },
-        {
-            "id": "2",
-            "type": "silver",
-            "name": "xfaang",
-            "picture": "",
-            "url": "https://xfaang.com/"
-        }
+      {
+        "id": "1",
+        "type": "diamond",
+        "name": "bec",
+        "picture": "",
+        "url": "https://www.bec.dk/",
+        "linkedin": "https://www.linkedin.com/company/becpoland/",
+        "facebook": "https://www.facebook.com/BECPoland/",
+        "instagram": "https://www.instagram.com/bec_poland/",
+        "youtube": "https://www.youtube.com/@BEC_Financial_Technologies"
+      },
+      {
+        "id": "2",
+        "type": "silver",
+        "name": "xfaang",
+        "picture": "",
+        "url": "https://xfaang.com/"
+      },
+      {
+        "id": "3",
+        "type": "bronze",
+        "name": "campus-ai",
+        "picture": "",
+        "url": "https://campusai.pl/"
+      },
+      {
+        "id": "4",
+        "type": "bronze",
+        "name": "monday",
+        "picture": "",
+        "url": "https://monday.com/"
+      },
+      {
+        "id": "5",
+        "type": "bronze",
+        "name": "callstack",
+        "picture": "",
+        "url": "https://www.callstack.com/"
+      }
     ],
     "staff": [
         {

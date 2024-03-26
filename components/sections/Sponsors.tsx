@@ -12,6 +12,9 @@ export default function Sponsors() {
   const silverSponsors = data.sponsors.filter(
     (sponsor) => sponsor.type === "silver"
   );
+  const bronzeSponsors = data.sponsors.filter(
+    (sponsor) => sponsor.type === "bronze"
+  );
 
   return (
     <div className="flex flex-col items-center justify-center py-40 lg:px-40">
@@ -77,6 +80,31 @@ export default function Sponsors() {
               </h1>
               <div className="flex justify-center w-full lg:w-[800px] gap-20 flex-wrap">
                 {silverSponsors.map((sponsor, i) => (
+                  <Link
+                    key={i}
+                    href={sponsor.url}
+                    target="_blank"
+                    rel="noopener"
+                    className="relative flex items-center justify-center w-64 h-24 overflow-hidden transition-all duration-300 ease-in-out cursor-pointer rounded-xl opacity-80 hover:opacity-100"
+                  >
+                    <Image
+                      fill
+                      className="object-contain"
+                      src={`https://s3.eu-central-1.amazonaws.com/www.warsawjs.com/static/images/sponsors/logo-${sponsor.name}.png`}
+                      alt={sponsor.name}
+                    />
+                  </Link>
+                ))}
+              </div>
+            </div>
+          )}
+          {!!bronzeSponsors.length && (
+            <div className="flex flex-col items-center justify-center pt-20 text-center">
+              <h1 className="pb-20 text-lg font-bold text-black lg:text-3xl">
+                Bronze sponsors
+              </h1>
+              <div className="flex justify-center w-full lg:w-[800px] gap-20 flex-wrap">
+                {bronzeSponsors.map((sponsor, i) => (
                   <Link
                     key={i}
                     href={sponsor.url}
