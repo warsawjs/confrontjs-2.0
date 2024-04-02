@@ -1,9 +1,9 @@
 import Hero from "@/components/sections/Hero";
 import { Schedule } from "@/components/sections/Schedule";
 import { useData } from "@/hooks/useRemoteData";
-import { getStaticProps as indexStaticProps } from "./index";
 import type { InferGetStaticPropsType } from "next";
-import Head from "next/head";
+import { NextSeo } from "next-seo";
+import { getStaticProps as indexStaticProps } from "./index";
 
 export type ScheduleProps = InferGetStaticPropsType<
   typeof getStaticProps | any
@@ -28,16 +28,16 @@ export default function SchedulePage({
         textContent: info.line2Desc,
         talkList: schedule?.filter?.((event: any) => event?.day == 2),
       },
-    }
+    };
   }
   return (
-    <div className="bg-gradient-to-b from-[#A64AC9] via-white to-white">
-      <Head>
-        <title>Schedule</title>
-      </Head>
-      <Hero variant="schedule" info={info} />
-      <Schedule tracksData={tracksData} info={info} venue={venue} />
-    </div>
+    <>
+      <NextSeo title="Schedule" />
+      <div className="bg-gradient-to-b from-[#A64AC9] via-white to-white">
+        <Hero variant="schedule" info={info} />
+        <Schedule tracksData={tracksData} info={info} venue={venue} />
+      </div>
+    </>
   );
 }
 
