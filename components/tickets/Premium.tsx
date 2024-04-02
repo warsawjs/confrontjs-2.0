@@ -37,7 +37,7 @@ export default function Premium({ ticket }: any) {
             ? "pointer-events-none bg-[#ccc] hover:bg-[#ccc] hover:text-white"
             : "bg-primary hover:bg-secondary hover:text-black"
         }`}
-        href={isSoldedOut ? ticket.url : ""}
+        href={!isSoldedOut ? ticket.url : ""}
         aria-disabled={isSoldedOut}
       >
         {isSoldedOut ? "SOLD OUT" : "BUY"}
