@@ -1,11 +1,14 @@
-import React from "react";
 import Link from "next/link";
 
 export default function Premium({ ticket }: any) {
+  const isSoldedOut = ticket.type === "REGULAR TICKET";
+
   return (
     <div
-      className="w-[240px] h-[440px] lg:w-[312px] lg:h-[530px] flex flex-col justify-center gap-5 py-4 px-5 items-center 
-       text-center bg-white drop-shadow-xl shadow-[#392740] rounded-3xl text-black font-medium"
+      className={`w-[240px] h-[440px] lg:w-[312px] lg:h-[530px] flex flex-col justify-center gap-5 py-4 px-5 items-center 
+       text-center bg-white drop-shadow-xl shadow-[#392740] rounded-3xl text-black font-medium, ${
+         isSoldedOut ? "opacity-60" : ""
+       }`}
     >
       <h3 className="font-bold text-2xl text-primary lg:text-3xl uppercase">
         {ticket.type}
@@ -29,10 +32,15 @@ export default function Premium({ ticket }: any) {
         {ticket.price}
       </h3>
       <Link
-        className="py-4 px-6 font-bold text-white uppercase bg-primary hover:bg-secondary hover:text-black transition-all duration-300 ease-in-out rounded-xl"
-        href={ticket.url}
+        className={`py-4 px-6 font-bold text-white uppercase transition-all duration-300 ease-in-out rounded-xl ${
+          isSoldedOut
+            ? "pointer-events-none bg-[#ccc] hover:bg-[#ccc] hover:text-white"
+            : "bg-primary hover:bg-secondary hover:text-black"
+        }`}
+        href={isSoldedOut ? ticket.url : ""}
+        aria-disabled={isSoldedOut}
       >
-        BUY
+        {isSoldedOut ? "SOLD OUT" : "BUY"}
       </Link>
     </div>
   );
