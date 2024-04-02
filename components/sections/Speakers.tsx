@@ -1,4 +1,3 @@
-import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -29,16 +28,17 @@ export default function Speakers({ variant, data, info }: Props) {
         {speakersData.map((speaker: any, i: number) => {
           return (
             <div key={i} className="flex flex-col items-center gap-5 pb-10">
-              <div className="w-[145px] h-[145px] lg:w-[300px] lg:h-[300px] flex items-end justify-center rounded-3xl bg-white overflow-hidden drop-shadow-xl shadow-[#392740]">
-                <Link href={`speakers/${speaker.slug}`}>
-                  <Image
-                    fill
-                    style={{ objectFit: "cover" }}
-                    alt="avatar"
-                    src={speaker.avatar}
-                  />
-                </Link>
-              </div>
+              <Link
+                href={`speakers/${speaker.slug}`}
+                className="relative w-[145px] h-[145px] lg:w-[300px] lg:h-[300px] flex items-end justify-center rounded-3xl bg-white overflow-hidden drop-shadow-xl shadow-[#392740]"
+              >
+                <Image
+                  fill
+                  style={{ objectFit: "cover" }}
+                  alt="avatar"
+                  src={speaker.avatar}
+                />
+              </Link>
               <div className="flex flex-col items-center gap-2">
                 <h3 className="text-sm font-bold lg:text-2xl">
                   <Link className="relative" href={`speakers/${speaker.slug}`}>
