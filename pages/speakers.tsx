@@ -1,7 +1,7 @@
 import Hero from "@/components/sections/Hero";
 import Speakers from "@/components/sections/Speakers";
 import { buildStaticProps, useData } from "@/hooks/useRemoteData";
-import Head from "next/head";
+import { NextSeo } from "next-seo";
 
 export const getStaticProps = buildStaticProps(["speakers", "info"]);
 
@@ -10,13 +10,13 @@ export function SpeakersPage({ speakers, info }: any) {
     ({ speakers, info } = useData({ speakers, info }));
   }
   return (
-    <section className="bg-gradient-to-b from-[#A64AC9] to-white">
-      <Head>
-        <title>Speakers</title>
-      </Head>
-      <Hero variant="speakers" info={info} />
-      <Speakers variant="speakers" data={speakers} info={info} />
-    </section>
+    <>
+      <NextSeo title="Speakers" />
+      <section className="bg-gradient-to-b from-[#A64AC9] to-white">
+        <Hero variant="speakers" info={info} />
+        <Speakers variant="speakers" data={speakers} info={info} />
+      </section>
+    </>
   );
 }
 

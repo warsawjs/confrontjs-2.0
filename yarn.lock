@@ -1846,6 +1846,11 @@ next-google-analytics@^0.6.0:
   resolved "https://registry.npmjs.org/next-google-analytics/-/next-google-analytics-0.6.0.tgz"
   integrity sha512-j7+W6CRyPTV9nLgSU3RFATyf2F2AYQMCXEr2Lu/93Xedqb0Aqk4yPnA2gWhNXethkvLEk+25VIwaYfKfA/MgHQ==
 
+next-seo@^6.5.0:
+  version "6.5.0"
+  resolved "https://registry.yarnpkg.com/next-seo/-/next-seo-6.5.0.tgz#5ccfbcfaced9d296499aa88f074b9e82e252a9c8"
+  integrity sha512-MfzUeWTN/x/rsKp/1n0213eojO97lIl0unxqbeCY+6pAucViHDA8GSLRRcXpgjsSmBxfCFdfpu7LXbt4ANQoNQ==
+
 next-sitemap@^4.2.3:
   version "4.2.3"
   resolved "https://registry.yarnpkg.com/next-sitemap/-/next-sitemap-4.2.3.tgz#5db3f650351a51e84b9fd6b58c5af2f9257b5058"
