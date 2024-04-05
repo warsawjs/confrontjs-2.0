@@ -255,6 +255,13 @@
         "name": "callstack",
         "picture": "",
         "url": "https://www.callstack.com/"
+      },
+      {
+        "id": "6",
+        "type": "bronze",
+        "name": "olx",
+        "picture": "",
+        "url": "https://www.olx.pl/"
       }
     ],
     "staff": [
