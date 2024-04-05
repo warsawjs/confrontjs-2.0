@@ -1,14 +1,13 @@
 import Contact from "@/components/sections/Contact";
-import React from "react";
-import Head from "next/head";
+import { NextSeo } from "next-seo";
 
 export default function contact() {
   return (
-    <div className="py-20 bg-gradient-to-b from-[#A64AC9] via-white to-white">
-      <Head>
-        <title>Contact</title>
-      </Head>
-      <Contact />
-    </div>
+    <>
+      <NextSeo title="Contact" />
+      <div className="py-20 bg-gradient-to-b from-[#A64AC9] via-white to-white">
+        <Contact />
+      </div>
+    </>
   );
 }

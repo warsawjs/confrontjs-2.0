@@ -5,7 +5,7 @@ import PreviousConferences from "@/components/sections/PreviousConferences";
 import Sponsors from "@/components/sections/Sponsors";
 import Testimonials from "@/components/sections/Testimonials";
 import { buildStaticProps, useData } from "@/hooks/useRemoteData";
-import Head from "next/head";
+import { NextSeo } from "next-seo";
 
 const primary = "#A64AC9";
 
@@ -20,20 +20,20 @@ export function WhyConfrontPage({ info, testimonials, previous }: any) {
     }));
   }
   return (
-    <section>
-      <Head>
-        <title>Why ConfrontJS?</title>
-      </Head>
-      <div className="bg-gradient-to-b from-[#A64AC9] to-white">
-        <Hero variant="about" info={info} />
-        <Numbers color={primary} info={info} />
-        <Sponsors />
-        <Partners data={info} />
-      </div>
+    <>
+      <NextSeo title="Why ConfrontJS?" />
+      <section>
+        <div className="bg-gradient-to-b from-[#A64AC9] to-white">
+          <Hero variant="about" info={info} />
+          <Numbers color={primary} info={info} />
+          <Sponsors />
+          <Partners data={info} />
+        </div>
 
-      <Testimonials data={testimonials} info={info} />
-      <PreviousConferences info={info} data={previous} />
-    </section>
+        <Testimonials data={testimonials} info={info} />
+        <PreviousConferences info={info} data={previous} />
+      </section>
+    </>
   );
 }
 

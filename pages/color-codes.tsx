@@ -1,14 +1,13 @@
 import ColorCodes from "@/components/sections/ColorCodes";
-import React from "react";
-import Head from "next/head";
+import { NextSeo } from "next-seo";
 
 export default function colorCodes() {
   return (
-    <div className="py-20 bg-gradient-to-b from-[#A64AC9] to-white">
-      <Head>
-        <title>Color codes</title>
-      </Head>
-      <ColorCodes />
-    </div>
+    <>
+      <NextSeo title="Color Codes" />
+      <div className="py-20 bg-gradient-to-b from-[#A64AC9] to-white">
+        <ColorCodes />
+      </div>
+    </>
   );
 }
