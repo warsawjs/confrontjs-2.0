@@ -230,34 +230,41 @@
       },
       {
         "id": "2",
+        "type": "gold",
+        "name": "socket-supply",
+        "picture": "",
+        "url": "https://socketsupply.co/"
+      },
+      {
+        "id": "3",
         "type": "silver",
         "name": "xfaang",
         "picture": "",
         "url": "https://xfaang.com/"
       },
       {
-        "id": "3",
+        "id": "4",
         "type": "bronze",
         "name": "campus-ai",
         "picture": "",
         "url": "https://campusai.pl/"
       },
       {
-        "id": "4",
+        "id": "5",
         "type": "bronze",
         "name": "monday",
         "picture": "",
         "url": "https://monday.com/"
       },
       {
-        "id": "5",
+        "id": "6",
         "type": "bronze",
         "name": "callstack",
         "picture": "",
         "url": "https://www.callstack.com/"
       },
       {
-        "id": "6",
+        "id": "7",
         "type": "bronze",
         "name": "olx",
         "picture": "",
