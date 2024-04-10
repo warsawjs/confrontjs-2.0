@@ -12,20 +12,22 @@ export default function Speakers({ variant, data, info }: Props) {
   const isSpeakersVariant = variant === "speakers";
   const speakersData = isMainVariant ? data.slice(0, 6) : data;
 
-  return (
-    <div className="flex flex-col gap-20 px-5 py-20 lg:px-40">
-      {isMainVariant && (
-        <div className="flex flex-col items-center gap-5 text-center">
-          <h2 className="text-xl font-bold text-black uppercase lg:text-4xl">
-            SPEAKERS
-          </h2>
-          <p className="w-[306px] lg:w-[750px] text-xs text-black lg:text-base">
-            {info.speakersDescription}
-          </p>
-        </div>
-      )}
-      <div className="grid grid-cols-2 lg:grid-cols-3">
-        {speakersData.map((speaker: any, i: number) => {
+return (
+  <div className="flex flex-col gap-20 px-5 py-20 lg:px-40">
+    {isMainVariant && (
+      <div className="flex flex-col items-center gap-5 text-center">
+        <h2 className="text-xl font-bold text-black uppercase lg:text-4xl">
+          SPEAKERS
+        </h2>
+        <p className="w-[306px] lg:w-[750px] text-xs text-black lg:text-base">
+          {info.speakersDescription}
+        </p>
+      </div>
+    )}
+    <div className="grid grid-cols-2 lg:grid-cols-3">
+      {speakersData
+        .filter((s: any) => s.id && !isNaN(s.id))
+        .map((speaker: any, i: number) => {
           return (
             <div key={i} className="flex flex-col items-center gap-5 pb-10">
               <Link
@@ -50,19 +52,19 @@ export default function Speakers({ variant, data, info }: Props) {
             </div>
           );
         })}
-      </div>
-      <div className="flex items-center justify-center">
-        <Link
-          href={isMainVariant ? "/speakers" : "/buy-a-ticket"}
-          className="px-6 py-4 text-sm font-bold uppercase transition-all duration-300 ease-in-out lg:text-xl bg-tertiary text-secondary hover:bg-secondary hover:text-black rounded-2xl"
-        >
-          {isMainVariant
-            ? "SEE ALL SPEAKERS"
-            : isSpeakersVariant
-            ? "BUY A TICKET"
-            : ""}
-        </Link>
-      </div>
     </div>
-  );
+    <div className="flex items-center justify-center">
+      <Link
+        href={isMainVariant ? "/speakers" : "/buy-a-ticket"}
+        className="px-6 py-4 text-sm font-bold uppercase transition-all duration-300 ease-in-out lg:text-xl bg-tertiary text-secondary hover:bg-secondary hover:text-black rounded-2xl"
+      >
+        {isMainVariant
+          ? "SEE ALL SPEAKERS"
+          : isSpeakersVariant
+          ? "BUY A TICKET"
+          : ""}
+      </Link>
+    </div>
+  </div>
+);
 }
