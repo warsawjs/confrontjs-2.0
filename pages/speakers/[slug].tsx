@@ -41,7 +41,7 @@ export default function Speaker({ speaker }: params) {
         <div className="flex flex-col items-center gap-5 text-center lg:gap-10">
           {/* <h2 className="text-sm lg:text-3xl">12 APRIL 2024 IN WARSAW, POLAND</h2> */}
 
-          <div className="flex items-center w-[145px] h-[145px] lg:w-[300px] lg:h-[300px] my-10 rounded-xl bg-white overflow-hidden drop-shadow-xl shadow-[#392740]">
+          <div className="relative flex items-center w-[145px] h-[145px] lg:w-[300px] lg:h-[300px] my-10 rounded-xl bg-white overflow-hidden drop-shadow-xl shadow-[#392740]">
             <Image
               fill
               style={{ objectFit: "cover" }}
