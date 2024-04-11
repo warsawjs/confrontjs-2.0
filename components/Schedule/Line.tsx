@@ -27,13 +27,15 @@ export function Line({
         <p>{textContent}</p>
       </div>
       <div className="mt-12 md:mt-18 lg:mt-24">
-        {talkList.map((keynote) => (
-          <TalkShort
-            key={keynote.id}
-            talkDetails={keynote}
-            lineVariant={lineVariant}
-          />
-        ))}
+        {talkList
+          .filter((talks) => talks.id && talks.id !== ("" || "id"))
+          .map((keynote) => (
+            <TalkShort
+              key={keynote.id}
+              talkDetails={keynote}
+              lineVariant={lineVariant}
+            />
+          ))}
       </div>
     </section>
   );
