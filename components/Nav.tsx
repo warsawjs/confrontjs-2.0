@@ -9,6 +9,10 @@ const defaultProps = {
 };
 
 export function Nav({ info = defaultProps }: any) {
+  // `info` may come from the remote data sheet, which doesn't carry the CFP
+  // link — fall back to the env var so the nav item survives either source.
+  const callForPapers =
+    info?.callForPapers || process.env.NEXT_PUBLIC_CALLFORPAPERS;
   const [menuOpen, setMenuOpen] = useState(false);
   const [activeLink, setActiveLink] = useState<String>("/");
 
@@ -94,14 +98,18 @@ export function Nav({ info = defaultProps }: any) {
         >
           ABOUT
         </Link>
-        {/* <Link
-          className="hover:text-primary uppercase transition-all duration-300 ease-in-out"
-          href="https://docs.google.com/forms/d/e/1FAIpQLSdnBD9KUIS58ciXIXiUoNfvaN_DgHLoeg0QAwOex9YfOAdp0w/viewform"
-          target="_blank"
-          rel="noopener"
-        >
-          CALL FOR PROPOSALS
-        </Link> */}
+        {/* Shown only while the CFP is open — set NEXT_PUBLIC_CALLFORPAPERS to
+            the form URL to open it, unset it to close the CFP again. */}
+        {callForPapers && (
+          <Link
+            className="hover:text-primary uppercase transition-all duration-300 ease-in-out"
+            href={callForPapers}
+            target="_blank"
+            rel="noopener"
+          >
+            CALL FOR PROPOSALS
+          </Link>
+        )}
         <Link
           /* will be replaced after setting up CMS */
           href="https://drive.google.com/file/d/1TLIU-54ws6_PLD0b8tybB1tiwpRuSSYS/view?usp=drive_link"

@@ -1,5 +1,6 @@
 import Nav from "../Nav";
 import Footer from "../Footer";
+import TopBanner from "../TopBanner";
 import React, { useState } from "react";
 import GoogleAnalytics from "../../google-analytics";
 import CookieConsent from "../../components/CookieConsent";
@@ -19,6 +20,7 @@ export const Layout: React.FC<LayoutProps> = ({ children }) => {
 
   return (
     <GoogleAnalytics consentGiven={consentGiven}>
+      <TopBanner />
       <nav>
         <Nav />
       </nav>
